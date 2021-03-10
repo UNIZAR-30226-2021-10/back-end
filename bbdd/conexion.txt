@@ -1,0 +1,11 @@
+Fichero que contiene los datos para 
+conectarse a la base de datos, recomendado usar mySQL Workbench, aunque se puede hacer a través de terminal usando mysql.
+
+
+username: baaa8387acfc19
+
+password: 2ae0a14b
+
+hostname: eu-cdbr-west-03.cleardb.net 
+
+puerto : 3306
