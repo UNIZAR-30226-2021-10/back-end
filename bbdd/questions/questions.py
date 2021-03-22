@@ -3,13 +3,14 @@ Modulo para leer el JSON de la preguntas
 De momento solo es un ejemplo
 '''
 import json
+import mysql.connector
 
 #Clase para almacenar las preguntas
 class Pregunta:
-  def __init__(self, enunciado, categoria, res_correcta, incorrecta1, incorrecta2, incorrecta3):
+  def __init__(self, enunciado, categoria, correcta, incorrecta1, incorrecta2, incorrecta3):
     self.enunciado = enunciado
     self.categoria = categoria
-    self.res_correcta = res_correcta
+    self.correcta = correcta
     self.incorrecta1 = incorrecta1
     self.incorrecta2 = incorrecta2
     self.incorrecta3 = incorrecta3
@@ -23,8 +24,14 @@ with open('questions.json', "r", encoding="utf-8") as f:
 
 res = []
 preguntas = []
+categorias = []
 
+#Guardar preguntas
 for pregunta in data:
+
+  #Añadir categorias
+  if pregunta['category'] not in categorias:
+    categorias.append(pregunta['category'])
 
   #Eliminar preguntas repetidas y guardar en vector de Preguntas
   if pregunta['question'] not in res:
@@ -37,27 +44,30 @@ for pregunta in data:
 
       enunciado = pregunta['question']
       categoria = pregunta['category']
-      res_correcta = pregunta['correctAnswer']
+      correcta = pregunta['correctAnswer']
     
       #Guardar pregunta
-      preguntas.append(Pregunta(enunciado, categoria, res_correcta, 
+      preguntas.append(Pregunta(enunciado, categoria, correcta, 
                                 incorrectas[0], incorrectas[1], incorrectas[2]))
 
 
 
+#Insertar
+mydb = mysql.connector.connect(
+  host="eu-cdbr-west-03.cleardb.net",
+  user="baaa8387acfc19",
+  password="2ae0a14b",
+  database="heroku_c579bffd070869c"
+)
 
+mycursor = mydb.cursor()
+sql = "INSERT INTO pregunta (idpregunta , incorrecta1, incorrecta2, incorrecta3, correcta, enunciado, categoria) VALUES (%s, %s, %s, %s, %s, %s, %s)"
 
-#Print bonito
-for i in preguntas:
+i=0
+for pregunta in preguntas:
+  mycursor.execute(sql, (i, pregunta.incorrecta1, pregunta.incorrecta2, pregunta.incorrecta3, pregunta.correcta,
+                            pregunta.enunciado, pregunta.categoria))
+  ++i
 
-  print('CATEGORIA: ' + i.categoria)
-  print(i.enunciado)
-
-  print('a) ' + i.res_correcta)
-  print('b) ' + i.incorrecta1)
-  print('c) ' + i.incorrecta2)
-  print('d) ' + i.incorrecta3)
-  print("\n")
-
-
-print('Número total de preguntas: ' + str(len(preguntas)))
+mydb.commit()
+mydb.close()
