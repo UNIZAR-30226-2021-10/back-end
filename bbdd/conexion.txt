@@ -8,4 +8,6 @@ password: (pedirmela x si a algún ojeador le diera por trollear)
 
 hostname: eu-cdbr-west-03.cleardb.net 
 
+nombre base de datos: heroku_c579bffd070869c
+
 puerto : 3306
