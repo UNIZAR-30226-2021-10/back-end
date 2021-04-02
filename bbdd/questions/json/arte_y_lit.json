@@ -1,0 +1,4594 @@
+[
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Nathaniel Hawthorne", 
+    "incorrectAnswers": [
+      "Robert E. Howard", 
+      "Henryk Sienkiewicz", 
+      "Charles Dickens", 
+      "Oscar Wilde", 
+      "Isabel Allende", 
+      "Edgar Allan Poe", 
+      "E. T. A. Hoffmann", 
+      "Alphonse Daudet", 
+      "\u00c9mile Zola", 
+      "Ivan Turgenev"
+    ], 
+    "question": "Which American novelist and short story writer wrote 'Twice-Told Tales'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Gone with the Wind", 
+    "incorrectAnswers": [
+      "The Fall of the King", 
+      "All Quiet on the Western Front", 
+      "A Tale of Two Cities", 
+      "Foucault's Pendulum", 
+      "The Name of the Rose", 
+      "The Boy in the Striped Pyjamas", 
+      "Jonathan Strange & Mr Norrell", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "Which piece of written work starts with the line 'Scarlett O\u2019Hara was not beautiful, but men seldom realized it when caught by her charm as the Tarleton twins were.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Arthur Miller", 
+    "incorrectAnswers": [
+      "William Johnson", 
+      "Arnold Clark", 
+      "Fred George"
+    ], 
+    "question": "Which US dramatist was once married to Marylin Monroe and penned the plays \"Death Of A Salesman\" and \"The Crucible\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Edgar Rice Burroughs", 
+    "incorrectAnswers": [
+      "Jack Vance", 
+      "George R. R. Martin", 
+      "Robert A. Heinlein", 
+      "H. P. Lovecraft", 
+      "Stephen King", 
+      "Ursula K. Le Guin", 
+      "Neil Gaiman", 
+      "Stephenie Meyer", 
+      "Isaac Asimov", 
+      "William Gibson"
+    ], 
+    "question": "'Tarzan' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Through the Looking-Glass", 
+    "incorrectAnswers": [
+      "Mio, My Son", 
+      "Jonathan Strange & Mr Norrell", 
+      "The Stand", 
+      "The Alchemist", 
+      "Heidi", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Adventures of Huckleberry Finn", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "Published in 1871, which piece of written work starts with the line 'One thing was certain, that the white kitten had had nothing to do with it: \u2014 it was the black kitten\u2019s fault entirely.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "Jane Eyre", 
+      "Sense and Sensibility", 
+      "Wuthering Heights"
+    ], 
+    "question": "In which book does 'Jane Bennet' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Christopher Tolkien", 
+    "incorrectAnswers": [
+      "Neil Gaiman", 
+      "J. R. R. Tolkien", 
+      "J. K. Rowling", 
+      "Philip Pullman", 
+      "C. S. Lewis", 
+      "Oscar Wilde", 
+      "Douglas Adams", 
+      "Prosper M\u00e9rim\u00e9e", 
+      "Jules Verne", 
+      "Henry James"
+    ], 
+    "question": "Which author wrote 'The War of the Jewels'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The A.B.C. Murders", 
+    "incorrectAnswers": [
+      "The Murder of Roger Ackroyd", 
+      "Lolita", 
+      "The Name of the Rose", 
+      "American Psycho (book)", 
+      "And Then There Were None", 
+      "Foucault's Pendulum", 
+      "The Shining", 
+      "Crime and Punishment"
+    ], 
+    "question": "Which piece of written work starts with the line 'It was in June of 1935 that I came home from my ranch in South America for a stay of about six months.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Percy Bysshe Shelley", 
+    "incorrectAnswers": [
+      "Anthony Byron Shelley", 
+      "Henry Mark Shelley", 
+      "Harvey Butler Shelley"
+    ], 
+    "question": "This Romantic poet and husband of Mary Shelley drowned in a boating accident?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Henryk Sienkiewicz", 
+    "incorrectAnswers": [
+      "Leo Tolstoy", 
+      "Ivan Turgenev", 
+      "Charles Dickens", 
+      "Nathaniel Hawthorne", 
+      "Oscar Wilde", 
+      "E. T. A. Hoffmann", 
+      "\u00c9mile Zola", 
+      "Alphonse Daudet", 
+      "Franz Kafka", 
+      "Joseph Conrad"
+    ], 
+    "question": "'The Knights of the Cross' was written by which Polish journalist, novelist, philanthropist and Nobel Prize laureate?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "The character 'Lady Catherine de Bourgh' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Strange Case of Dr Jekyll and Mr Hyde", 
+    "incorrectAnswers": [
+      "The City & the City", 
+      "Frankenstein", 
+      "The Hunchback of Notre Dame", 
+      "The Windup Girl", 
+      "Do Androids Dream of Electric Sheep?", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Jonathan Strange & Mr Norrell", 
+      "The A.B.C. Murders"
+    ], 
+    "question": "Which piece of written work starts with the line 'Mr Utterson the lawyer was a man of a rugged countenance, that was never lighted by a smile; cold, scanty and embarrassed in discourse; backward in sentiment; lean, long, dusty, dreary and yet somehow lovable.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hunchback Of Natre Damme", 
+    "incorrectAnswers": [
+      "A Tale of Two Cities", 
+      "Les Miserables", 
+      "The Count of Monte Cristo"
+    ], 
+    "question": "Which famous book begins with the line \"On January 6, 1482, the people of Paris were awakened by the tumultuous clanging of all the bells in the city\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Alexander Pushkin", 
+    "incorrectAnswers": [
+      "Nikolai Gogol", 
+      "Leo Tolstoy", 
+      "Henryk Sienkiewicz", 
+      "Ivan Turgenev", 
+      "Ayn Rand", 
+      "Mikhail Bulgakov", 
+      "Astrid Lindgren", 
+      "Marquis de Sade", 
+      "Oscar Wilde", 
+      "Joseph Conrad"
+    ], 
+    "question": "'Eugene Onegin' was written by which Russian poet?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Slaughterhouse-Five", 
+    "incorrectAnswers": [
+      "A Clockwork Orange", 
+      "Catch-22", 
+      "Flatland", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Ulysses", 
+      "Ready Player One", 
+      "Animal Farm", 
+      "Nineteen Eighty-Four"
+    ], 
+    "question": "'All this happened, more or less.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Rudyard Kipling", 
+    "incorrectAnswers": [
+      "A A Milne", 
+      "Roald Dahl", 
+      "C S Lewis"
+    ], 
+    "question": "Which author wrote the \"Just So Stories\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Henryk Sienkiewicz", 
+    "incorrectAnswers": [
+      "Leo Tolstoy", 
+      "Ivan Turgenev", 
+      "Charles Dickens", 
+      "Nathaniel Hawthorne", 
+      "Oscar Wilde", 
+      "E. T. A. Hoffmann", 
+      "\u00c9mile Zola", 
+      "Alphonse Daudet", 
+      "Franz Kafka", 
+      "Joseph Conrad"
+    ], 
+    "question": "Which Polish journalist, novelist, philanthropist and Nobel Prize laureate wrote 'Quo Vadis'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "Tuor appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "On the Origin of Species", 
+    "incorrectAnswers": [
+      "Germinal", 
+      "Eine Geschichte des Universums in 100 Sternen", 
+      "Madame Bovary", 
+      "The Decameron", 
+      "Buddenbrooks", 
+      "The Snow Queen", 
+      "The Art of War", 
+      "A Dance with Dragons"
+    ], 
+    "question": "Which piece of written work starts with the line 'When we look to the individuals of the same variety or sub\u2010variety of our older cultivated plants and animals, one of the first points which strikes us, is, that they generally differ much more from each other, than do the individuals of any one species or variety in a state of nature.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Juliet", 
+    "incorrectAnswers": [
+      "Romeo", 
+      "Mercutio", 
+      "Tybalt"
+    ], 
+    "question": "In \"Romeo and Juliet\", who said \"I have a faint cold, fear thrills through my veins\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Guy de Maupassant", 
+    "incorrectAnswers": [
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Anatole France", 
+      "Albert Camus", 
+      "Octave Mirbeau", 
+      "\u00c9mile Zola", 
+      "Andr\u00e9 Gide", 
+      "Victor Hugo", 
+      "Stendhal", 
+      "Alphonse Daudet", 
+      "Voltaire"
+    ], 
+    "question": "'Mademoiselle Fifi' was written by which French writer?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Philosopher's Stone", 
+    "incorrectAnswers": [
+      "The Battle of the Labyrinth", 
+      "Harry Potter and the Half-Blood Prince", 
+      "The Sea of Monsters", 
+      "New Moon", 
+      "The Titan's Curse", 
+      "The Hunger Games", 
+      "Mockingjay", 
+      "Eclipse"
+    ], 
+    "question": "'Mr and Mrs Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.' This is the first line of which 1997 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Hamlet", 
+    "incorrectAnswers": [
+      "Macbeth", 
+      "Juliette", 
+      "King Lear"
+    ], 
+    "question": "Which Shakespearean Character has the most lines in a single play?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Truman Capote", 
+    "incorrectAnswers": [
+      "Robert Jordan", 
+      "Philip K. Dick", 
+      "Isabel Allende", 
+      "Cassandra Clare", 
+      "Stephen King", 
+      "Henry James", 
+      "Isaac Asimov", 
+      "George R. R. Martin", 
+      "Donna Leon", 
+      "Robert Silverberg"
+    ], 
+    "question": "Which author wrote 'Breakfast at Tiffany's'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "The character 'Tuor' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Dracula", 
+    "incorrectAnswers": [
+      "'Salem's Lot", 
+      "Carrie", 
+      "World War Z", 
+      "The Shining", 
+      "Les Liaisons dangereuses", 
+      "Robinson Crusoe", 
+      "Jonathan Livingston Seagull", 
+      "I Am Legend"
+    ], 
+    "question": "'3 May. Bistritz. - Left Munich at 8.35 p.m. on 1st May, arriving at Vienna early next Morning; should have arrived at 6.46, but train was an hour late.' This is the first line of which 1897 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Michelangelo", 
+    "incorrectAnswers": [
+      "Leonardo", 
+      "Raphael", 
+      "Donatello"
+    ], 
+    "question": "Which great Renaissance figure had the surname Buonarroti?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Oscar Wilde", 
+    "incorrectAnswers": [
+      "Charles Dickens", 
+      "G. K. Chesterton", 
+      "Alphonse Daudet", 
+      "Miguel de Cervantes", 
+      "Robert Louis Stevenson", 
+      "Nathaniel Hawthorne", 
+      "Virginia Woolf", 
+      "Walter Scott", 
+      "Lewis Carroll", 
+      "Umberto Eco"
+    ], 
+    "question": "'The Picture of Dorian Gray' was written by which Irish writer and poet?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "On the Origin of Species", 
+    "incorrectAnswers": [
+      "Germinal", 
+      "Eine Geschichte des Universums in 100 Sternen", 
+      "Madame Bovary", 
+      "The Decameron", 
+      "Buddenbrooks", 
+      "The Snow Queen", 
+      "The Art of War", 
+      "A Dance with Dragons"
+    ], 
+    "question": "Which piece of written work starts with the line 'When we look to the individuals of the same variety or sub\u2010variety of our older cultivated plants and animals, one of the first points which strikes us, is, that they generally differ much more from each other, than do the individuals of any one species or variety in a state of nature.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Hamlet", 
+    "incorrectAnswers": [
+      "Macbeth", 
+      "Juliette", 
+      "King Lear"
+    ], 
+    "question": "Which Shakespearean Character has the most lines in a single play?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Fyodor Dostoyevsky", 
+    "incorrectAnswers": [
+      "Vladimir Nabokov", 
+      "Leo Tolstoy", 
+      "Mikhail Bulgakov", 
+      "Nikolai Gogol", 
+      "Ayn Rand", 
+      "Joseph Conrad", 
+      "Henryk Sienkiewicz", 
+      "Alexander Pushkin", 
+      "Ivan Turgenev", 
+      "Mikhail Lermontov"
+    ], 
+    "question": "Which author wrote 'Notes from Underground'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Dracula", 
+    "incorrectAnswers": [
+      "'Salem's Lot", 
+      "Carrie", 
+      "World War Z", 
+      "The Shining", 
+      "Les Liaisons dangereuses", 
+      "Robinson Crusoe", 
+      "Jonathan Livingston Seagull", 
+      "I Am Legend"
+    ], 
+    "question": "'3 May. Bistritz. - Left Munich at 8.35 p.m. on 1st May, arriving at Vienna early next Morning; should have arrived at 6.46, but train was an hour late.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Arthur Miller", 
+    "incorrectAnswers": [
+      "William Johnson", 
+      "Arnold Clark", 
+      "Fred George"
+    ], 
+    "question": "Which US dramatist was once married to Marylin Monroe and penned the plays \"Death Of A Salesman\" and \"The Crucible\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jack Vance", 
+    "incorrectAnswers": [
+      "H. P. Lovecraft", 
+      "Edgar Rice Burroughs", 
+      "Ursula K. Le Guin", 
+      "Robert A. Heinlein", 
+      "Stephen King", 
+      "George R. R. Martin", 
+      "C. S. Lewis", 
+      "Neil Gaiman", 
+      "Isaac Asimov", 
+      "Philip K. Dick"
+    ], 
+    "question": "'Planet of Adventure' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Romeo and Juliet", 
+    "incorrectAnswers": [
+      "The Great Gatsby", 
+      "Eine Geschichte des Universums in 100 Sternen", 
+      "Madame Bovary", 
+      "The Decameron", 
+      "Buddenbrooks", 
+      "The Snow Queen", 
+      "The Art of War", 
+      "A Dance with Dragons"
+    ], 
+    "question": "'Two households, both alike in dignity, in fair Verona, where we lay our scene, from ancient grudge break to new mutiny, where civil blood makes civil hands unclean.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Fourteen", 
+    "incorrectAnswers": [
+      "Four", 
+      "Six", 
+      "Twelve"
+    ], 
+    "question": "How many lines are in a sonnet?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Friedrich Schiller", 
+    "incorrectAnswers": [
+      "Sebastian Brant", 
+      "Agatha Christie", 
+      "Rainer Maria Rilke", 
+      "Natsuo Kirino", 
+      "Haruki Murakami", 
+      "Charlotte Bront\u00eb", 
+      "Stendhal", 
+      "Robert Jordan", 
+      "Charles Darwin", 
+      "Giovanni Boccaccio"
+    ], 
+    "question": "'The Robbers' was written by which German poet, philosopher, historian, and playwright?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "In which book does the character 'Tuor' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Gone with the Wind", 
+    "incorrectAnswers": [
+      "The Fall of the King", 
+      "All Quiet on the Western Front", 
+      "A Tale of Two Cities", 
+      "Foucault's Pendulum", 
+      "The Name of the Rose", 
+      "The Boy in the Striped Pyjamas", 
+      "Jonathan Strange & Mr Norrell", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "Published in 1936, which piece of written work starts with the line 'Scarlett O\u2019Hara was not beautiful, but men seldom realized it when caught by her charm as the Tarleton twins were.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Spanish", 
+    "incorrectAnswers": [
+      "Portuguese", 
+      "Mexican", 
+      "Andorran"
+    ], 
+    "question": "What is the nationality of Picasso?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Walter Scott", 
+    "incorrectAnswers": [
+      "Oscar Wilde", 
+      "J. R. R. Tolkien", 
+      "Alphonse Daudet", 
+      "Jules Verne", 
+      "Charles Dickens", 
+      "G. K. Chesterton", 
+      "Alice Munro", 
+      "Philip Reeve", 
+      "J. K. Rowling", 
+      "Victor Hugo"
+    ], 
+    "question": "Which Scottish historical novelist, playwright, and poet wrote 'Ivanhoe'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Wuthering Heights", 
+    "incorrectAnswers": [
+      "The Shining", 
+      "The Phantom of the Opera", 
+      "Coraline", 
+      "Carmilla", 
+      "The Picture of Dorian Gray", 
+      "Frankenstein", 
+      "'Salem's Lot", 
+      "Strange Case of Dr Jekyll and Mr Hyde"
+    ], 
+    "question": "'1801\u2014I have just returned from a visit to my landlord\u2014the solitary neighbour that I shall be troubled with.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Van Gogh", 
+    "incorrectAnswers": [
+      "Salvador Dali", 
+      "Andy Warhol", 
+      "Raphael", 
+      "Vermeer"
+    ], 
+    "question": "Which painter reputedly cut of his own ear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Yanka Kupala", 
+    "incorrectAnswers": [
+      "Nikolai Gogol", 
+      "Vladimir Nabokov", 
+      "Henryk Sienkiewicz", 
+      "Mikhail Bulgakov", 
+      "Joseph Conrad", 
+      "Mikhail Lermontov", 
+      "Ayn Rand", 
+      "Alexander Pushkin", 
+      "Fyodor Dostoyevsky", 
+      "Ivan Turgenev"
+    ], 
+    "question": "Which Belarusian writer wrote 'Heritage'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hobbit", 
+    "incorrectAnswers": [
+      "Charlotte's Web", 
+      "Alice's Adventures in Wonderland", 
+      "Bluebeard", 
+      "Jonathan Livingston Seagull", 
+      "The Stand", 
+      "The City & the City", 
+      "The Adventures of Pinocchio", 
+      "The Prince and the Pauper"
+    ], 
+    "question": "Which piece of written work starts with the line 'In a hole in the ground there lived a hobbit.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Percy Bysshe Shelley", 
+    "incorrectAnswers": [
+      "H. Rider Haggard", 
+      "Charles Darwin", 
+      "Agatha Christie", 
+      "Virginia Woolf", 
+      "Charles Dickens", 
+      "Joseph Conrad", 
+      "George Orwell", 
+      "Oscar Wilde", 
+      "Walter Scott", 
+      "Arthur Conan Doyle"
+    ], 
+    "question": "Which author wrote 'Ozymandias'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "The character 'Tuor' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Sense and Sensibility", 
+    "incorrectAnswers": [
+      "Jane Eyre", 
+      "The Lady of the Camellias", 
+      "David Copperfield", 
+      "A Portrait of the Artist as a Young Man", 
+      "Candide", 
+      "Great Expectations", 
+      "Manon Lescaut", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "Which piece of written work starts with the line 'The family of Dashwood had been long settled in Sussex.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Macbeth", 
+    "incorrectAnswers": [
+      "Romeo & Juliette", 
+      "Hamlet", 
+      "King Lear"
+    ], 
+    "question": "Double, double toil and trouble, Fire burn, and cauldron bubble. Comes from which of Shakespeare's plays?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "George R. R. Martin", 
+    "incorrectAnswers": [
+      "Stephen King", 
+      "Jack Vance", 
+      "Edgar Rice Burroughs", 
+      "Robert A. Heinlein", 
+      "H. P. Lovecraft", 
+      "Ursula K. Le Guin", 
+      "C. S. Lewis", 
+      "Neil Gaiman", 
+      "Isaac Asimov", 
+      "Philip K. Dick"
+    ], 
+    "question": "'A Feast for Crows' was written by which American writer, screenwriter and television producer?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "In which book series does 'Neville Longbottom' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The A.B.C. Murders", 
+    "incorrectAnswers": [
+      "The Murder of Roger Ackroyd", 
+      "Lolita", 
+      "The Name of the Rose", 
+      "American Psycho (book)", 
+      "And Then There Were None", 
+      "Foucault's Pendulum", 
+      "The Shining", 
+      "Crime and Punishment"
+    ], 
+    "question": "'It was in June of 1935 that I came home from my ranch in South America for a stay of about six months.' This is the first line of which 1936 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Hamlet", 
+    "incorrectAnswers": [
+      "King Lear", 
+      "Julius Caesar", 
+      "Othello", 
+      "Coriolanus", 
+      "Anthony and Cleopatra"
+    ], 
+    "question": "In which Shakespearean tragedy Does Laertes appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Johannes V. Jensen", 
+    "incorrectAnswers": [
+      "Hans Christian Andersen", 
+      "S\u00f8ren Kierkegaard", 
+      "Agatha Christie", 
+      "Natsuo Kirino", 
+      "Haruki Murakami", 
+      "Charlotte Bront\u00eb", 
+      "Robert Jordan", 
+      "James Joyce", 
+      "Charles Darwin", 
+      "Giovanni Boccaccio"
+    ], 
+    "question": "'The Fall of the King' was written by which Danish author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "Neville Longbottom appears in which book series?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "'There was Eru, the One, who in Arda is called Il\u00favatar; and he made first the Ainur, the Holy Ones, that were the offspring of his thought, and they were with him before aught else was made.' This is the first line of which 1977 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Horton", 
+    "incorrectAnswers": [
+      "Harold", 
+      "Shirley", 
+      "Brent"
+    ], 
+    "question": "In the Dr Seuss books, which elephant hatched an egg?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Voltaire", 
+    "incorrectAnswers": [
+      "Stendhal", 
+      "Paulo Coelho", 
+      "Isabel Allende", 
+      "Orhan Pamuk", 
+      "Haruki Murakami", 
+      "Oscar Wilde", 
+      "Jos\u00e9 Saramago", 
+      "Nick Hornby", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Alphonse Daudet"
+    ], 
+    "question": "'L'Ing\u00e9nu' was written by which French writer, historian, and philosopher?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Alice's Adventures in Wonderland", 
+    "incorrectAnswers": [
+      "Charlotte's Web", 
+      "The Hobbit", 
+      "Taras Bulba", 
+      "Justine", 
+      "One Thousand and One Nights", 
+      "Catch-22", 
+      "The Adventures of Pinocchio", 
+      "Carmilla"
+    ], 
+    "question": "Published in 1865, which piece of written work starts with the line 'Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, \u201cand what is the use of a book,\u201d thought Alice, \u201cwithout pictures or conversations?\u201d'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Foreshortening", 
+    "incorrectAnswers": [
+      "Isometric Projection", 
+      "Topomorphism", 
+      "Skewed Perspective"
+    ], 
+    "question": "Which art technique can be described as \"Reducing or distorting in order to represent three-dimensional space as perceived by the eye\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Joseph Heller", 
+    "incorrectAnswers": [
+      "Vladimir Nabokov", 
+      "Kurt Vonnegut", 
+      "Cassandra Clare", 
+      "John Green", 
+      "Mark Twain", 
+      "Robert Silverberg", 
+      "Mikhail Bulgakov", 
+      "Robert A. Heinlein", 
+      "James Fenimore Cooper", 
+      "Jack London"
+    ], 
+    "question": "Which author wrote 'Catch-22'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "Neville Longbottom appears in which book series?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Goblet of Fire", 
+    "incorrectAnswers": [
+      "The Sea of Monsters", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "The Mysterious Island", 
+      "The Alchemist", 
+      "The Battle of the Labyrinth", 
+      "An Antarctic Mystery", 
+      "The Neverending Story", 
+      "Harry Potter and the Half-Blood Prince"
+    ], 
+    "question": "Published in 2000, which piece of written work starts with the line 'The villagers of Little Hangleton still called it \"the Riddle House\" even though it has been many years since the Riddle family had lived there.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Michelangelo", 
+    "incorrectAnswers": [
+      "Edvard Much", 
+      "Leonardo da Vinci", 
+      "Monet"
+    ], 
+    "question": "Who painted \"The Creation Of Adam\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Louisa May Alcott", 
+    "incorrectAnswers": [
+      "Edgar Allan Poe", 
+      "Nathaniel Hawthorne", 
+      "Stephen King", 
+      "Henry James", 
+      "Brandon Sanderson", 
+      "Robert Silverberg", 
+      "Michael Crichton", 
+      "Isabel Allende", 
+      "Herman Melville", 
+      "Frank Herbert"
+    ], 
+    "question": "Which author wrote 'Little Women'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Two Towers", 
+    "incorrectAnswers": [
+      "Life, the Universe and Everything", 
+      "The Mysterious Island", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "The Alchemist", 
+      "Harry Potter and the Half-Blood Prince", 
+      "The Wizard of the Emerald City", 
+      "The Last Battle"
+    ], 
+    "question": "'Aragorn sped on up the hill.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Percy Bysshe Shelley", 
+    "incorrectAnswers": [
+      "Anthony Byron Shelley", 
+      "Henry Mark Shelley", 
+      "Harvey Butler Shelley"
+    ], 
+    "question": "This Romantic poet and husband of Mary Shelley drowned in a boating accident?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Johannes V. Jensen", 
+    "incorrectAnswers": [
+      "Hans Christian Andersen", 
+      "S\u00f8ren Kierkegaard", 
+      "Agatha Christie", 
+      "Natsuo Kirino", 
+      "Haruki Murakami", 
+      "Charlotte Bront\u00eb", 
+      "Robert Jordan", 
+      "James Joyce", 
+      "Charles Darwin", 
+      "Giovanni Boccaccio"
+    ], 
+    "question": "'Digte' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Goblet of Fire", 
+    "incorrectAnswers": [
+      "The Sea of Monsters", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "The Mysterious Island", 
+      "The Alchemist", 
+      "The Battle of the Labyrinth", 
+      "An Antarctic Mystery", 
+      "The Neverending Story", 
+      "Harry Potter and the Half-Blood Prince"
+    ], 
+    "question": "Published in 2000, which piece of written work starts with the line 'The villagers of Little Hangleton still called it \"the Riddle House\" even though it has been many years since the Riddle family had lived there.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Water Babies", 
+    "incorrectAnswers": [
+      "Oliver Twist", 
+      "The Little Prince", 
+      "The Prince and the Pauper"
+    ], 
+    "question": "Which famous book contains the line \"Once upon a time there was a little chimney sweep and his name was Tom\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charlotte Bront\u00eb", 
+    "incorrectAnswers": [
+      "Oscar Wilde", 
+      "Charles Dickens", 
+      "Lewis Carroll", 
+      "Voltaire", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Haruki Murakami", 
+      "Nick Hornby", 
+      "Guy de Maupassant", 
+      "George Orwell", 
+      "S\u00f8ren Kierkegaard"
+    ], 
+    "question": "'Jane Eyre' was written by which English novelist and poet?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hobbit", 
+    "incorrectAnswers": [
+      "Charlotte's Web", 
+      "Alice's Adventures in Wonderland", 
+      "Bluebeard", 
+      "Jonathan Livingston Seagull", 
+      "The Stand", 
+      "The City & the City", 
+      "The Adventures of Pinocchio", 
+      "The Prince and the Pauper"
+    ], 
+    "question": "'In a hole in the ground there lived a hobbit.' This is the first line of which 1937 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Joanne Kathleen", 
+    "incorrectAnswers": [
+      "Julia Kathleen", 
+      "Joanne Katherine", 
+      "Julia Katherine"
+    ], 
+    "question": "What do the initials \"JK\" stand for in the name \"JK Rowling\", Author of the \"Harry Potter\" books?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Joseph Conrad", 
+    "incorrectAnswers": [
+      "Charles Dickens", 
+      "Henryk Sienkiewicz", 
+      "Oscar Wilde", 
+      "Robert Louis Stevenson", 
+      "Lewis Carroll", 
+      "George Orwell", 
+      "Arthur Conan Doyle", 
+      "Agatha Christie", 
+      "Virginia Woolf", 
+      "Beatrix Potter"
+    ], 
+    "question": "'Heart of Darkness' was written by which Polish-British writer?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Sense and Sensibility", 
+    "incorrectAnswers": [
+      "Jane Eyre", 
+      "The Lady of the Camellias", 
+      "David Copperfield", 
+      "A Portrait of the Artist as a Young Man", 
+      "Candide", 
+      "Great Expectations", 
+      "Manon Lescaut", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "'The family of Dashwood had been long settled in Sussex.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Dr Zhivago", 
+    "incorrectAnswers": [
+      "Lolita", 
+      "The Brothers Karamazov", 
+      "The Cherry Orchard"
+    ], 
+    "question": "For which novel was Boris Pasternak awarded the 1958 Nobel Prize, an award he declined?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Emily Bront\u00eb", 
+    "incorrectAnswers": [
+      "Oscar Wilde", 
+      "H. Rider Haggard", 
+      "Percy Bysshe Shelley", 
+      "Arthur Conan Doyle", 
+      "Robert Louis Stevenson", 
+      "George Orwell", 
+      "Virginia Woolf", 
+      "Jules Verne", 
+      "Alphonse Daudet", 
+      "J. R. R. Tolkien"
+    ], 
+    "question": "'Wuthering Heights' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Philosopher's Stone", 
+    "incorrectAnswers": [
+      "The Battle of the Labyrinth", 
+      "Harry Potter and the Half-Blood Prince", 
+      "The Sea of Monsters", 
+      "New Moon", 
+      "The Titan's Curse", 
+      "The Hunger Games", 
+      "Mockingjay", 
+      "Eclipse"
+    ], 
+    "question": "'Mr and Mrs Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "23", 
+    "incorrectAnswers": [
+      "211", 
+      "5", 
+      "42"
+    ], 
+    "question": "How many tales are there in Chaucer's Canterbury tales?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Stephen King", 
+    "incorrectAnswers": [
+      "H. P. Lovecraft", 
+      "Edgar Allan Poe", 
+      "Jack Vance", 
+      "Dan Brown", 
+      "Robert A. Heinlein", 
+      "Edgar Rice Burroughs", 
+      "Neil Gaiman", 
+      "George R. R. Martin", 
+      "Ursula K. Le Guin", 
+      "Philip K. Dick"
+    ], 
+    "question": "'The Dark Tower' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Alice's Adventures in Wonderland", 
+    "incorrectAnswers": [
+      "Charlotte's Web", 
+      "The Hobbit", 
+      "Taras Bulba", 
+      "Justine", 
+      "One Thousand and One Nights", 
+      "Catch-22", 
+      "The Adventures of Pinocchio", 
+      "Carmilla"
+    ], 
+    "question": "Published in 1865, which piece of written work starts with the line 'Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, \u201cand what is the use of a book,\u201d thought Alice, \u201cwithout pictures or conversations?\u201d'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Peter Rabbit", 
+    "incorrectAnswers": [
+      "Watership Down", 
+      "Winny The Pooh", 
+      "Black Beauty"
+    ], 
+    "question": "What story features flopsy, mopsy and cottontail?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Vladimir Nabokov", 
+    "incorrectAnswers": [
+      "Ayn Rand", 
+      "Kurt Vonnegut", 
+      "Mikhail Bulgakov", 
+      "Robert Jordan", 
+      "Nathaniel Hawthorne", 
+      "Thomas Mann", 
+      "Herman Melville", 
+      "Frank Herbert", 
+      "Frederik Pohl", 
+      "Nikolai Gogol"
+    ], 
+    "question": "'The Annotated Lolita (1991 Vintage Books ed.)' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "Sancho Panza appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jane Eyre", 
+    "incorrectAnswers": [
+      "The Lady of the Camellias", 
+      "Little Women", 
+      "David Copperfield", 
+      "Sense and Sensibility", 
+      "A Portrait of the Artist as a Young Man", 
+      "Great Expectations", 
+      "Atlas Shrugged", 
+      "The Red and the Black"
+    ], 
+    "question": "Which piece of written work starts with the line 'There was no possibility of taking a walk that day.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Hamlet", 
+    "incorrectAnswers": [
+      "Macbeth", 
+      "Juliette", 
+      "King Lear"
+    ], 
+    "question": "Which Shakespearean Character has the most lines in a single play?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Nikolai Gogol", 
+    "incorrectAnswers": [
+      "Virginia Woolf", 
+      "Alexander Pushkin", 
+      "Ayn Rand", 
+      "Mikhail Lermontov", 
+      "Joseph Conrad", 
+      "Ivan Turgenev", 
+      "Vladimir Nabokov", 
+      "J. R. R. Tolkien", 
+      "Marquis de Sade", 
+      "Samuel Beckett"
+    ], 
+    "question": "'The Government Inspector' was written by which Russian writer?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "The character 'Sancho Panza' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Philosopher's Stone", 
+    "incorrectAnswers": [
+      "The Battle of the Labyrinth", 
+      "Harry Potter and the Half-Blood Prince", 
+      "The Sea of Monsters", 
+      "New Moon", 
+      "The Titan's Curse", 
+      "The Hunger Games", 
+      "Mockingjay", 
+      "Eclipse"
+    ], 
+    "question": "'Mr and Mrs Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.' This is the first line of which 1997 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Horton", 
+    "incorrectAnswers": [
+      "Harold", 
+      "Shirley", 
+      "Brent"
+    ], 
+    "question": "In the Dr Seuss books, which elephant hatched an egg?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Friedrich Schiller", 
+    "incorrectAnswers": [
+      "Sebastian Brant", 
+      "Agatha Christie", 
+      "Rainer Maria Rilke", 
+      "Natsuo Kirino", 
+      "Haruki Murakami", 
+      "Charlotte Bront\u00eb", 
+      "Stendhal", 
+      "Robert Jordan", 
+      "Charles Darwin", 
+      "Giovanni Boccaccio"
+    ], 
+    "question": "Which German poet, philosopher, historian, and playwright wrote 'William Tell'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Slaughterhouse-Five", 
+    "incorrectAnswers": [
+      "A Clockwork Orange", 
+      "Catch-22", 
+      "Flatland", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Ulysses", 
+      "Ready Player One", 
+      "Animal Farm", 
+      "Nineteen Eighty-Four"
+    ], 
+    "question": "Published in 1969, which piece of written work starts with the line 'All this happened, more or less.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Aesop", 
+    "incorrectAnswers": [
+      "Homer", 
+      "Plato", 
+      "Odysseus"
+    ], 
+    "question": "Which Ancient Greek writer was famous for his Fables?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Agatha Christie", 
+    "incorrectAnswers": [
+      "Robert Louis Stevenson", 
+      "Charles Dickens", 
+      "Lewis Carroll", 
+      "John le Carr\u00e9", 
+      "Joseph Conrad", 
+      "Virginia Woolf", 
+      "George Orwell", 
+      "Arthur Conan Doyle", 
+      "J. K. Rowling", 
+      "G. K. Chesterton"
+    ], 
+    "question": "Which author wrote 'The Thirteen Problems'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "In which book series does the character 'Neville Longbottom' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Goblet of Fire", 
+    "incorrectAnswers": [
+      "The Sea of Monsters", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "The Mysterious Island", 
+      "The Alchemist", 
+      "The Battle of the Labyrinth", 
+      "An Antarctic Mystery", 
+      "The Neverending Story", 
+      "Harry Potter and the Half-Blood Prince"
+    ], 
+    "question": "Published in 2000, which piece of written work starts with the line 'The villagers of Little Hangleton still called it \"the Riddle House\" even though it has been many years since the Riddle family had lived there.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Lucy Maud Montgomery", 
+    "incorrectAnswers": [
+      "Alice Munro", 
+      "Lewis Carroll", 
+      "Margaret Atwood", 
+      "William Gibson", 
+      "J. R. R. Tolkien", 
+      "Enid Blyton", 
+      "Astrid Lindgren", 
+      "Charlotte Bront\u00eb", 
+      "Haruki Murakami", 
+      "Agatha Christie"
+    ], 
+    "question": "Which Canadian fiction writer (1874-1942) wrote 'Anne of Avonlea'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "In which book series does 'Neville Longbottom' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "On the Origin of Species", 
+    "incorrectAnswers": [
+      "Germinal", 
+      "Eine Geschichte des Universums in 100 Sternen", 
+      "Madame Bovary", 
+      "The Decameron", 
+      "Buddenbrooks", 
+      "The Snow Queen", 
+      "The Art of War", 
+      "A Dance with Dragons"
+    ], 
+    "question": "Published in 1859, which piece of written work starts with the line 'When we look to the individuals of the same variety or sub\u2010variety of our older cultivated plants and animals, one of the first points which strikes us, is, that they generally differ much more from each other, than do the individuals of any one species or variety in a state of nature.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "James Whistler", 
+    "incorrectAnswers": [
+      "Andy Warhol", 
+      "Grant Wood", 
+      "Eddie Harold"
+    ], 
+    "question": "Which american artist is known for a portrait of his mother?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Ursula K. Le Guin", 
+    "incorrectAnswers": [
+      "Stephen King", 
+      "Jack Vance", 
+      "George R. R. Martin", 
+      "Edgar Rice Burroughs", 
+      "Robert A. Heinlein", 
+      "H. P. Lovecraft", 
+      "Isaac Asimov", 
+      "Neil Gaiman", 
+      "Poul Anderson", 
+      "Philip K. Dick"
+    ], 
+    "question": "Which American fantasy and science fiction author (1929-2018) wrote 'Earthsea series'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "A Clockwork Orange", 
+    "incorrectAnswers": [
+      "Do Androids Dream of Electric Sheep?", 
+      "Slaughterhouse-Five", 
+      "We", 
+      "Brave New World", 
+      "L'Ing\u00e9nu", 
+      "Animal Farm", 
+      "Atlas Shrugged", 
+      "The City & the City"
+    ], 
+    "question": "'\u201cWhat's it going to be then, eh?\u201d There was me, that is Alex, and my three droogs, that is Pete, Georgie, and Dim, Dim being really dim, and we sat in the Korova Milkbar making up our rassoodocks what to do with the evening, a flip dark chill winter bastard though dry.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Hamlet", 
+    "incorrectAnswers": [
+      "King Lear", 
+      "Julius Caesar", 
+      "Othello", 
+      "Coriolanus", 
+      "Anthony and Cleopatra"
+    ], 
+    "question": "In which Shakespearean tragedy Does Laertes appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "John le Carr\u00e9", 
+    "incorrectAnswers": [
+      "Agatha Christie", 
+      "Georges Simenon", 
+      "Charles Dickens", 
+      "Oscar Wilde", 
+      "Philip Reeve", 
+      "Walter Scott", 
+      "Joseph Conrad", 
+      "Lewis Carroll", 
+      "Philip Pullman", 
+      "G. K. Chesterton"
+    ], 
+    "question": "Which author wrote 'The Constant Gardener'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "The character 'Tuor' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Through the Looking-Glass", 
+    "incorrectAnswers": [
+      "Mio, My Son", 
+      "Jonathan Strange & Mr Norrell", 
+      "The Stand", 
+      "The Alchemist", 
+      "Heidi", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Adventures of Huckleberry Finn", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "'One thing was certain, that the white kitten had had nothing to do with it: \u2014 it was the black kitten\u2019s fault entirely.' This is the first line of which 1871 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "Jane Eyre", 
+      "Bleak House", 
+      "Wuthering Heights"
+    ], 
+    "question": "In which book does 'Mr Bennet' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Arthur Conan Doyle", 
+    "incorrectAnswers": [
+      "Agatha Christie", 
+      "Oscar Wilde", 
+      "George Orwell", 
+      "Joseph Conrad", 
+      "Virginia Woolf", 
+      "Lewis Carroll", 
+      "Robert Louis Stevenson", 
+      "Charles Dickens", 
+      "Enid Blyton", 
+      "Beatrix Potter"
+    ], 
+    "question": "Which author wrote 'The Final Problem'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Alice's Adventures in Wonderland", 
+    "incorrectAnswers": [
+      "Charlotte's Web", 
+      "The Hobbit", 
+      "Taras Bulba", 
+      "Justine", 
+      "One Thousand and One Nights", 
+      "Catch-22", 
+      "The Adventures of Pinocchio", 
+      "Carmilla"
+    ], 
+    "question": "Published in 1865, which piece of written work starts with the line 'Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, \u201cand what is the use of a book,\u201d thought Alice, \u201cwithout pictures or conversations?\u201d'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Percy Bysshe Shelley", 
+    "incorrectAnswers": [
+      "Anthony Byron Shelley", 
+      "Henry Mark Shelley", 
+      "Harvey Butler Shelley"
+    ], 
+    "question": "This Romantic poet and husband of Mary Shelley drowned in a boating accident?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Fyodor Dostoyevsky", 
+    "incorrectAnswers": [
+      "Vladimir Nabokov", 
+      "Leo Tolstoy", 
+      "Mikhail Bulgakov", 
+      "Nikolai Gogol", 
+      "Ayn Rand", 
+      "Joseph Conrad", 
+      "Henryk Sienkiewicz", 
+      "Alexander Pushkin", 
+      "Ivan Turgenev", 
+      "Mikhail Lermontov"
+    ], 
+    "question": "Which author wrote 'Humiliated and Insulted'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Philosopher's Stone", 
+    "incorrectAnswers": [
+      "The Battle of the Labyrinth", 
+      "Harry Potter and the Half-Blood Prince", 
+      "The Sea of Monsters", 
+      "New Moon", 
+      "The Titan's Curse", 
+      "The Hunger Games", 
+      "Mockingjay", 
+      "Eclipse"
+    ], 
+    "question": "'Mr and Mrs Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Oscar Wilde", 
+    "incorrectAnswers": [
+      "James Joyce", 
+      "Samuel Beckett", 
+      "William Butler Yeats"
+    ], 
+    "question": "What Irish playwright and author, wrote \"The Importance of Being Ernest\" and \"A Picture of Dorian Grey\" among others?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Haruki Murakami", 
+    "incorrectAnswers": [
+      "Oscar Wilde", 
+      "Umberto Eco", 
+      "S\u00f8ren Kierkegaard", 
+      "Orhan Pamuk", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Ayn Rand", 
+      "Jos\u00e9 Saramago", 
+      "Paulo Coelho", 
+      "Jonathan Swift", 
+      "Voltaire"
+    ], 
+    "question": "'The Elephant Vanishes' was written by which Japanese writer?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Adventures of Huckleberry Finn", 
+    "incorrectAnswers": [
+      "Kidnapped", 
+      "The Adventures of Tom Sawyer", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Dead Souls", 
+      "Heidi", 
+      "The Count of Monte Cristo", 
+      "Bluebeard", 
+      "Gargantua and Pantagruel"
+    ], 
+    "question": "Published in 1884, which piece of written work starts with the line 'You don\u2019t know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There were things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charles Dickens", 
+    "incorrectAnswers": [
+      "Thomas Hardy", 
+      "James Joyce", 
+      "Emily Bront\u00eb", 
+      "George Elliot"
+    ], 
+    "question": "Who wrote \"A Christmas Carol\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Mikhail Sholokhov", 
+    "incorrectAnswers": [
+      "Ivan Turgenev", 
+      "Henryk Sienkiewicz", 
+      "Leo Tolstoy", 
+      "Franz Kafka", 
+      "Charles Dickens", 
+      "\u00c9mile Zola", 
+      "Ayn Rand", 
+      "Alphonse Daudet", 
+      "Robert E. Howard", 
+      "Nathaniel Hawthorne"
+    ], 
+    "question": "'And Quiet Flows the Don' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "The character 'Sancho Panza' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "A Game of Thrones", 
+    "incorrectAnswers": [
+      "The Silver Chair", 
+      "The Amber Spyglass", 
+      "The Wizard of the Emerald City", 
+      "The Alchemist", 
+      "Harry Potter and the Philosopher's Stone", 
+      "The Hobbit", 
+      "The Mysterious Island", 
+      "Gulliver's Travels"
+    ], 
+    "question": "Published in 1996, which piece of written work starts with the line '\u201cWe should start back,\u201d Gared urged as the woods began to grow dark around them.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Lot", 
+    "incorrectAnswers": [
+      "Boys", 
+      "Witches", 
+      "Game"
+    ], 
+    "question": "Stephen King's: \"Salem's _________\".", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jane Austen", 
+    "incorrectAnswers": [
+      "Percy Bysshe Shelley", 
+      "Stephenie Meyer", 
+      "Robert Louis Stevenson", 
+      "Stephen King", 
+      "Nathaniel Hawthorne", 
+      "Henry James", 
+      "Walter Scott", 
+      "Daniel Defoe", 
+      "Edgar Allan Poe", 
+      "Isaac Newton"
+    ], 
+    "question": "'Pride and Prejudice' was written by which English novelist?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "In which book does the character 'Tuor' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Gone with the Wind", 
+    "incorrectAnswers": [
+      "The Fall of the King", 
+      "All Quiet on the Western Front", 
+      "A Tale of Two Cities", 
+      "Foucault's Pendulum", 
+      "The Name of the Rose", 
+      "The Boy in the Striped Pyjamas", 
+      "Jonathan Strange & Mr Norrell", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "'Scarlett O\u2019Hara was not beautiful, but men seldom realized it when caught by her charm as the Tarleton twins were.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Horton", 
+    "incorrectAnswers": [
+      "Harold", 
+      "Shirley", 
+      "Brent"
+    ], 
+    "question": "In the Dr Seuss books, which elephant hatched an egg?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Alexander Pushkin", 
+    "incorrectAnswers": [
+      "Nikolai Gogol", 
+      "Leo Tolstoy", 
+      "Henryk Sienkiewicz", 
+      "Ivan Turgenev", 
+      "Ayn Rand", 
+      "Mikhail Bulgakov", 
+      "Astrid Lindgren", 
+      "Marquis de Sade", 
+      "Oscar Wilde", 
+      "Joseph Conrad"
+    ], 
+    "question": "'Eugene Onegin' was written by which Russian poet?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "In which book series does 'Neville Longbottom' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Trial", 
+    "incorrectAnswers": [
+      "Gulliver's Travels", 
+      "Carmen", 
+      "I Am Legend", 
+      "Gakuen Heaven", 
+      "Lord of the Flies", 
+      "The Windup Girl", 
+      "The City & the City", 
+      "A Clockwork Orange"
+    ], 
+    "question": "Published in 1925, which piece of written work starts with the line 'Someone must have been telling lies about Joseph K., for without having done anything wrong he was arrested one fine morning.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charles Dickens", 
+    "incorrectAnswers": [
+      "Thomas Hardy", 
+      "James Joyce", 
+      "Emily Bront\u00eb", 
+      "George Elliot"
+    ], 
+    "question": "Who wrote \"A Christmas Carol\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Friedrich Engels", 
+    "incorrectAnswers": [
+      "Michael Ende", 
+      "Erich Maria Remarque", 
+      "Karl May", 
+      "Agatha Christie", 
+      "Haruki Murakami", 
+      "Charlotte Bront\u00eb", 
+      "Natsuo Kirino", 
+      "Robert Jordan", 
+      "Charles Darwin", 
+      "Giovanni Boccaccio"
+    ], 
+    "question": "'The Communist Manifesto' was written by which German philosopher, historian, communist, political scientist and journalist (1820-1895)?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "In which book does 'Tuor' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hitchhiker's Guide to the Galaxy", 
+    "incorrectAnswers": [
+      "The War of the Worlds", 
+      "Northern Lights", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "Planet of the Apes", 
+      "Jonathan Strange & Mr Norrell", 
+      "Frankenstein", 
+      "I Am Legend", 
+      "The Amber Spyglass"
+    ], 
+    "question": "'Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small, unregarded yellow sun.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "James Whistler", 
+    "incorrectAnswers": [
+      "Andy Warhol", 
+      "Grant Wood", 
+      "Eddie Harold"
+    ], 
+    "question": "Which american artist is known for a portrait of his mother?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Haruki Murakami", 
+    "incorrectAnswers": [
+      "Oscar Wilde", 
+      "Umberto Eco", 
+      "S\u00f8ren Kierkegaard", 
+      "Orhan Pamuk", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Ayn Rand", 
+      "Jos\u00e9 Saramago", 
+      "Paulo Coelho", 
+      "Jonathan Swift", 
+      "Voltaire"
+    ], 
+    "question": "'Kafka on the Shore' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Sense and Sensibility", 
+    "incorrectAnswers": [
+      "Jane Eyre", 
+      "The Lady of the Camellias", 
+      "David Copperfield", 
+      "A Portrait of the Artist as a Young Man", 
+      "Candide", 
+      "Great Expectations", 
+      "Manon Lescaut", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "'The family of Dashwood had been long settled in Sussex.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Henry VI", 
+    "incorrectAnswers": [
+      "Richard III", 
+      "Othello", 
+      "Macbeth"
+    ], 
+    "question": "What was Shakespeare's first play?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "James Joyce", 
+    "incorrectAnswers": [
+      "Samuel Beckett", 
+      "Oscar Wilde", 
+      "Jonathan Swift", 
+      "Agatha Christie", 
+      "Haruki Murakami", 
+      "Charlotte Bront\u00eb", 
+      "Natsuo Kirino", 
+      "Robert Jordan", 
+      "Charles Darwin", 
+      "Giovanni Boccaccio"
+    ], 
+    "question": "Which author wrote 'Ulysses'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does the character 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "A Study in Scarlet", 
+    "incorrectAnswers": [
+      "The Murder of Roger Ackroyd", 
+      "The Shadow of the Wind", 
+      "Inferno", 
+      "The A.B.C. Murders", 
+      "Angels & Demons", 
+      "The Da Vinci Code", 
+      "The Lost Symbol", 
+      "The Caves of Steel"
+    ], 
+    "question": "Published in 1887, which piece of written work starts with the line 'In the year 1878 I took my degree of Doctor of Medicine of the University of London, and proceeded to Netley to go through the course prescribed for surgeons in the army.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "Jane Eyre", 
+      "Sense and Sensibility", 
+      "Anna Karenina"
+    ], 
+    "question": "In which book does 'Mr. Darcy' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Ovid", 
+    "incorrectAnswers": [
+      "Miguel de Cervantes", 
+      "Oscar Wilde", 
+      "Agatha Christie", 
+      "Natsuo Kirino", 
+      "Haruki Murakami", 
+      "Charlotte Bront\u00eb", 
+      "Robert Jordan", 
+      "James Joyce", 
+      "Charles Darwin", 
+      "Giovanni Boccaccio"
+    ], 
+    "question": "'Metamorphoses' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Deathly Hallows", 
+    "incorrectAnswers": [
+      "The Sea of Monsters", 
+      "The Battle of the Labyrinth", 
+      "The Mysterious Island", 
+      "The Alchemist", 
+      "The Titan's Curse", 
+      "Harry Potter and the Half-Blood Prince", 
+      "An Antarctic Mystery", 
+      "Twenty Thousand Leagues Under the Sea"
+    ], 
+    "question": "'The two men appeared out of nowhere, a few yards apart in the narrow, moonlit lane.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Henry VIII", 
+    "incorrectAnswers": [
+      "Richard III", 
+      "Henry VII", 
+      "James IV"
+    ], 
+    "question": "In 1526 Hans Holbein became the official portrait painter of which english king?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "\u00c9mile Zola", 
+    "incorrectAnswers": [
+      "Alphonse Daudet", 
+      "Anatole France", 
+      "Charles Dickens", 
+      "Stendhal", 
+      "Leo Tolstoy", 
+      "Guy de Maupassant", 
+      "Franz Kafka", 
+      "Victor Hugo", 
+      "Nathaniel Hawthorne", 
+      "Ivan Turgenev"
+    ], 
+    "question": "Which French writer wrote 'Germinal'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Prisoner of Azkaban", 
+    "incorrectAnswers": [
+      "Harry Potter and the Half-Blood Prince", 
+      "New Moon", 
+      "The Alchemist", 
+      "The Sea of Monsters", 
+      "The Hunger Games", 
+      "Eclipse", 
+      "The Neverending Story", 
+      "The Wizard of the Emerald City"
+    ], 
+    "question": "Published in 1999, which piece of written work starts with the line 'Harry Potter was a highly unusual boy in many ways.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Satan", 
+    "incorrectAnswers": [
+      "Jesus", 
+      "Dante", 
+      "Judas"
+    ], 
+    "question": "Who is the protagonist of Milton's Paradise Lost?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Neil Gaiman", 
+    "incorrectAnswers": [
+      "Stephen King", 
+      "H. P. Lovecraft", 
+      "Douglas Adams", 
+      "C. S. Lewis", 
+      "Oscar Wilde", 
+      "J. R. R. Tolkien", 
+      "Ursula K. Le Guin", 
+      "H. G. Wells", 
+      "Christopher Tolkien", 
+      "J. K. Rowling"
+    ], 
+    "question": "'Smoke and Mirrors' was written by which English fantasy writer?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Chamber of Secrets", 
+    "incorrectAnswers": [
+      "The Sea of Monsters", 
+      "The Battle of the Labyrinth", 
+      "The Lightning Thief", 
+      "The Alchemist", 
+      "The Titan's Curse", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "The Mysterious Island", 
+      "An Antarctic Mystery"
+    ], 
+    "question": "Which piece of written work starts with the line 'Not for the first time, an argument had broken out over breakfast at number four, Privet drive'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "As You Like It", 
+    "incorrectAnswers": [
+      "The Twelfth Night", 
+      "A Midsummer Night's Dream", 
+      "Richard III"
+    ], 
+    "question": "Which Shakespearean play is set in the forest of Arden?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Arthur Conan Doyle", 
+    "incorrectAnswers": [
+      "Agatha Christie", 
+      "Oscar Wilde", 
+      "George Orwell", 
+      "Joseph Conrad", 
+      "Virginia Woolf", 
+      "Lewis Carroll", 
+      "Robert Louis Stevenson", 
+      "Charles Dickens", 
+      "Enid Blyton", 
+      "Beatrix Potter"
+    ], 
+    "question": "'The Memoirs of Sherlock Holmes' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The A.B.C. Murders", 
+    "incorrectAnswers": [
+      "The Murder of Roger Ackroyd", 
+      "Lolita", 
+      "The Name of the Rose", 
+      "American Psycho (book)", 
+      "And Then There Were None", 
+      "Foucault's Pendulum", 
+      "The Shining", 
+      "Crime and Punishment"
+    ], 
+    "question": "'It was in June of 1935 that I came home from my ranch in South America for a stay of about six months.' This is the first line of which 1936 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Lithography", 
+    "incorrectAnswers": [
+      "Embography", 
+      "Calligraphy", 
+      "Recography"
+    ], 
+    "question": "What is the art of tracing designs and making impressions of them called?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Alexander Pushkin", 
+    "incorrectAnswers": [
+      "Nikolai Gogol", 
+      "Leo Tolstoy", 
+      "Henryk Sienkiewicz", 
+      "Ivan Turgenev", 
+      "Ayn Rand", 
+      "Mikhail Bulgakov", 
+      "Astrid Lindgren", 
+      "Marquis de Sade", 
+      "Oscar Wilde", 
+      "Joseph Conrad"
+    ], 
+    "question": "'Ruslan and Ludmila' was written by which Russian poet?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hobbit", 
+    "incorrectAnswers": [
+      "Charlotte's Web", 
+      "Alice's Adventures in Wonderland", 
+      "Bluebeard", 
+      "Jonathan Livingston Seagull", 
+      "The Stand", 
+      "The City & the City", 
+      "The Adventures of Pinocchio", 
+      "The Prince and the Pauper"
+    ], 
+    "question": "'In a hole in the ground there lived a hobbit.' This is the first line of which 1937 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Gaston Leroux", 
+    "incorrectAnswers": [
+      "Victor Hugo", 
+      "Alphonse Daudet", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Andr\u00e9 Gide", 
+      "Octave Mirbeau", 
+      "Henryk Sienkiewicz", 
+      "Jules Verne", 
+      "Gustave Flaubert", 
+      "Charles Perrault", 
+      "Maurice Leblanc"
+    ], 
+    "question": "'The Phantom of the Opera' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hitchhiker's Guide to the Galaxy", 
+    "incorrectAnswers": [
+      "The War of the Worlds", 
+      "Northern Lights", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "Planet of the Apes", 
+      "Jonathan Strange & Mr Norrell", 
+      "Frankenstein", 
+      "I Am Legend", 
+      "The Amber Spyglass"
+    ], 
+    "question": "'Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small, unregarded yellow sun.' This is the first line of which 1979 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Expressionism", 
+    "incorrectAnswers": [
+      "Realism", 
+      "Impressionism", 
+      "Fauvism"
+    ], 
+    "question": "Which term refers to art that uses emphasis and distortion to communicate emotion?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Gustave Flaubert", 
+    "incorrectAnswers": [
+      "Anatole France", 
+      "Guy de Maupassant", 
+      "Charles Perrault", 
+      "Jules Verne", 
+      "\u00c9mile Zola", 
+      "Alphonse Daudet", 
+      "Andr\u00e9 Gide", 
+      "Alexandre Dumas", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Victor Hugo"
+    ], 
+    "question": "'Madame Bovary' was written by which French writer?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "The character 'Tuor' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hitchhiker's Guide to the Galaxy", 
+    "incorrectAnswers": [
+      "The War of the Worlds", 
+      "Northern Lights", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "Planet of the Apes", 
+      "Jonathan Strange & Mr Norrell", 
+      "Frankenstein", 
+      "I Am Legend", 
+      "The Amber Spyglass"
+    ], 
+    "question": "Published in 1979, which piece of written work starts with the line 'Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small, unregarded yellow sun.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hobbit", 
+    "incorrectAnswers": [
+      "Alice's Adventures in Wonderland", 
+      "Bluebeard", 
+      "Jonathan Livingston Seagull", 
+      "The Stand", 
+      "The City & the City", 
+      "The Adventures of Pinocchio", 
+      "The Prince and the Pauper"
+    ], 
+    "question": "In which book does 'Thorin' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Gabriel Garc\u00eda M\u00e1rquez", 
+    "incorrectAnswers": [
+      "Ivan Turgenev", 
+      "S\u00f8ren Kierkegaard", 
+      "Voltaire", 
+      "Stendhal", 
+      "Umberto Eco", 
+      "Henryk Sienkiewicz", 
+      "Octave Mirbeau", 
+      "Nick Hornby", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Orhan Pamuk"
+    ], 
+    "question": "'Love in the Time of Cholera' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Lolita", 
+    "incorrectAnswers": [
+      "Les Liaisons dangereuses", 
+      "And Then There Were None", 
+      "Ulysses", 
+      "The Neverending Story", 
+      "Jin Ping Mei", 
+      "The A.B.C. Murders", 
+      "Slaughterhouse-Five", 
+      "Justine"
+    ], 
+    "question": "Published in 1955, which piece of written work starts with the line 'Lolita, light of my life, fire of my loins.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Horton", 
+    "incorrectAnswers": [
+      "Harold", 
+      "Shirley", 
+      "Brent"
+    ], 
+    "question": "In the Dr Seuss books, which elephant hatched an egg?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Ivan Turgenev", 
+    "incorrectAnswers": [
+      "Leo Tolstoy", 
+      "Henryk Sienkiewicz", 
+      "Alphonse Daudet", 
+      "Robert E. Howard", 
+      "Franz Kafka", 
+      "Nathaniel Hawthorne", 
+      "Charles Dickens", 
+      "\u00c9mile Zola", 
+      "Oscar Wilde", 
+      "Alexander Pushkin"
+    ], 
+    "question": "'Mumu' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "The character 'Tuor' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Little Women", 
+    "incorrectAnswers": [
+      "Buddenbrooks", 
+      "David Copperfield", 
+      "Jane Eyre", 
+      "A Portrait of the Artist as a Young Man", 
+      "The Magic Mountain", 
+      "Robinson Crusoe", 
+      "Candide", 
+      "The Neverending Story"
+    ], 
+    "question": "''Christmas won't be Christmas without any presents'' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Michelangelo", 
+    "incorrectAnswers": [
+      "Leonardo", 
+      "Raphael", 
+      "Donatello"
+    ], 
+    "question": "By what name is the great italian sculptor & artist Buonarroti better known?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charles Perrault", 
+    "incorrectAnswers": [
+      "Hans Christian Andersen", 
+      "Andr\u00e9 Gide", 
+      "Prosper M\u00e9rim\u00e9e", 
+      "Gustave Flaubert", 
+      "Oscar Wilde", 
+      "Victor Hugo", 
+      "\u00c9mile Zola", 
+      "Octave Mirbeau", 
+      "Alphonse Daudet", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand"
+    ], 
+    "question": "'Bluebeard' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "In which book does the character 'Tuor' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Deathly Hallows", 
+    "incorrectAnswers": [
+      "The Sea of Monsters", 
+      "The Battle of the Labyrinth", 
+      "The Mysterious Island", 
+      "The Alchemist", 
+      "The Titan's Curse", 
+      "Harry Potter and the Half-Blood Prince", 
+      "An Antarctic Mystery", 
+      "Twenty Thousand Leagues Under the Sea"
+    ], 
+    "question": "Published in 2007, which piece of written work starts with the line 'The two men appeared out of nowhere, a few yards apart in the narrow, moonlit lane.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "A. A. Milne", 
+    "incorrectAnswers": [
+      "Roald Dahl", 
+      "Enid Blyton", 
+      "Beatrix Potter", 
+      "C. S. Lewis", 
+      "A. A. Milne"
+    ], 
+    "question": "Who created Winnie the Pooh?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Fyodor Dostoyevsky", 
+    "incorrectAnswers": [
+      "Vladimir Nabokov", 
+      "Leo Tolstoy", 
+      "Mikhail Bulgakov", 
+      "Nikolai Gogol", 
+      "Ayn Rand", 
+      "Joseph Conrad", 
+      "Henryk Sienkiewicz", 
+      "Alexander Pushkin", 
+      "Ivan Turgenev", 
+      "Mikhail Lermontov"
+    ], 
+    "question": "'Notes from Underground' was written by which Russian author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Wuthering Heights", 
+    "incorrectAnswers": [
+      "The Shining", 
+      "The Phantom of the Opera", 
+      "Coraline", 
+      "Carmilla", 
+      "The Picture of Dorian Gray", 
+      "Frankenstein", 
+      "'Salem's Lot", 
+      "Strange Case of Dr Jekyll and Mr Hyde"
+    ], 
+    "question": "Which piece of written work starts with the line '1801\u2014I have just returned from a visit to my landlord\u2014the solitary neighbour that I shall be troubled with.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Tarzan", 
+    "incorrectAnswers": [
+      "Spiderman", 
+      "Scooby Doo", 
+      "Buggs Bunny"
+    ], 
+    "question": "What famous character did Edgar Rice Burroughs create?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "William Makepeace Thackeray", 
+    "incorrectAnswers": [
+      "Oscar Wilde", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Orhan Pamuk", 
+      "Umberto Eco", 
+      "S\u00f8ren Kierkegaard", 
+      "Haruki Murakami", 
+      "Charles Dickens", 
+      "Jonathan Swift", 
+      "Nathaniel Hawthorne", 
+      "Guy de Maupassant"
+    ], 
+    "question": "'Vanity Fair' was written by which British novelist?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "Tuor appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Adventures of Huckleberry Finn", 
+    "incorrectAnswers": [
+      "Kidnapped", 
+      "The Adventures of Tom Sawyer", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Dead Souls", 
+      "Heidi", 
+      "The Count of Monte Cristo", 
+      "Bluebeard", 
+      "Gargantua and Pantagruel"
+    ], 
+    "question": "Published in 1884, which piece of written work starts with the line 'You don\u2019t know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There were things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Naive art", 
+    "incorrectAnswers": [
+      "Beginner's art", 
+      "Natural art", 
+      "Pop art"
+    ], 
+    "question": "Name the art style, usually paintings, characterized by a simplified style, nonscientific perspective, and bold colors. The artists are generally not professionally trained.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charles Dickens", 
+    "incorrectAnswers": [
+      "Oscar Wilde", 
+      "Joseph Conrad", 
+      "Henryk Sienkiewicz", 
+      "Nathaniel Hawthorne", 
+      "Franz Kafka", 
+      "\u00c9mile Zola", 
+      "Leo Tolstoy", 
+      "Agatha Christie", 
+      "Ivan Turgenev", 
+      "E. T. A. Hoffmann"
+    ], 
+    "question": "'The Pickwick Papers' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Two Towers", 
+    "incorrectAnswers": [
+      "Life, the Universe and Everything", 
+      "The Mysterious Island", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "The Alchemist", 
+      "Harry Potter and the Half-Blood Prince", 
+      "The Wizard of the Emerald City", 
+      "The Last Battle"
+    ], 
+    "question": "'Aragorn sped on up the hill.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charles Dickens", 
+    "incorrectAnswers": [
+      "Thomas Hardy", 
+      "James Joyce", 
+      "Emily Bront\u00eb", 
+      "George Elliot"
+    ], 
+    "question": "Who wrote \"A Christmas Carol\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Alexandre Dumas", 
+    "incorrectAnswers": [
+      "Anatole France", 
+      "Gustave Flaubert", 
+      "Charles Perrault", 
+      "Jules Verne", 
+      "\u00c9mile Zola", 
+      "Alphonse Daudet", 
+      "Andr\u00e9 Gide", 
+      "Guy de Maupassant", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Victor Hugo"
+    ], 
+    "question": "'The Corsican Brothers' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does the character 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "A Game of Thrones", 
+    "incorrectAnswers": [
+      "The Silver Chair", 
+      "The Amber Spyglass", 
+      "The Wizard of the Emerald City", 
+      "The Alchemist", 
+      "Harry Potter and the Philosopher's Stone", 
+      "The Hobbit", 
+      "The Mysterious Island", 
+      "Gulliver's Travels"
+    ], 
+    "question": "Which piece of written work starts with the line '\u201cWe should start back,\u201d Gared urged as the woods began to grow dark around them.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jonathan Swift", 
+    "incorrectAnswers": [
+      "William Godwin", 
+      "Voltaire", 
+      "Henry Fielding"
+    ], 
+    "question": "Who wrote \"Gullivers Travels\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Isaac Asimov", 
+    "incorrectAnswers": [
+      "Ursula K. Le Guin", 
+      "Philip K. Dick", 
+      "Stephen King", 
+      "Robert A. Heinlein", 
+      "Frank Herbert", 
+      "William Gibson", 
+      "George R. R. Martin", 
+      "Edgar Rice Burroughs", 
+      "Poul Anderson", 
+      "Robert Silverberg"
+    ], 
+    "question": "'The Early Asimov' was written by which American writer and professor?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "In which book series does the character 'Neville Longbottom' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "On the Origin of Species", 
+    "incorrectAnswers": [
+      "Germinal", 
+      "Eine Geschichte des Universums in 100 Sternen", 
+      "Madame Bovary", 
+      "The Decameron", 
+      "Buddenbrooks", 
+      "The Snow Queen", 
+      "The Art of War", 
+      "A Dance with Dragons"
+    ], 
+    "question": "Which piece of written work starts with the line 'When we look to the individuals of the same variety or sub\u2010variety of our older cultivated plants and animals, one of the first points which strikes us, is, that they generally differ much more from each other, than do the individuals of any one species or variety in a state of nature.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Naive art", 
+    "incorrectAnswers": [
+      "Beginner's art", 
+      "Natural art", 
+      "Pop art"
+    ], 
+    "question": "Name the art style, usually paintings, characterized by a simplified style, nonscientific perspective, and bold colors. The artists are generally not professionally trained.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charles Perrault", 
+    "incorrectAnswers": [
+      "Hans Christian Andersen", 
+      "Andr\u00e9 Gide", 
+      "Prosper M\u00e9rim\u00e9e", 
+      "Gustave Flaubert", 
+      "Oscar Wilde", 
+      "Victor Hugo", 
+      "\u00c9mile Zola", 
+      "Octave Mirbeau", 
+      "Alphonse Daudet", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand"
+    ], 
+    "question": "Which French author wrote 'Cendrillon'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "The character 'Sancho Panza' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Prince and the Pauper", 
+    "incorrectAnswers": [
+      "The Boy in the Striped Pyjamas", 
+      "The Name of the Rose", 
+      "The Hobbit", 
+      "The Count of Monte Cristo", 
+      "The Red and the Black", 
+      "A Tale of Two Cities", 
+      "Charlotte's Web", 
+      "Jonathan Strange & Mr Norrell"
+    ], 
+    "question": "'I will set down a tale as it was told to me by one who had it of his father, which latter had it of HIS father, this last having in like manner had it of HIS father\u2014and so on, back and still back, three hundred years and more, the fathers transmitting it to the sons and so preserving it.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Michelangelo", 
+    "incorrectAnswers": [
+      "Edvard Much", 
+      "Leonardo da Vinci", 
+      "Monet"
+    ], 
+    "question": "Who painted \"The Creation Of Adam\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Edgar Allan Poe", 
+    "incorrectAnswers": [
+      "Stephen King", 
+      "Nathaniel Hawthorne", 
+      "Mario Puzo", 
+      "Dan Brown", 
+      "Henry James", 
+      "Isaac Asimov", 
+      "Washington Irving", 
+      "Michael Crichton", 
+      "Philip K. Dick", 
+      "Jack Vance"
+    ], 
+    "question": "'The Raven' was written by which American author, poet, editor and literary critic?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "In which book series does 'Neville Longbottom' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Lolita", 
+    "incorrectAnswers": [
+      "Les Liaisons dangereuses", 
+      "And Then There Were None", 
+      "Ulysses", 
+      "The Neverending Story", 
+      "Jin Ping Mei", 
+      "The A.B.C. Murders", 
+      "Slaughterhouse-Five", 
+      "Justine"
+    ], 
+    "question": "'Lolita, light of my life, fire of my loins.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hunchback Of Natre Damme", 
+    "incorrectAnswers": [
+      "A Tale of Two Cities", 
+      "Les Miserables", 
+      "The Count of Monte Cristo"
+    ], 
+    "question": "Which famous book begins with the line \"On January 6, 1482, the people of Paris were awakened by the tumultuous clanging of all the bells in the city\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Edgar Rice Burroughs", 
+    "incorrectAnswers": [
+      "Jack Vance", 
+      "George R. R. Martin", 
+      "Robert A. Heinlein", 
+      "H. P. Lovecraft", 
+      "Stephen King", 
+      "Ursula K. Le Guin", 
+      "Neil Gaiman", 
+      "Stephenie Meyer", 
+      "Isaac Asimov", 
+      "William Gibson"
+    ], 
+    "question": "Which American writer wrote 'Pellucidar heptalogy'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Ulysses", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "The Count of Monte Cristo", 
+      "Lolita", 
+      "The Brothers Karamazov", 
+      "David Copperfield", 
+      "A Portrait of the Artist as a Young Man", 
+      "The Lady of the Camellias"
+    ], 
+    "question": "'Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather on which a mirror and a razor lay crossed.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "Jane Eyre", 
+      "Sense and Sensibility", 
+      "Anna Karenina"
+    ], 
+    "question": "In which book does 'Mr. Darcy' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Franz Kafka", 
+    "incorrectAnswers": [
+      "\u00c9mile Zola", 
+      "Nathaniel Hawthorne", 
+      "Leo Tolstoy", 
+      "Henryk Sienkiewicz", 
+      "Robert E. Howard", 
+      "Oscar Wilde", 
+      "Ivan Turgenev", 
+      "Alphonse Daudet", 
+      "Charles Dickens", 
+      "Anatole France"
+    ], 
+    "question": "Which author wrote 'A Country Doctor'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "The character 'Lady Catherine de Bourgh' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Strange Case of Dr Jekyll and Mr Hyde", 
+    "incorrectAnswers": [
+      "The City & the City", 
+      "Frankenstein", 
+      "The Hunchback of Notre Dame", 
+      "The Windup Girl", 
+      "Do Androids Dream of Electric Sheep?", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Jonathan Strange & Mr Norrell", 
+      "The A.B.C. Murders"
+    ], 
+    "question": "'Mr Utterson the lawyer was a man of a rugged countenance, that was never lighted by a smile; cold, scanty and embarrassed in discourse; backward in sentiment; lean, long, dusty, dreary and yet somehow lovable.' This is the first line of which 1886 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Fourteen", 
+    "incorrectAnswers": [
+      "Four", 
+      "Six", 
+      "Twelve"
+    ], 
+    "question": "How many lines are in a sonnet?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "J. R. R. Tolkien", 
+    "incorrectAnswers": [
+      "G. K. Chesterton", 
+      "Philip Pullman", 
+      "C. S. Lewis", 
+      "Oscar Wilde", 
+      "Enid Blyton", 
+      "Walter Scott", 
+      "Lewis Carroll", 
+      "Neil Gaiman", 
+      "J. K. Rowling", 
+      "Virginia Woolf"
+    ], 
+    "question": "Which author wrote 'The Return of the King'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "The character 'Lady Catherine de Bourgh' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Romeo and Juliet", 
+    "incorrectAnswers": [
+      "The Great Gatsby", 
+      "Eine Geschichte des Universums in 100 Sternen", 
+      "Madame Bovary", 
+      "The Decameron", 
+      "Buddenbrooks", 
+      "The Snow Queen", 
+      "The Art of War", 
+      "A Dance with Dragons"
+    ], 
+    "question": "Published in 1597, which piece of written work starts with the line 'Two households, both alike in dignity, in fair Verona, where we lay our scene, from ancient grudge break to new mutiny, where civil blood makes civil hands unclean.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Van Gogh", 
+    "incorrectAnswers": [
+      "Salvador Dali", 
+      "Andy Warhol", 
+      "Raphael", 
+      "Vermeer"
+    ], 
+    "question": "Which painter reputedly cut of his own ear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charles Darwin", 
+    "incorrectAnswers": [
+      "Percy Bysshe Shelley", 
+      "H. Rider Haggard", 
+      "Robert Louis Stevenson", 
+      "Lewis Carroll", 
+      "George Orwell", 
+      "Agatha Christie", 
+      "Arthur Conan Doyle", 
+      "Virginia Woolf", 
+      "Joseph Conrad", 
+      "Charles Dickens"
+    ], 
+    "question": "'The Origin of Species' was written by which British naturalist, author of \"On the origin of species, by means of natural selection\" (1809-1882)?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "The character 'Tuor' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jane Eyre", 
+    "incorrectAnswers": [
+      "The Lady of the Camellias", 
+      "Little Women", 
+      "David Copperfield", 
+      "Sense and Sensibility", 
+      "A Portrait of the Artist as a Young Man", 
+      "Great Expectations", 
+      "Atlas Shrugged", 
+      "The Red and the Black"
+    ], 
+    "question": "'There was no possibility of taking a walk that day.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Twelfth Night", 
+    "incorrectAnswers": [
+      "A Midsummer Night's Dream", 
+      "The Winter's Tale", 
+      "Coriolanus"
+    ], 
+    "question": "What Shakespearean play refers to the date of epiphany?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Isaac Asimov", 
+    "incorrectAnswers": [
+      "Ursula K. Le Guin", 
+      "Philip K. Dick", 
+      "Stephen King", 
+      "Robert A. Heinlein", 
+      "Frank Herbert", 
+      "William Gibson", 
+      "George R. R. Martin", 
+      "Edgar Rice Burroughs", 
+      "Poul Anderson", 
+      "Robert Silverberg"
+    ], 
+    "question": "Which American writer and professor wrote 'Lucky Starr series'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jane Eyre", 
+    "incorrectAnswers": [
+      "The Lady of the Camellias", 
+      "Little Women", 
+      "David Copperfield", 
+      "Sense and Sensibility", 
+      "A Portrait of the Artist as a Young Man", 
+      "Great Expectations", 
+      "Atlas Shrugged", 
+      "The Red and the Black"
+    ], 
+    "question": "Which piece of written work starts with the line 'There was no possibility of taking a walk that day.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Little Men", 
+    "incorrectAnswers": [
+      "Grown Women", 
+      "Old Women", 
+      "Out in the Barlows"
+    ], 
+    "question": "What was the sequel to Louisa May Alcott's \"Little Women\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Ivan Turgenev", 
+    "incorrectAnswers": [
+      "Leo Tolstoy", 
+      "Henryk Sienkiewicz", 
+      "Alphonse Daudet", 
+      "Robert E. Howard", 
+      "Franz Kafka", 
+      "Nathaniel Hawthorne", 
+      "Charles Dickens", 
+      "\u00c9mile Zola", 
+      "Oscar Wilde", 
+      "Alexander Pushkin"
+    ], 
+    "question": "Which author wrote 'Fathers and Sons'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Deathly Hallows", 
+    "incorrectAnswers": [
+      "The Sea of Monsters", 
+      "The Battle of the Labyrinth", 
+      "The Mysterious Island", 
+      "The Alchemist", 
+      "The Titan's Curse", 
+      "Harry Potter and the Half-Blood Prince", 
+      "An Antarctic Mystery", 
+      "Twenty Thousand Leagues Under the Sea"
+    ], 
+    "question": "Published in 2007, which piece of written work starts with the line 'The two men appeared out of nowhere, a few yards apart in the narrow, moonlit lane.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Peter Rabbit", 
+    "incorrectAnswers": [
+      "Watership Down", 
+      "Winny The Pooh", 
+      "Black Beauty"
+    ], 
+    "question": "What story features flopsy, mopsy and cottontail?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Lewis Carroll", 
+    "incorrectAnswers": [
+      "Enid Blyton", 
+      "George Orwell", 
+      "Charles Dickens", 
+      "Virginia Woolf", 
+      "Arthur Conan Doyle", 
+      "Robert Louis Stevenson", 
+      "Oscar Wilde", 
+      "Agatha Christie", 
+      "J. R. R. Tolkien", 
+      "Joseph Conrad"
+    ], 
+    "question": "'Jabberwocky' was written by which English writer, logician, Anglican deacon and photographer?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "The character 'Neville Longbottom' appears in which book series?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Dracula", 
+    "incorrectAnswers": [
+      "'Salem's Lot", 
+      "Carrie", 
+      "World War Z", 
+      "The Shining", 
+      "Les Liaisons dangereuses", 
+      "Robinson Crusoe", 
+      "Jonathan Livingston Seagull", 
+      "I Am Legend"
+    ], 
+    "question": "Published in 1897, which piece of written work starts with the line '3 May. Bistritz. - Left Munich at 8.35 p.m. on 1st May, arriving at Vienna early next Morning; should have arrived at 6.46, but train was an hour late.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charles Dickens", 
+    "incorrectAnswers": [
+      "Thomas Hardy", 
+      "James Joyce", 
+      "Emily Bront\u00eb", 
+      "George Elliot"
+    ], 
+    "question": "Who wrote \"A Christmas Carol\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "J. K. Rowling", 
+    "incorrectAnswers": [
+      "Christopher Tolkien", 
+      "Philip Pullman", 
+      "C. S. Lewis", 
+      "Neil Gaiman", 
+      "J. R. R. Tolkien", 
+      "Agatha Christie", 
+      "G. K. Chesterton", 
+      "Lewis Carroll", 
+      "H. G. Wells", 
+      "Nick Hornby"
+    ], 
+    "question": "Which author wrote 'Harry Potter and the Goblet of Fire'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does the character 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hobbit", 
+    "incorrectAnswers": [
+      "Charlotte's Web", 
+      "Alice's Adventures in Wonderland", 
+      "Bluebeard", 
+      "Jonathan Livingston Seagull", 
+      "The Stand", 
+      "The City & the City", 
+      "The Adventures of Pinocchio", 
+      "The Prince and the Pauper"
+    ], 
+    "question": "Which piece of written work starts with the line 'In a hole in the ground there lived a hobbit.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "James Whistler", 
+    "incorrectAnswers": [
+      "Andy Warhol", 
+      "Grant Wood", 
+      "Eddie Harold"
+    ], 
+    "question": "Which american artist is known for a portrait of his mother?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jules Verne", 
+    "incorrectAnswers": [
+      "Victor Hugo", 
+      "Alphonse Daudet", 
+      "Edgar Rice Burroughs", 
+      "Walter Scott", 
+      "Margaret Atwood", 
+      "Frederik Pohl", 
+      "Maurice Leblanc", 
+      "Ursula K. Le Guin", 
+      "Guy de Maupassant", 
+      "Arthur C. Clarke"
+    ], 
+    "question": "Which French novelist, poet and playwright wrote 'From the Earth to the Moon'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Through the Looking-Glass", 
+    "incorrectAnswers": [
+      "Mio, My Son", 
+      "Jonathan Strange & Mr Norrell", 
+      "The Stand", 
+      "The Alchemist", 
+      "Heidi", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Adventures of Huckleberry Finn", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "Which piece of written work starts with the line 'One thing was certain, that the white kitten had had nothing to do with it: \u2014 it was the black kitten\u2019s fault entirely.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Dog", 
+    "incorrectAnswers": [
+      "Horse", 
+      "Goat", 
+      "Ghost"
+    ], 
+    "question": "The only __________ to ever appear in a Shakespearean play was Crab in \"The Two Gentlemen of Verona.\"", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Francisco Quevedo", 
+    "incorrectAnswers": [
+      "Miguel de Cervantes", 
+      "Oscar Wilde", 
+      "Alphonse Daudet", 
+      "Victor Hugo", 
+      "Jos\u00e9 Saramago", 
+      "Robert E. Howard", 
+      "Octave Mirbeau", 
+      "Anatole France", 
+      "Ivan Turgenev", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand"
+    ], 
+    "question": "Which author wrote 'Spanish Parnassus'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does the character 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Sense and Sensibility", 
+    "incorrectAnswers": [
+      "Jane Eyre", 
+      "The Lady of the Camellias", 
+      "David Copperfield", 
+      "A Portrait of the Artist as a Young Man", 
+      "Candide", 
+      "Great Expectations", 
+      "Manon Lescaut", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "Published in 1811, which piece of written work starts with the line 'The family of Dashwood had been long settled in Sussex.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "A. A. Milne", 
+    "incorrectAnswers": [
+      "Roald Dahl", 
+      "Enid Blyton", 
+      "Beatrix Potter", 
+      "C. S. Lewis", 
+      "A. A. Milne"
+    ], 
+    "question": "Who created Winnie the Pooh?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Johannes V. Jensen", 
+    "incorrectAnswers": [
+      "Hans Christian Andersen", 
+      "S\u00f8ren Kierkegaard", 
+      "Agatha Christie", 
+      "Natsuo Kirino", 
+      "Haruki Murakami", 
+      "Charlotte Bront\u00eb", 
+      "Robert Jordan", 
+      "James Joyce", 
+      "Charles Darwin", 
+      "Giovanni Boccaccio"
+    ], 
+    "question": "Which author wrote 'The Fall of the King'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "The character 'Sancho Panza' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hound of the Baskervilles", 
+    "incorrectAnswers": [
+      "The A.B.C. Murders", 
+      "The Da Vinci Code", 
+      "The Murder of Roger Ackroyd", 
+      "The Girl with the Dragon Tattoo", 
+      "The Shadow of the Wind", 
+      "The Caves of Steel", 
+      "Murder on the Orient Express", 
+      "Crime and Punishment"
+    ], 
+    "question": "'Mr. Sherlock Holmes, who was usually very late in the mornings, save upon those not infrequent occasions when he stayed up all night, was seated at the breakfast table.' This is the first line of which 1901 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jonathan Swift", 
+    "incorrectAnswers": [
+      "William Godwin", 
+      "Voltaire", 
+      "Henry Fielding"
+    ], 
+    "question": "Who wrote \"Gullivers Travels\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Stephen King", 
+    "incorrectAnswers": [
+      "H. P. Lovecraft", 
+      "Edgar Allan Poe", 
+      "Jack Vance", 
+      "Dan Brown", 
+      "Robert A. Heinlein", 
+      "Edgar Rice Burroughs", 
+      "Neil Gaiman", 
+      "George R. R. Martin", 
+      "Ursula K. Le Guin", 
+      "Philip K. Dick"
+    ], 
+    "question": "'Night Shift' was written by which American author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter and the Philosopher's Stone", 
+    "incorrectAnswers": [
+      "The Battle of the Labyrinth", 
+      "Harry Potter and the Half-Blood Prince", 
+      "The Sea of Monsters", 
+      "New Moon", 
+      "The Titan's Curse", 
+      "The Hunger Games", 
+      "Mockingjay", 
+      "Eclipse"
+    ], 
+    "question": "'Mr and Mrs Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "23", 
+    "incorrectAnswers": [
+      "211", 
+      "5", 
+      "42"
+    ], 
+    "question": "How many tales are there in Chaucer's Canterbury tales?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Albert Camus", 
+    "incorrectAnswers": [
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Anatole France", 
+      "Guy de Maupassant", 
+      "Octave Mirbeau", 
+      "\u00c9mile Zola", 
+      "Andr\u00e9 Gide", 
+      "Victor Hugo", 
+      "Stendhal", 
+      "Alphonse Daudet", 
+      "Voltaire"
+    ], 
+    "question": "Which French author and journalist wrote 'The Plague'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Nineteen Eighty-Four", 
+    "incorrectAnswers": [
+      "The Man in the High Castle", 
+      "Blindness", 
+      "Brave New World", 
+      "The Road", 
+      "Atlas Shrugged", 
+      "The Windup Girl", 
+      "Planet of the Apes", 
+      "The City & the City"
+    ], 
+    "question": "'It was a bright cold day in April, and the clocks were striking thirteen.' This is the first line of which 1949 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "F. Scott Fitzgerald", 
+    "incorrectAnswers": [
+      "Ray Bradbury", 
+      "Joseph Heller", 
+      "Harper Lee"
+    ], 
+    "question": "Who wrote \"The Great Gatsby\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Francisco Quevedo", 
+    "incorrectAnswers": [
+      "Miguel de Cervantes", 
+      "Oscar Wilde", 
+      "Alphonse Daudet", 
+      "Victor Hugo", 
+      "Jos\u00e9 Saramago", 
+      "Robert E. Howard", 
+      "Octave Mirbeau", 
+      "Anatole France", 
+      "Ivan Turgenev", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand"
+    ], 
+    "question": "'Las tres musas \u00faltimas castellanas' was written by which Spanish writer?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Trial", 
+    "incorrectAnswers": [
+      "Gulliver's Travels", 
+      "Carmen", 
+      "I Am Legend", 
+      "Gakuen Heaven", 
+      "Lord of the Flies", 
+      "The Windup Girl", 
+      "The City & the City", 
+      "A Clockwork Orange"
+    ], 
+    "question": "Which piece of written work starts with the line 'Someone must have been telling lies about Joseph K., for without having done anything wrong he was arrested one fine morning.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Water Babies", 
+    "incorrectAnswers": [
+      "Oliver Twist", 
+      "The Little Prince", 
+      "The Prince and the Pauper"
+    ], 
+    "question": "Which famous book contains the line \"Once upon a time there was a little chimney sweep and his name was Tom\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "William Shakespeare", 
+    "incorrectAnswers": [
+      "Arthur C. Clarke", 
+      "Isaac Newton", 
+      "Enid Blyton", 
+      "Agatha Christie", 
+      "J. R. R. Tolkien", 
+      "Lee Child", 
+      "John le Carr\u00e9", 
+      "George Orwell", 
+      "C. S. Lewis", 
+      "J. K. Rowling"
+    ], 
+    "question": "Which English playwright and poet wrote 'The Winter's Tale'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Alice's Adventures in Wonderland", 
+    "incorrectAnswers": [
+      "Charlotte's Web", 
+      "The Hobbit", 
+      "Taras Bulba", 
+      "Justine", 
+      "One Thousand and One Nights", 
+      "Catch-22", 
+      "The Adventures of Pinocchio", 
+      "Carmilla"
+    ], 
+    "question": "'Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, \u201cand what is the use of a book,\u201d thought Alice, \u201cwithout pictures or conversations?\u201d' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "Jane Eyre", 
+      "Sense and Sensibility", 
+      "Anna Karenina"
+    ], 
+    "question": "In which book does 'Mr. Darcy' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "James Fenimore Cooper", 
+    "incorrectAnswers": [
+      "Edgar Rice Burroughs", 
+      "Jack London", 
+      "Edgar Allan Poe", 
+      "F. Scott Fitzgerald", 
+      "Erich Maria Remarque", 
+      "Robert Louis Stevenson", 
+      "Robert E. Howard", 
+      "Salman Rushdie", 
+      "Donna Leon", 
+      "Philip K. Dick"
+    ], 
+    "question": "'The Last of the Mohicans' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "Tuor appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jane Eyre", 
+    "incorrectAnswers": [
+      "The Lady of the Camellias", 
+      "Little Women", 
+      "David Copperfield", 
+      "Sense and Sensibility", 
+      "A Portrait of the Artist as a Young Man", 
+      "Great Expectations", 
+      "Atlas Shrugged", 
+      "The Red and the Black"
+    ], 
+    "question": "'There was no possibility of taking a walk that day.' This is the first line of which piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hunchback Of Natre Damme", 
+    "incorrectAnswers": [
+      "A Tale of Two Cities", 
+      "Les Miserables", 
+      "The Count of Monte Cristo"
+    ], 
+    "question": "Which famous book begins with the line \"On January 6, 1482, the people of Paris were awakened by the tumultuous clanging of all the bells in the city\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jane Austen", 
+    "incorrectAnswers": [
+      "Percy Bysshe Shelley", 
+      "Stephenie Meyer", 
+      "Robert Louis Stevenson", 
+      "Stephen King", 
+      "Nathaniel Hawthorne", 
+      "Henry James", 
+      "Walter Scott", 
+      "Daniel Defoe", 
+      "Edgar Allan Poe", 
+      "Isaac Newton"
+    ], 
+    "question": "'Emma' was written by which English novelist?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Don Quixote", 
+    "incorrectAnswers": [
+      "The Diary of a Chambermaid", 
+      "The Neverending Story", 
+      "Orlando Furioso", 
+      "Adventures of Huckleberry Finn", 
+      "Foucault's Pendulum", 
+      "Ready Player One", 
+      "Robinson Crusoe", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "In which book does the character 'Sancho Panza' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "Which piece of written work starts with the line 'There was Eru, the One, who in Arda is called Il\u00favatar; and he made first the Ainur, the Holy Ones, that were the offspring of his thought, and they were with him before aught else was made.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "James Whistler", 
+    "incorrectAnswers": [
+      "Andy Warhol", 
+      "Grant Wood", 
+      "Eddie Harold"
+    ], 
+    "question": "Which american artist is known for a portrait of his mother?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Stephen King", 
+    "incorrectAnswers": [
+      "H. P. Lovecraft", 
+      "Edgar Allan Poe", 
+      "Jack Vance", 
+      "Dan Brown", 
+      "Robert A. Heinlein", 
+      "Edgar Rice Burroughs", 
+      "Neil Gaiman", 
+      "George R. R. Martin", 
+      "Ursula K. Le Guin", 
+      "Philip K. Dick"
+    ], 
+    "question": "'Night Shift' was written by which American author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "The character 'Tuor' appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Peter Rabbit", 
+    "incorrectAnswers": [
+      "Watership Down", 
+      "Winny The Pooh", 
+      "Black Beauty"
+    ], 
+    "question": "What story features flopsy, mopsy and cottontail?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Charles Perrault", 
+    "incorrectAnswers": [
+      "Hans Christian Andersen", 
+      "Andr\u00e9 Gide", 
+      "Prosper M\u00e9rim\u00e9e", 
+      "Gustave Flaubert", 
+      "Oscar Wilde", 
+      "Victor Hugo", 
+      "\u00c9mile Zola", 
+      "Octave Mirbeau", 
+      "Alphonse Daudet", 
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand"
+    ], 
+    "question": "Which French author wrote 'Cendrillon'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "Lady Catherine de Bourgh appears in which book?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Through the Looking-Glass", 
+    "incorrectAnswers": [
+      "Mio, My Son", 
+      "Jonathan Strange & Mr Norrell", 
+      "The Stand", 
+      "The Alchemist", 
+      "Heidi", 
+      "A Connecticut Yankee in King Arthur's Court", 
+      "Adventures of Huckleberry Finn", 
+      "The Adventures of Tom Sawyer"
+    ], 
+    "question": "Which piece of written work starts with the line 'One thing was certain, that the white kitten had had nothing to do with it: \u2014 it was the black kitten\u2019s fault entirely.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Dr Zhivago", 
+    "incorrectAnswers": [
+      "Lolita", 
+      "The Brothers Karamazov", 
+      "The Cherry Orchard"
+    ], 
+    "question": "For which novel was Boris Pasternak awarded the 1958 Nobel Prize, an award he declined?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Agatha Christie", 
+    "incorrectAnswers": [
+      "Robert Louis Stevenson", 
+      "Charles Dickens", 
+      "Lewis Carroll", 
+      "John le Carr\u00e9", 
+      "Joseph Conrad", 
+      "Virginia Woolf", 
+      "George Orwell", 
+      "Arthur Conan Doyle", 
+      "J. K. Rowling", 
+      "G. K. Chesterton"
+    ], 
+    "question": "'The Murder of Roger Ackroyd' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Silmarillion", 
+    "incorrectAnswers": [
+      "The Decameron", 
+      "Dead Souls", 
+      "Welcome to the N.H.K.", 
+      "Justine", 
+      "The Magic Mountain", 
+      "The Good Soldier \u0160vejk", 
+      "Anna Karenina", 
+      "The Great Gatsby"
+    ], 
+    "question": "In which book does 'Tuor' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Hitchhiker's Guide to the Galaxy", 
+    "incorrectAnswers": [
+      "The War of the Worlds", 
+      "Northern Lights", 
+      "Twenty Thousand Leagues Under the Sea", 
+      "Planet of the Apes", 
+      "Jonathan Strange & Mr Norrell", 
+      "Frankenstein", 
+      "I Am Legend", 
+      "The Amber Spyglass"
+    ], 
+    "question": "'Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small, unregarded yellow sun.' This is the first line of which 1979 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Naive art", 
+    "incorrectAnswers": [
+      "Beginner's art", 
+      "Natural art", 
+      "Pop art"
+    ], 
+    "question": "Name the art style, usually paintings, characterized by a simplified style, nonscientific perspective, and bold colors. The artists are generally not professionally trained.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Neil Gaiman", 
+    "incorrectAnswers": [
+      "Stephen King", 
+      "H. P. Lovecraft", 
+      "Douglas Adams", 
+      "C. S. Lewis", 
+      "Oscar Wilde", 
+      "J. R. R. Tolkien", 
+      "Ursula K. Le Guin", 
+      "H. G. Wells", 
+      "Christopher Tolkien", 
+      "J. K. Rowling"
+    ], 
+    "question": "Which author wrote 'Coraline'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "In which book series does the character 'Neville Longbottom' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "A Clockwork Orange", 
+    "incorrectAnswers": [
+      "Do Androids Dream of Electric Sheep?", 
+      "Slaughterhouse-Five", 
+      "We", 
+      "Brave New World", 
+      "L'Ing\u00e9nu", 
+      "Animal Farm", 
+      "Atlas Shrugged", 
+      "The City & the City"
+    ], 
+    "question": "Published in 1962, which piece of written work starts with the line '\u201cWhat's it going to be then, eh?\u201d There was me, that is Alex, and my three droogs, that is Pete, Georgie, and Dim, Dim being really dim, and we sat in the Korova Milkbar making up our rassoodocks what to do with the evening, a flip dark chill winter bastard though dry.'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Arthur Miller", 
+    "incorrectAnswers": [
+      "William Johnson", 
+      "Arnold Clark", 
+      "Fred George"
+    ], 
+    "question": "Which US dramatist was once married to Marylin Monroe and penned the plays \"Death Of A Salesman\" and \"The Crucible\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "C. S. Lewis", 
+    "incorrectAnswers": [
+      "Neil Gaiman", 
+      "Jack Vance", 
+      "Douglas Adams", 
+      "Robert A. Heinlein", 
+      "Stephen King", 
+      "H. P. Lovecraft", 
+      "Arthur C. Clarke", 
+      "Christopher Tolkien", 
+      "Ursula K. Le Guin", 
+      "H. G. Wells"
+    ], 
+    "question": "Which British writer wrote 'The Voyage of the Dawn Treader'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Pride and Prejudice", 
+    "incorrectAnswers": [
+      "The Fault in Our Stars", 
+      "Ship of Fools", 
+      "War and Peace", 
+      "The Good Soldier \u0160vejk", 
+      "Jane Eyre", 
+      "Taras Bulba", 
+      "Adventures of Huckleberry Finn", 
+      "The Kreutzer Sonata"
+    ], 
+    "question": "In which book does the character 'Lady Catherine de Bourgh' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "The Prince and the Pauper", 
+    "incorrectAnswers": [
+      "The Boy in the Striped Pyjamas", 
+      "The Name of the Rose", 
+      "The Hobbit", 
+      "The Count of Monte Cristo", 
+      "The Red and the Black", 
+      "A Tale of Two Cities", 
+      "Charlotte's Web", 
+      "Jonathan Strange & Mr Norrell"
+    ], 
+    "question": "'I will set down a tale as it was told to me by one who had it of his father, which latter had it of HIS father, this last having in like manner had it of HIS father\u2014and so on, back and still back, three hundred years and more, the fathers transmitting it to the sons and so preserving it.' This is the first line of which 1881 piece of written work?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Henry VI", 
+    "incorrectAnswers": [
+      "Richard III", 
+      "Othello", 
+      "Macbeth"
+    ], 
+    "question": "What was Shakespeare's first play?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Albert Camus", 
+    "incorrectAnswers": [
+      "Fran\u00e7ois-Ren\u00e9 de Chateaubriand", 
+      "Anatole France", 
+      "Guy de Maupassant", 
+      "Octave Mirbeau", 
+      "\u00c9mile Zola", 
+      "Andr\u00e9 Gide", 
+      "Victor Hugo", 
+      "Stendhal", 
+      "Alphonse Daudet", 
+      "Voltaire"
+    ], 
+    "question": "Which author wrote 'The Stranger'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Harry Potter", 
+    "incorrectAnswers": [
+      "Voyages Extraordinaires", 
+      "Percy Jackson & the Olympians", 
+      "Twilight", 
+      "The Hunger Games", 
+      "His Dark Materials trilogy", 
+      "A Song of Ice and Fire", 
+      "The Chronicles of Narnia", 
+      "canon of Sherlock Holmes"
+    ], 
+    "question": "In which book series does 'Neville Longbottom' appear?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Anne of Green Gables", 
+    "incorrectAnswers": [
+      "The Glass Bead Game", 
+      "Heidi", 
+      "The Boy in the Striped Pyjamas", 
+      "The Prince and the Pauper", 
+      "The Hobbit", 
+      "Alice's Adventures in Wonderland", 
+      "The Wonderful Wizard of Oz", 
+      "Robinson Crusoe"
+    ], 
+    "question": "Which piece of written work starts with the line 'Mrs. Rachel Lynde lived just where the Avonlea main road dipped down into a little hollow, fringed with alders and ladies' eardrops and traversed by a brook that had its source away back in the woods of the old Cuthbert place;'?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Jonathan Swift", 
+    "incorrectAnswers": [
+      "William Godwin", 
+      "Voltaire", 
+      "Henry Fielding"
+    ], 
+    "question": "Who wrote \"Gullivers Travels\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "C. S. Lewis", 
+    "incorrectAnswers": [
+      "Neil Gaiman", 
+      "Jack Vance", 
+      "Douglas Adams", 
+      "Robert A. Heinlein", 
+      "Stephen King", 
+      "H. P. Lovecraft", 
+      "Arthur C. Clarke", 
+      "Christopher Tolkien", 
+      "Ursula K. Le Guin", 
+      "H. G. Wells"
+    ], 
+    "question": "'Prince Caspian' was written by which author?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Art and Literature", 
+    "correctAnswer": "Dracula", 
+    "incorrectAnswers": [
+      "'Salem's Lot", 
+      "Carrie", 
+      "World War Z", 
+      "The Shining", 
+      "Les Liaisons dangereuses", 
+      "Robinson Crusoe", 
+      "Jonathan Livingston Seagull", 
+      "I Am Legend"
+    ], 
+    "question": "Which piece of written work starts with the line '3 May. Bistritz. - Left Munich at 8.35 p.m. on 1st May, arriving at Vienna early next Morning; should have arrived at 6.46, but train was an hour late.'?", 
+    "type": "Multiple Choice"
+  }
+]

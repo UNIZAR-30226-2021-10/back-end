@@ -1,0 +1,2754 @@
+[
+  {
+    "category": "History", 
+    "correctAnswer": "New Zealand", 
+    "incorrectAnswers": [
+      "France", 
+      "Switzerland", 
+      "Canada"
+    ], 
+    "question": "In 1893, which country was the first to give women the vote?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Mayflower", 
+    "incorrectAnswers": [
+      "The Mary Rose", 
+      "The Santa Maria", 
+      "HMS Victory"
+    ], 
+    "question": "Of which ship was Miles Standish captain?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Jack Ruby", 
+    "incorrectAnswers": [
+      "Mark Bench", 
+      "Tom Gunn", 
+      "Alvin Grey"
+    ], 
+    "question": "Who Shot Lee Harvey Oswald, The Assassin Of John F Kennedy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Khrushchev", 
+    "incorrectAnswers": [
+      "Putin", 
+      "Gorbachev", 
+      "Lenin"
+    ], 
+    "question": "In 1953, Stalin Died. Who ultimately succeeded him as the leader of the Soviet Union?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Anthony Blunt", 
+    "incorrectAnswers": [
+      "Frank Johnson", 
+      "Christopher Linberg", 
+      "Harold Walker"
+    ], 
+    "question": "In 1979 which English art historian was exposed as a one-time Soviet spy and stripped of his knighthood?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "France", 
+    "incorrectAnswers": [
+      "Italy", 
+      "Russia", 
+      "Spain"
+    ], 
+    "question": "Where did the bayonet originate?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "24th December", 
+    "incorrectAnswers": [
+      "25th December", 
+      "26th December", 
+      "31st December"
+    ], 
+    "question": "The Nordic countries (Denmark, Sweden, Norway notably) tend to celebrate Christmas chiefly on which date?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Prime Minister", 
+    "incorrectAnswers": [
+      "Chancellor of the Exchequer", 
+      "Minister for War", 
+      "Leader of the Opposition"
+    ], 
+    "question": "What Office Did Churchill Hold For The Longest Continous Period?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Cyprus", 
+    "incorrectAnswers": [
+      "Ireland", 
+      "Sicily", 
+      "Corsica"
+    ], 
+    "question": "Formed in 1955, with which island was the organisation known by the acronym EOKA associated?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Paris", 
+    "incorrectAnswers": [
+      "London", 
+      "Nanjing", 
+      "Amsterdam"
+    ], 
+    "question": "Which City Did The Allies Liberate On August 25th 1944?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Lord Of The Rings", 
+    "incorrectAnswers": [
+      "The Matrix", 
+      "The Godfather", 
+      "Jurassic Park"
+    ], 
+    "question": "Peter Jackson Is Responsible For Directing Which Famous Trilogy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Oliver Cromwell", 
+    "incorrectAnswers": [
+      "Henry VIII", 
+      "Francis Drake", 
+      "Elizabeth I"
+    ], 
+    "question": "Who banned Christmas in Britain in 1647?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Amelia Earhart ", 
+    "incorrectAnswers": [
+      "Beryl Markham", 
+      "Mary Johnson", 
+      "Elise Du Pont"
+    ], 
+    "question": "Who Was The First Woman To Fly Solo Across The Atlantic Ocean? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "India", 
+    "incorrectAnswers": [
+      "Brazil", 
+      "China", 
+      "Indonesia"
+    ], 
+    "question": "In what country did \"Sepoy Mutiny\" occur? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Genghis Khan", 
+    "incorrectAnswers": [
+      "Timur", 
+      "Augustus", 
+      "Xerxes"
+    ], 
+    "question": "What did Temujin change his name to?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Cyprus", 
+    "incorrectAnswers": [
+      "Ireland", 
+      "Sicily", 
+      "Corsica"
+    ], 
+    "question": "Formed in 1955, with which island was the organisation known by the acronym EOKA associated?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Nine", 
+    "incorrectAnswers": [
+      "One", 
+      "Two", 
+      "Six"
+    ], 
+    "question": "How Many Crusades Were There?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Khrushchev", 
+    "incorrectAnswers": [
+      "Putin", 
+      "Gorbachev", 
+      "Lenin"
+    ], 
+    "question": "In 1953, Stalin Died. Who ultimately succeeded him as the leader of the Soviet Union?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Enola Gay", 
+    "incorrectAnswers": [
+      "Big Boy", 
+      "Lady Diamond", 
+      "Dauntless"
+    ], 
+    "question": "What was the name of the B-29 used at Hiroshima to drop the bomb?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "President John F. Kennedy", 
+    "incorrectAnswers": [
+      "Lee Harvey Oswald", 
+      "John Lennon", 
+      "Mahatma Gandhi"
+    ], 
+    "question": "Who was assassinated on November 22, 1963 in Dallas, Texas?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1865", 
+    "incorrectAnswers": [
+      "1851", 
+      "1832", 
+      "1801"
+    ], 
+    "question": "In What Year Did The American Civil War End?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Catherine Of Aragon", 
+    "incorrectAnswers": [
+      "Anne Boleyn", 
+      "Anne Howard", 
+      "Catherine Parr"
+    ], 
+    "question": "Who Was The 1st wife of henry VIII? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Oliver Cromwell", 
+    "incorrectAnswers": [
+      "Henry VIII", 
+      "Francis Drake", 
+      "Elizabeth I"
+    ], 
+    "question": "Who banned Christmas in Britain in 1647?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Anthony Blunt", 
+    "incorrectAnswers": [
+      "Frank Johnson", 
+      "Christopher Linberg", 
+      "Harold Walker"
+    ], 
+    "question": "In 1979 which English art historian was exposed as a one-time Soviet spy and stripped of his knighthood?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Nine", 
+    "incorrectAnswers": [
+      "One", 
+      "Two", 
+      "Six"
+    ], 
+    "question": "How Many Crusades Were There?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Cyprus", 
+    "incorrectAnswers": [
+      "Ireland", 
+      "Sicily", 
+      "Corsica"
+    ], 
+    "question": "Formed in 1955, with which island was the organisation known by the acronym EOKA associated?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Jack Ruby", 
+    "incorrectAnswers": [
+      "Mark Bench", 
+      "Tom Gunn", 
+      "Alvin Grey"
+    ], 
+    "question": "Who Shot Lee Harvey Oswald, The Assassin Of John F Kennedy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Oklahoma", 
+    "incorrectAnswers": [
+      "Kansas", 
+      "Missouri", 
+      "California"
+    ], 
+    "question": "Which US state in 1907 was the last to declare Christmas a legal holiday?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Cuba", 
+    "incorrectAnswers": [
+      "Puerto Rico", 
+      "Mexico", 
+      "The Bahamas"
+    ], 
+    "question": "Spain ceded Florida to Britain in exchange for this territory.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Falklands War", 
+    "incorrectAnswers": [
+      "The Irish War", 
+      "The Vietnam War", 
+      "The Gibraltan War"
+    ], 
+    "question": "Which War Involving The UK Began In 1982?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Jim Jones", 
+    "incorrectAnswers": [
+      "John Jackson", 
+      "John Jones", 
+      "Jim Jackson"
+    ], 
+    "question": "Who led 900 followers in a mass suicide in 1979?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Germany", 
+    "incorrectAnswers": [
+      "Switzerland", 
+      "Denmark", 
+      "France"
+    ], 
+    "question": "Which country was first to operate an old age pension scheme?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Constantinople", 
+    "incorrectAnswers": [
+      "Jerusalem", 
+      "Istanbul", 
+      "New Constantinople"
+    ], 
+    "question": "To What Was Byzantium Renamed In 330 AD?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Aqueduct", 
+    "incorrectAnswers": [
+      "Canal", 
+      "Forum", 
+      "Arena"
+    ], 
+    "question": "What did the Romans build to convey water? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Tanzania", 
+    "incorrectAnswers": [
+      "Uganda", 
+      "Zambia", 
+      "Kenya"
+    ], 
+    "question": "Which country did Idi Amin invade in 1979?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Jericho", 
+    "incorrectAnswers": [
+      "Bagdhad", 
+      "Rome", 
+      "Damascus"
+    ], 
+    "question": "Which is the most ancient walled city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Neville Chamberlain", 
+    "incorrectAnswers": [
+      "Winston Churchill", 
+      "Anthony Eden", 
+      "Clement Atlee"
+    ], 
+    "question": "Who was the British Prime Minister at the outbreak of the Second World War?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Jarrow March", 
+    "incorrectAnswers": [
+      "The Swing Riots", 
+      "Tolpuddle Martyrs", 
+      "The Chartists"
+    ], 
+    "question": "What famous protest took place in Britain in 1936?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Britain", 
+    "incorrectAnswers": [
+      "France", 
+      "Germany", 
+      "China"
+    ], 
+    "question": "What was the third country to get the atomic bomb?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Franklin Roosevelt", 
+    "incorrectAnswers": [
+      "Dwight Eisenhower", 
+      "Lyndon B. Johnson", 
+      "Harry Truman"
+    ], 
+    "question": "Who Was President Of The USA At The Outbreak Of World War II?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Sandwich Islands", 
+    "incorrectAnswers": [
+      "James Islands", 
+      "Victoria Islands", 
+      "Brittania Islands"
+    ], 
+    "question": "When Cook Discovered The Hawaiian Islands What Did He Name Them?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1997", 
+    "incorrectAnswers": [
+      "1990", 
+      "1982", 
+      "1976"
+    ], 
+    "question": "In what year did the UK's lease on Hong Kong expire?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Jack Ruby", 
+    "incorrectAnswers": [
+      "Mark Bench", 
+      "Tom Gunn", 
+      "Alvin Grey"
+    ], 
+    "question": "Who Shot Lee Harvey Oswald, The Assassin Of John F Kennedy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Mayflower", 
+    "incorrectAnswers": [
+      "The Mary Rose", 
+      "The Santa Maria", 
+      "HMS Victory"
+    ], 
+    "question": "Of which ship was Miles Standish captain?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Louis XVI", 
+    "incorrectAnswers": [
+      "Louis XIII", 
+      "Charles VIII", 
+      "Charles XI"
+    ], 
+    "question": "Who Was Marie Antoinette's Husband?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Fourteenth", 
+    "incorrectAnswers": [
+      "Twentieth", 
+      "Tenth", 
+      "Seventh"
+    ], 
+    "question": "In which century was The Black Death?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Ming", 
+    "incorrectAnswers": [
+      "Qin", 
+      "Han", 
+      "Tang"
+    ], 
+    "question": "Which Chinese dynasty lasted from 1368 to 1644?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Turkey", 
+    "incorrectAnswers": [
+      "Italy", 
+      "Russia", 
+      "Spain"
+    ], 
+    "question": "Germany's WWI allies were Austria-Hungary, Bulgaria, and ________.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Buffalo soldiers", 
+    "incorrectAnswers": [
+      "Traitors", 
+      "Picketties", 
+      "Kwoquois"
+    ], 
+    "question": "What name did the indians give the black soldiers that were fighting against them in the late 1800's?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Alaska", 
+    "incorrectAnswers": [
+      "Hawaii", 
+      "Puerto Rico", 
+      "New Mexico"
+    ], 
+    "question": "In America, what became the 49th state to enter the union in 1959?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "France", 
+    "incorrectAnswers": [
+      "Italy", 
+      "China", 
+      "Russia"
+    ], 
+    "question": "Which country blew up a Greenpeace ship in New Zealand?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Sandwich Islands", 
+    "incorrectAnswers": [
+      "James Islands", 
+      "Victoria Islands", 
+      "Brittania Islands"
+    ], 
+    "question": "When Cook Discovered The Hawaiian Islands What Did He Name Them?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Italy", 
+    "incorrectAnswers": [
+      "Spain", 
+      "Germany", 
+      "France"
+    ], 
+    "question": "What country did the allies invade in World War II's Operation Avalanche? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Germany", 
+    "incorrectAnswers": [
+      "Korea", 
+      "Vietnam", 
+      "Ireland"
+    ], 
+    "question": "Which country was split into two zones by the Yalta agreement?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Falklands War", 
+    "incorrectAnswers": [
+      "The Irish War", 
+      "The Vietnam War", 
+      "The Gibraltan War"
+    ], 
+    "question": "Which War Involving The UK Began In 1982?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Malcolm X", 
+    "incorrectAnswers": [
+      "Martin Luther King", 
+      "John F Kennedy", 
+      "Lee Harvey Oswald"
+    ], 
+    "question": "Who was assassinated on Feb. 21, 1965?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Italy", 
+    "incorrectAnswers": [
+      "Spain", 
+      "Germany", 
+      "France"
+    ], 
+    "question": "What country did the allies invade in World War II's Operation Avalanche? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Persia\u00a0", 
+    "incorrectAnswers": [
+      "Parthia", 
+      "Mesopotamia", 
+      "Assyria"
+    ], 
+    "question": "Prior to 1935 what was Iran known as?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Catherine Of Aragon", 
+    "incorrectAnswers": [
+      "Anne Boleyn", 
+      "Anne Howard", 
+      "Catherine Parr"
+    ], 
+    "question": "Who Was The 1st wife of henry VIII? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Mayflower", 
+    "incorrectAnswers": [
+      "The Mary Rose", 
+      "The Santa Maria", 
+      "HMS Victory"
+    ], 
+    "question": "Of which ship was Miles Standish captain?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Roxana", 
+    "incorrectAnswers": [
+      "Claudia", 
+      "Diana", 
+      "Helen"
+    ], 
+    "question": "What was Alexander The Great's wife's name?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Chicago", 
+    "incorrectAnswers": [
+      "Denver", 
+      "Dallas", 
+      "Seattle"
+    ], 
+    "question": "The St. Valentine's Day massacre took place in this which city? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Capricorn", 
+    "incorrectAnswers": [
+      "Gemini", 
+      "Aries", 
+      "Scorpio"
+    ], 
+    "question": "If you were born on Christmas Day, what would your star sign be?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Chucky", 
+    "incorrectAnswers": [
+      "Freddie Kruger", 
+      "Michael Myers", 
+      "Leatherface"
+    ], 
+    "question": "Which Scary Movie Character Has The real name Charles Lee Ray?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Concorde", 
+    "incorrectAnswers": [
+      "The Channel Tunnel", 
+      "Eurostar", 
+      "An animal cloning plant"
+    ], 
+    "question": "In 1962, for what did Britain and France sign an agreement to build together?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Dean Martin", 
+    "incorrectAnswers": [
+      "Steve Martin", 
+      "Tim Allen", 
+      "James Wood"
+    ], 
+    "question": "Famed as a member of the Rat Pack, who died on Christmas day 1995?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Anthony Blunt", 
+    "incorrectAnswers": [
+      "Frank Johnson", 
+      "Christopher Linberg", 
+      "Harold Walker"
+    ], 
+    "question": "In 1979 which English art historian was exposed as a one-time Soviet spy and stripped of his knighthood?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1985", 
+    "incorrectAnswers": [
+      "1979", 
+      "1965", 
+      "1950"
+    ], 
+    "question": "In What Year Did Mikhail Gorbachev Become Leader Of The Soviet Union?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Mayflower", 
+    "incorrectAnswers": [
+      "The Mary Rose", 
+      "The Santa Maria", 
+      "HMS Victory"
+    ], 
+    "question": "Of which ship was Miles Standish captain?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Nikita Khrushchev ", 
+    "incorrectAnswers": [
+      "Boris Yeltsin", 
+      "Vlademir Putin", 
+      "Joseph Stalin"
+    ], 
+    "question": "Who gave John F. Kennedy a dog named Pushinka? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Crete", 
+    "incorrectAnswers": [
+      "Babylon", 
+      "Mexico", 
+      "Turkey"
+    ], 
+    "question": "Where were the ancient script of Linear A and Linear B found?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Black Prince", 
+    "incorrectAnswers": [
+      "The White Prince", 
+      "The Red Prince", 
+      "The Green Prince"
+    ], 
+    "question": "What was The Eldest Son Of Edward III Better Known As?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Charles II", 
+    "incorrectAnswers": [
+      "Henry VIII", 
+      "James II", 
+      "Elizabeth I"
+    ], 
+    "question": "During Which King's Reign Did The Great Fire Of London Occur?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Prime Minister", 
+    "incorrectAnswers": [
+      "Chancellor of the Exchequer", 
+      "Minister for War", 
+      "Leader of the Opposition"
+    ], 
+    "question": "What Office Did Churchill Hold For The Longest Continous Period?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Harold Wilson", 
+    "incorrectAnswers": [
+      "Clement Atlee", 
+      "Anthony Eden", 
+      "Margaret Thatcher"
+    ], 
+    "question": "Who Was The British Prime Minister Between 1964 & 1969?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Robert E.Lee", 
+    "incorrectAnswers": [
+      "Ulysses S Grant", 
+      "George Armstrong Custer", 
+      "William Tecumseh Sherman"
+    ], 
+    "question": "Who Commanded The Confederate Armies During The American Civil War?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Lucitania", 
+    "incorrectAnswers": [
+      "Olympic", 
+      "Mary Rose", 
+      "Mauretania"
+    ], 
+    "question": "What was name of the Titanic's sister ship?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Jarrow March", 
+    "incorrectAnswers": [
+      "The Swing Riots", 
+      "Tolpuddle Martyrs", 
+      "The Chartists"
+    ], 
+    "question": "What famous protest took place in Britain in 1936?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Charles I", 
+    "incorrectAnswers": [
+      "Louis XIV", 
+      "Louis XVI", 
+      "Charles III"
+    ], 
+    "question": "Which King Wore Two Shirts At His Execution So As Not To Shiver And Appear Frightened?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Chicago", 
+    "incorrectAnswers": [
+      "Denver", 
+      "Dallas", 
+      "Seattle"
+    ], 
+    "question": "The St. Valentine's Day massacre took place in this which city? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Tibet", 
+    "incorrectAnswers": [
+      "Bhutan", 
+      "Nepal", 
+      "Mongolia"
+    ], 
+    "question": "Which country did China invade on Christmas day 1950", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Jim Jones", 
+    "incorrectAnswers": [
+      "John Jackson", 
+      "John Jones", 
+      "Jim Jackson"
+    ], 
+    "question": "Who led 900 followers in a mass suicide in 1979?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Anthony Blunt", 
+    "incorrectAnswers": [
+      "Frank Johnson", 
+      "Christopher Linberg", 
+      "Harold Walker"
+    ], 
+    "question": "In 1979 which English art historian was exposed as a one-time Soviet spy and stripped of his knighthood?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "France", 
+    "incorrectAnswers": [
+      "Italy", 
+      "Russia", 
+      "Spain"
+    ], 
+    "question": "Where did the bayonet originate?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Nine", 
+    "incorrectAnswers": [
+      "One", 
+      "Two", 
+      "Six"
+    ], 
+    "question": "How Many Crusades Were There?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Germany", 
+    "incorrectAnswers": [
+      "Korea", 
+      "Vietnam", 
+      "Ireland"
+    ], 
+    "question": "Which country was split into two zones by the Yalta agreement?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Oklahoma", 
+    "incorrectAnswers": [
+      "Kansas", 
+      "Missouri", 
+      "California"
+    ], 
+    "question": "Which US state in 1907 was the last to declare Christmas a legal holiday?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Geronimo", 
+    "incorrectAnswers": [
+      "Poundmaker", 
+      "Sitting Bull", 
+      "Sequoyah"
+    ], 
+    "question": "Who was the last of the apache warrior chiefs", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Dwight Eisenhower", 
+    "incorrectAnswers": [
+      "Franklin Roosevelt", 
+      "Lyndon Johnson", 
+      "Jimmy Carter"
+    ], 
+    "question": "Who was President of the USA from 1953 till 1961?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Nikita Khrushchev ", 
+    "incorrectAnswers": [
+      "Boris Yeltsin", 
+      "Vlademir Putin", 
+      "Joseph Stalin"
+    ], 
+    "question": "Who gave John F. Kennedy a dog named Pushinka? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Chicago", 
+    "incorrectAnswers": [
+      "Denver", 
+      "Dallas", 
+      "Seattle"
+    ], 
+    "question": "The St. Valentine's Day massacre took place in this which city? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Lord Of The Rings", 
+    "incorrectAnswers": [
+      "The Matrix", 
+      "The Godfather", 
+      "Jurassic Park"
+    ], 
+    "question": "Peter Jackson Is Responsible For Directing Which Famous Trilogy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Louis XVI", 
+    "incorrectAnswers": [
+      "Louis XIII", 
+      "Charles VIII", 
+      "Charles XI"
+    ], 
+    "question": "Who Was Marie Antoinette's Husband?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Jericho", 
+    "incorrectAnswers": [
+      "Bagdhad", 
+      "Rome", 
+      "Damascus"
+    ], 
+    "question": "Which is the most ancient walled city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "24th December", 
+    "incorrectAnswers": [
+      "25th December", 
+      "26th December", 
+      "31st December"
+    ], 
+    "question": "The Nordic countries (Denmark, Sweden, Norway notably) tend to celebrate Christmas chiefly on which date?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Southampton", 
+    "incorrectAnswers": [
+      "Cardiff", 
+      "Portsmouth", 
+      "Plymouth"
+    ], 
+    "question": "Where Did The Mayflower Set Sail From In 1620?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "France", 
+    "incorrectAnswers": [
+      "Italy", 
+      "China", 
+      "Russia"
+    ], 
+    "question": "Which country blew up a Greenpeace ship in New Zealand?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Harold Wilson", 
+    "incorrectAnswers": [
+      "Clement Atlee", 
+      "Anthony Eden", 
+      "Margaret Thatcher"
+    ], 
+    "question": "Who Was The British Prime Minister Between 1964 & 1969?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Constantinople", 
+    "incorrectAnswers": [
+      "Jerusalem", 
+      "Istanbul", 
+      "New Constantinople"
+    ], 
+    "question": "To What Was Byzantium Renamed In 330 AD?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Black", 
+    "incorrectAnswers": [
+      "White", 
+      "Red", 
+      "Brown"
+    ], 
+    "question": "What colour is Santa Claus's belt?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Oliver Cromwell", 
+    "incorrectAnswers": [
+      "Henry VIII", 
+      "Francis Drake", 
+      "Elizabeth I"
+    ], 
+    "question": "Who banned Christmas in Britain in 1647?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Jack Ruby", 
+    "incorrectAnswers": [
+      "Mark Bench", 
+      "Tom Gunn", 
+      "Alvin Grey"
+    ], 
+    "question": "Who Shot Lee Harvey Oswald, The Assassin Of John F Kennedy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Amelia Earhart ", 
+    "incorrectAnswers": [
+      "Beryl Markham", 
+      "Mary Johnson", 
+      "Elise Du Pont"
+    ], 
+    "question": "Who Was The First Woman To Fly Solo Across The Atlantic Ocean? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "France", 
+    "incorrectAnswers": [
+      "Italy", 
+      "China", 
+      "Russia"
+    ], 
+    "question": "Which country blew up a Greenpeace ship in New Zealand?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Amelia Earhart ", 
+    "incorrectAnswers": [
+      "Beryl Markham", 
+      "Mary Johnson", 
+      "Elise Du Pont"
+    ], 
+    "question": "Who Was The First Woman To Fly Solo Across The Atlantic Ocean? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "India", 
+    "incorrectAnswers": [
+      "Mexico", 
+      "China", 
+      "Brazil"
+    ], 
+    "question": "In what country did the \"Sepoy Mutiny\" occur?\"", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Southampton", 
+    "incorrectAnswers": [
+      "Cardiff", 
+      "Portsmouth", 
+      "Plymouth"
+    ], 
+    "question": "Where Did The Mayflower Set Sail From In 1620?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "John Lennon ", 
+    "incorrectAnswers": [
+      "Malcolm X", 
+      "John F Kennedy", 
+      "Martin Luther King"
+    ], 
+    "question": "Who was assassinated on Dec. 8, 1980 in New York City? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Harold Wilson", 
+    "incorrectAnswers": [
+      "Clement Atlee", 
+      "Anthony Eden", 
+      "Margaret Thatcher"
+    ], 
+    "question": "Who Was The British Prime Minister Between 1964 & 1969?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1431", 
+    "incorrectAnswers": [
+      "1213", 
+      "1390", 
+      "1344"
+    ], 
+    "question": "In Which Year Was Joan Of Arc Burned At The Stake?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Geronimo", 
+    "incorrectAnswers": [
+      "Poundmaker", 
+      "Sitting Bull", 
+      "Sequoyah"
+    ], 
+    "question": "Who was the last of the apache warrior chiefs", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Decimate", 
+    "incorrectAnswers": [
+      "Havoc", 
+      "Mutilate", 
+      "Annihilate"
+    ], 
+    "question": "What Name Was Given To The Practise Of Killing Every Tenth Man In A Mutinous Roman Cohort?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Crimean", 
+    "incorrectAnswers": [
+      "World War I", 
+      "World War II", 
+      "Russian Civil War"
+    ], 
+    "question": "The Charge Of The Light Brigade Occured During Which War", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Genghis Khan", 
+    "incorrectAnswers": [
+      "Timur", 
+      "Augustus", 
+      "Xerxes"
+    ], 
+    "question": "What did Temujin change his name to?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Lucitania", 
+    "incorrectAnswers": [
+      "Olympic", 
+      "Mary Rose", 
+      "Mauretania"
+    ], 
+    "question": "What was name of the Titanic's sister ship?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1997", 
+    "incorrectAnswers": [
+      "1990", 
+      "1982", 
+      "1976"
+    ], 
+    "question": "In what year did the UK's lease on Hong Kong expire?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Nine", 
+    "incorrectAnswers": [
+      "One", 
+      "Two", 
+      "Six"
+    ], 
+    "question": "How Many Crusades Were There?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Falklands War", 
+    "incorrectAnswers": [
+      "The Irish War", 
+      "The Vietnam War", 
+      "The Gibraltan War"
+    ], 
+    "question": "Which War Involving The UK Began In 1982?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Neville Chamberlain", 
+    "incorrectAnswers": [
+      "Winston Churchill", 
+      "Anthony Eden", 
+      "Clement Atlee"
+    ], 
+    "question": "Who was the British Prime Minister at the outbreak of the Second World War?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Louis XVI", 
+    "incorrectAnswers": [
+      "Louis XIII", 
+      "Charles VIII", 
+      "Charles XI"
+    ], 
+    "question": "Who Was Marie Antoinette's Husband?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1975", 
+    "incorrectAnswers": [
+      "1969", 
+      "1980", 
+      "1984"
+    ], 
+    "question": "The war in Vietnam ended with the fall of Saigon in what year?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1916", 
+    "incorrectAnswers": [
+      "1900", 
+      "1945", 
+      "1933"
+    ], 
+    "question": "In What Year Was The Berlin Wall Erected?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Lady Godiva", 
+    "incorrectAnswers": [
+      "Lady Gaga", 
+      "Lady Geronimo", 
+      "Lady Galebe"
+    ], 
+    "question": "Who is famous for historically riding naked on horseback through Coventry, England?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Sir Francis Drake", 
+    "incorrectAnswers": [
+      "Horatio Nelson", 
+      "George Rodney", 
+      "John Jervis"
+    ], 
+    "question": "Who Played Bowls Before Engaging The Spanish Armada?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1865", 
+    "incorrectAnswers": [
+      "1851", 
+      "1832", 
+      "1801"
+    ], 
+    "question": "In What Year Did The American Civil War End?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Romania", 
+    "incorrectAnswers": [
+      "Poland", 
+      "Bulgaria", 
+      "Turkey"
+    ], 
+    "question": "Germany's allies in WW II were Japan, Italy, Hungary, Bulgaria, Finland, Libya, and _________.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Dane Geld", 
+    "incorrectAnswers": [
+      "War Bond", 
+      "Sax Bandeg", 
+      "Guerre Levy"
+    ], 
+    "question": "What Was The 9th Century Tax Levied To Fight The Vikings?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Belgium", 
+    "incorrectAnswers": [
+      "The Netherlands", 
+      "France", 
+      "Scotland"
+    ], 
+    "question": "In what country is the waterloo battlefield?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Tanzania", 
+    "incorrectAnswers": [
+      "Uganda", 
+      "Zambia", 
+      "Kenya"
+    ], 
+    "question": "Which country did Idi Amin invade in 1979?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Royal Family", 
+    "incorrectAnswers": [
+      "The Kardashians", 
+      "The Osmonds", 
+      "The Gibbs"
+    ], 
+    "question": "In 1969 Richard Cawston Made A Documentary For The BBC About Which Famous Family?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "New Zealand", 
+    "incorrectAnswers": [
+      "France", 
+      "Switzerland", 
+      "Canada"
+    ], 
+    "question": "In 1893, which country was the first to give women the vote?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Nine", 
+    "incorrectAnswers": [
+      "One", 
+      "Two", 
+      "Six"
+    ], 
+    "question": "How Many Crusades Were There?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Aqueduct", 
+    "incorrectAnswers": [
+      "Canal", 
+      "Forum", 
+      "Arena"
+    ], 
+    "question": "What did the Romans build to convey water? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Crimean", 
+    "incorrectAnswers": [
+      "World War I", 
+      "World War II", 
+      "Russian Civil War"
+    ], 
+    "question": "The Charge Of The Light Brigade Occured During Which War", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Southampton", 
+    "incorrectAnswers": [
+      "Cardiff", 
+      "Portsmouth", 
+      "Plymouth"
+    ], 
+    "question": "Where Did The Mayflower Set Sail From In 1620?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1982", 
+    "incorrectAnswers": [
+      "1990", 
+      "1971", 
+      "1964"
+    ], 
+    "question": "In Which Year Did The Falklands Conflict Begin?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "William The Conqueror", 
+    "incorrectAnswers": [
+      "Henry VIII", 
+      "Victoria", 
+      "Albert the Great"
+    ], 
+    "question": "Who was crowned King of England at Westminster Abbey on Christmas day 1066?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Melmac", 
+    "incorrectAnswers": [
+      "Barnzac", 
+      "Tonzac", 
+      "Fardac"
+    ], 
+    "question": "What planet was 'ALF' from?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Catherine Of Aragon", 
+    "incorrectAnswers": [
+      "Anne Boleyn", 
+      "Anne Howard", 
+      "Catherine Parr"
+    ], 
+    "question": "Who Was The 1st wife of henry VIII? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Bill Withers", 
+    "incorrectAnswers": [
+      "Michael Jackson", 
+      "Luther Vandross", 
+      "Marvin Gaye"
+    ], 
+    "question": "Who Had An 80's Hit With The Song 'Just The Two of Us,'? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "160", 
+    "incorrectAnswers": [
+      "0", 
+      "50", 
+      "300"
+    ], 
+    "question": "Approximately how many children did pharaoh Ramses II father?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Persia\u00a0", 
+    "incorrectAnswers": [
+      "Parthia", 
+      "Mesopotamia", 
+      "Assyria"
+    ], 
+    "question": "Prior to 1935 what was Iran known as?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Oliver Cromwell", 
+    "incorrectAnswers": [
+      "Henry VIII", 
+      "Francis Drake", 
+      "Elizabeth I"
+    ], 
+    "question": "Who banned Christmas in Britain in 1647?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Lady Godiva", 
+    "incorrectAnswers": [
+      "Lady Gaga", 
+      "Lady Geronimo", 
+      "Lady Galebe"
+    ], 
+    "question": "Who is famous for historically riding naked on horseback through Coventry, England?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Chucky", 
+    "incorrectAnswers": [
+      "Freddie Kruger", 
+      "Michael Myers", 
+      "Leatherface"
+    ], 
+    "question": "Which Scary Movie Character Has The real name Charles Lee Ray?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Khrushchev", 
+    "incorrectAnswers": [
+      "Putin", 
+      "Gorbachev", 
+      "Lenin"
+    ], 
+    "question": "In 1953, Stalin Died. Who ultimately succeeded him as the leader of the Soviet Union?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Aristotle", 
+    "incorrectAnswers": [
+      "Plato", 
+      "Socrates", 
+      "Diogenes"
+    ], 
+    "question": "Who taught Alexander the Great? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Melmac", 
+    "incorrectAnswers": [
+      "Barnzac", 
+      "Tonzac", 
+      "Fardac"
+    ], 
+    "question": "What planet was 'ALF' from?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Catherine Of Aragon", 
+    "incorrectAnswers": [
+      "Anne Boleyn", 
+      "Anne Howard", 
+      "Catherine Parr"
+    ], 
+    "question": "Who Was The 1st wife of henry VIII? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Romania", 
+    "incorrectAnswers": [
+      "Poland", 
+      "Bulgaria", 
+      "Turkey"
+    ], 
+    "question": "Germany's allies in WW II were Japan, Italy, Hungary, Bulgaria, Finland, Libya, and _________.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1431", 
+    "incorrectAnswers": [
+      "1213", 
+      "1390", 
+      "1344"
+    ], 
+    "question": "In Which Year Was Joan Of Arc Burned At The Stake?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Iceni", 
+    "incorrectAnswers": [
+      "Gangani", 
+      "Cassi", 
+      "Brigantes"
+    ], 
+    "question": "Of What Tribe Was Boadicea The Head?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1982", 
+    "incorrectAnswers": [
+      "1990", 
+      "1971", 
+      "1964"
+    ], 
+    "question": "In Which Year Did The Falklands Conflict Begin?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Jim Jones", 
+    "incorrectAnswers": [
+      "John Jackson", 
+      "John Jones", 
+      "Jim Jackson"
+    ], 
+    "question": "Who led 900 followers in a mass suicide in 1979?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Nikita Khrushchev ", 
+    "incorrectAnswers": [
+      "Boris Yeltsin", 
+      "Vlademir Putin", 
+      "Joseph Stalin"
+    ], 
+    "question": "Who gave John F. Kennedy a dog named Pushinka? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Cuba", 
+    "incorrectAnswers": [
+      "Puerto Rico", 
+      "Mexico", 
+      "The Bahamas"
+    ], 
+    "question": "Spain ceded Florida to Britain in exchange for this territory.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Falklands War", 
+    "incorrectAnswers": [
+      "The Irish War", 
+      "The Vietnam War", 
+      "The Gibraltan War"
+    ], 
+    "question": "Which War Involving The UK Began In 1982?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Chucky", 
+    "incorrectAnswers": [
+      "Freddie Kruger", 
+      "Michael Myers", 
+      "Leatherface"
+    ], 
+    "question": "Which Scary Movie Character Has The real name Charles Lee Ray?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Malcolm X", 
+    "incorrectAnswers": [
+      "Martin Luther King", 
+      "John F Kennedy", 
+      "Lee Harvey Oswald"
+    ], 
+    "question": "Who was assassinated on Feb. 21, 1965?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Jarrow March", 
+    "incorrectAnswers": [
+      "The Swing Riots", 
+      "Tolpuddle Martyrs", 
+      "The Chartists"
+    ], 
+    "question": "What famous protest took place in Britain in 1936?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Jarrow March", 
+    "incorrectAnswers": [
+      "The Swing Riots", 
+      "Tolpuddle Martyrs", 
+      "The Chartists"
+    ], 
+    "question": "What famous protest took place in Britain in 1936?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Alaska", 
+    "incorrectAnswers": [
+      "Hawaii", 
+      "Puerto Rico", 
+      "New Mexico"
+    ], 
+    "question": "In America, what became the 49th state to enter the union in 1959?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Bill Withers", 
+    "incorrectAnswers": [
+      "Michael Jackson", 
+      "Luther Vandross", 
+      "Marvin Gaye"
+    ], 
+    "question": "Who Had An 80's Hit With The Song 'Just The Two of Us,'? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Melmac", 
+    "incorrectAnswers": [
+      "Barnzac", 
+      "Tonzac", 
+      "Fardac"
+    ], 
+    "question": "What planet was 'ALF' from?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1533", 
+    "incorrectAnswers": [
+      "1633", 
+      "1733", 
+      "1433"
+    ], 
+    "question": "In What Year Was Queen Elizabeth The I Born?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Aristotle", 
+    "incorrectAnswers": [
+      "Plato", 
+      "Socrates", 
+      "Diogenes"
+    ], 
+    "question": "Who taught Alexander the Great? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "India", 
+    "incorrectAnswers": [
+      "Brazil", 
+      "China", 
+      "Indonesia"
+    ], 
+    "question": "In what country did \"Sepoy Mutiny\" occur? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Sandwich Islands", 
+    "incorrectAnswers": [
+      "James Islands", 
+      "Victoria Islands", 
+      "Brittania Islands"
+    ], 
+    "question": "When Cook Discovered The Hawaiian Islands What Did He Name Them?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Dallas", 
+    "incorrectAnswers": [
+      "Atlanta", 
+      "Austin", 
+      "Houston"
+    ], 
+    "question": "In Which City Was John F Kennedy Assassinated?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Italy", 
+    "incorrectAnswers": [
+      "Spain", 
+      "Germany", 
+      "France"
+    ], 
+    "question": "What country did the allies invade in World War II's Operation Avalanche? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Charles II", 
+    "incorrectAnswers": [
+      "Henry VIII", 
+      "James II", 
+      "Elizabeth I"
+    ], 
+    "question": "During Which King's Reign Did The Great Fire Of London Occur?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Concorde", 
+    "incorrectAnswers": [
+      "The Channel Tunnel", 
+      "Eurostar", 
+      "An animal cloning plant"
+    ], 
+    "question": "In 1962, for what did Britain and France sign an agreement to build together?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Alaska", 
+    "incorrectAnswers": [
+      "Hawaii", 
+      "Puerto Rico", 
+      "New Mexico"
+    ], 
+    "question": "In America, what became the 49th state to enter the union in 1959?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Franklin Roosevelt", 
+    "incorrectAnswers": [
+      "Dwight Eisenhower", 
+      "Lyndon B. Johnson", 
+      "Harry Truman"
+    ], 
+    "question": "Who Was President Of The USA At The Outbreak Of World War II?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Iceni", 
+    "incorrectAnswers": [
+      "Gangani", 
+      "Cassi", 
+      "Brigantes"
+    ], 
+    "question": "Of What Tribe Was Boadicea The Head?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Neville Chamberlain", 
+    "incorrectAnswers": [
+      "Winston Churchill", 
+      "Anthony Eden", 
+      "Clement Atlee"
+    ], 
+    "question": "Who was the British Prime Minister at the outbreak of the Second World War?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Henry VIII", 
+    "incorrectAnswers": [
+      "George I", 
+      "Henry VI", 
+      "Richard III", 
+      "Charles II"
+    ], 
+    "question": "Who was the father of Elizabeth I?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Concorde", 
+    "incorrectAnswers": [
+      "The Channel Tunnel", 
+      "Eurostar", 
+      "An animal cloning plant"
+    ], 
+    "question": "In 1962, for what did Britain and France sign an agreement to build together?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "India", 
+    "incorrectAnswers": [
+      "Brazil", 
+      "China", 
+      "Indonesia"
+    ], 
+    "question": "In what country did \"Sepoy Mutiny\" occur? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Dallas", 
+    "incorrectAnswers": [
+      "Atlanta", 
+      "Austin", 
+      "Houston"
+    ], 
+    "question": "In Which City Was John F Kennedy Assassinated?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Four Years", 
+    "incorrectAnswers": [
+      "One Year", 
+      "Nine Years", 
+      "Seven Years"
+    ], 
+    "question": "How Long Was The American Civil War?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Southampton", 
+    "incorrectAnswers": [
+      "Cardiff", 
+      "Portsmouth", 
+      "Plymouth"
+    ], 
+    "question": "Where Did The Mayflower Set Sail From In 1620?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Capricorn", 
+    "incorrectAnswers": [
+      "Gemini", 
+      "Aries", 
+      "Scorpio"
+    ], 
+    "question": "If you were born on Christmas Day, what would your star sign be?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Dean Martin", 
+    "incorrectAnswers": [
+      "Steve Martin", 
+      "Tim Allen", 
+      "James Wood"
+    ], 
+    "question": "Famed as a member of the Rat Pack, who died on Christmas day 1995?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Raoul", 
+    "incorrectAnswers": [
+      "Pedro", 
+      "Mikel", 
+      "Sergio"
+    ], 
+    "question": "What's fidel castro's brother's name? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Rome", 
+    "incorrectAnswers": [
+      "Athens", 
+      "Beijing", 
+      "Bagdhad"
+    ], 
+    "question": "What city was founded in 753 BC?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Jarrow March", 
+    "incorrectAnswers": [
+      "The Swing Riots", 
+      "Tolpuddle Martyrs", 
+      "The Chartists"
+    ], 
+    "question": "What famous protest took place in Britain in 1936?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Auckland", 
+    "incorrectAnswers": [
+      "Christchurch", 
+      "Adelaide", 
+      "Brisbane"
+    ], 
+    "question": "In the harbour of which city was the Greenpeace flagship Rainbow Warrior sunk in 1985?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "President John F. Kennedy", 
+    "incorrectAnswers": [
+      "Lee Harvey Oswald", 
+      "John Lennon", 
+      "Mahatma Gandhi"
+    ], 
+    "question": "Who was assassinated on November 22, 1963 in Dallas, Texas?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Louis XVI", 
+    "incorrectAnswers": [
+      "Louis XIV", 
+      "Charles IX", 
+      "Charles XII"
+    ], 
+    "question": "Which King Was Overthrown As A Result Of The French Revolution?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1431", 
+    "incorrectAnswers": [
+      "1213", 
+      "1390", 
+      "1344"
+    ], 
+    "question": "In Which Year Was Joan Of Arc Burned At The Stake?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Charles II", 
+    "incorrectAnswers": [
+      "Henry VIII", 
+      "James II", 
+      "Elizabeth I"
+    ], 
+    "question": "During Which King's Reign Did The Great Fire Of London Occur?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Catherine Of Aragon", 
+    "incorrectAnswers": [
+      "Anne Boleyn", 
+      "Anne Howard", 
+      "Catherine Parr"
+    ], 
+    "question": "Who Was The 1st wife of henry VIII? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Southampton", 
+    "incorrectAnswers": [
+      "Cardiff", 
+      "Portsmouth", 
+      "Plymouth"
+    ], 
+    "question": "Where Did The Mayflower Set Sail From In 1620?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "John Lennon ", 
+    "incorrectAnswers": [
+      "Malcolm X", 
+      "John F Kennedy", 
+      "Martin Luther King"
+    ], 
+    "question": "Who was assassinated on Dec. 8, 1980 in New York City? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Concorde", 
+    "incorrectAnswers": [
+      "The Channel Tunnel", 
+      "Eurostar", 
+      "An animal cloning plant"
+    ], 
+    "question": "In 1962, for what did Britain and France sign an agreement to build together?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Anthony Blunt", 
+    "incorrectAnswers": [
+      "Frank Johnson", 
+      "Christopher Linberg", 
+      "Harold Walker"
+    ], 
+    "question": "In 1979 which English art historian was exposed as a one-time Soviet spy and stripped of his knighthood?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Auckland", 
+    "incorrectAnswers": [
+      "Christchurch", 
+      "Adelaide", 
+      "Brisbane"
+    ], 
+    "question": "In the harbour of which city was the Greenpeace flagship Rainbow Warrior sunk in 1985?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Raoul", 
+    "incorrectAnswers": [
+      "Pedro", 
+      "Mikel", 
+      "Sergio"
+    ], 
+    "question": "What's fidel castro's brother's name? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Raoul", 
+    "incorrectAnswers": [
+      "Pedro", 
+      "Mikel", 
+      "Sergio"
+    ], 
+    "question": "What's fidel castro's brother's name? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "1533", 
+    "incorrectAnswers": [
+      "1633", 
+      "1733", 
+      "1433"
+    ], 
+    "question": "In What Year Was Queen Elizabeth The I Born?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Buffalo soldiers", 
+    "incorrectAnswers": [
+      "Traitors", 
+      "Picketties", 
+      "Kwoquois"
+    ], 
+    "question": "What name did the indians give the black soldiers that were fighting against them in the late 1800's?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Amelia Earhart ", 
+    "incorrectAnswers": [
+      "Beryl Markham", 
+      "Mary Johnson", 
+      "Elise Du Pont"
+    ], 
+    "question": "Who Was The First Woman To Fly Solo Across The Atlantic Ocean? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Henry VIII", 
+    "incorrectAnswers": [
+      "George I", 
+      "Henry VI", 
+      "Richard III", 
+      "Charles II"
+    ], 
+    "question": "Who was the father of Elizabeth I?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "India", 
+    "incorrectAnswers": [
+      "Mexico", 
+      "China", 
+      "Brazil"
+    ], 
+    "question": "In what country did the \"Sepoy Mutiny\" occur?\"", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Germany", 
+    "incorrectAnswers": [
+      "Switzerland", 
+      "Denmark", 
+      "France"
+    ], 
+    "question": "Which country was first to operate an old age pension scheme?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Sir Walter Raleigh", 
+    "incorrectAnswers": [
+      "Sir Francis Drake", 
+      "James Cook", 
+      "Ernest Shackleton"
+    ], 
+    "question": "Who Brought Back Tobacco And Potatoes From The Americas?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Southampton", 
+    "incorrectAnswers": [
+      "Cardiff", 
+      "Portsmouth", 
+      "Plymouth"
+    ], 
+    "question": "Where Did The Mayflower Set Sail From In 1620?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Tibet", 
+    "incorrectAnswers": [
+      "Bhutan", 
+      "Nepal", 
+      "Mongolia"
+    ], 
+    "question": "Which country did China invade on Christmas day 1950", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Belgium", 
+    "incorrectAnswers": [
+      "The Netherlands", 
+      "France", 
+      "Scotland"
+    ], 
+    "question": "In what country is the waterloo battlefield?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Buffalo soldiers", 
+    "incorrectAnswers": [
+      "Traitors", 
+      "Picketties", 
+      "Kwoquois"
+    ], 
+    "question": "What name did the indians give the black soldiers that were fighting against them in the late 1800's?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Germany", 
+    "incorrectAnswers": [
+      "Switzerland", 
+      "Denmark", 
+      "France"
+    ], 
+    "question": "Which country was first to operate an old age pension scheme?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Louis XVI", 
+    "incorrectAnswers": [
+      "Louis XIII", 
+      "Charles VIII", 
+      "Charles XI"
+    ], 
+    "question": "Who Was Marie Antoinette's Husband?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Rome", 
+    "incorrectAnswers": [
+      "Athens", 
+      "Beijing", 
+      "Bagdhad"
+    ], 
+    "question": "What city was founded in 753 BC?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Waterloo", 
+    "incorrectAnswers": [
+      "Trafalgar", 
+      "Windsor", 
+      "Dover"
+    ], 
+    "question": "Where was Napoleon defeated?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Alexander the great", 
+    "incorrectAnswers": [
+      "Odysseus", 
+      "Romulus", 
+      "Remus"
+    ], 
+    "question": "His wife was Roxana. His horse was Bacephalus. He was ________.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Dallas", 
+    "incorrectAnswers": [
+      "Atlanta", 
+      "Austin", 
+      "Houston"
+    ], 
+    "question": "In Which City Was John F Kennedy Assassinated?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Yom Kippur war", 
+    "incorrectAnswers": [
+      "The Wailing War", 
+      "The Khartoum War", 
+      "The Hezbollah War"
+    ], 
+    "question": "Which famous Arab / Israeli war took place in 1973?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Prime Minister", 
+    "incorrectAnswers": [
+      "Chancellor of the Exchequer", 
+      "Minister for War", 
+      "Leader of the Opposition"
+    ], 
+    "question": "What Office Did Churchill Hold For The Longest Continous Period?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "India", 
+    "incorrectAnswers": [
+      "Brazil", 
+      "China", 
+      "Indonesia"
+    ], 
+    "question": "In what country did \"Sepoy Mutiny\" occur? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Lady Godiva", 
+    "incorrectAnswers": [
+      "Lady Gaga", 
+      "Lady Geronimo", 
+      "Lady Galebe"
+    ], 
+    "question": "Who is famous for historically riding naked on horseback through Coventry, England?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Italy", 
+    "incorrectAnswers": [
+      "Spain", 
+      "Germany", 
+      "France"
+    ], 
+    "question": "What country did the allies invade in World War II's Operation Avalanche? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Dane Geld", 
+    "incorrectAnswers": [
+      "War Bond", 
+      "Sax Bandeg", 
+      "Guerre Levy"
+    ], 
+    "question": "What Was The 9th Century Tax Levied To Fight The Vikings?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Hawaii", 
+    "incorrectAnswers": [
+      "Alaska", 
+      "Puerto Rico", 
+      "New Mexico"
+    ], 
+    "question": "What Became America's 50th State On August 21st 1959?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Waterloo", 
+    "incorrectAnswers": [
+      "Trafalgar", 
+      "Windsor", 
+      "Dover"
+    ], 
+    "question": "Where was Napoleon defeated?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Four Years", 
+    "incorrectAnswers": [
+      "One Year", 
+      "Nine Years", 
+      "Seven Years"
+    ], 
+    "question": "How Long Was The American Civil War?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Southampton", 
+    "incorrectAnswers": [
+      "Cardiff", 
+      "Portsmouth", 
+      "Plymouth"
+    ], 
+    "question": "Where Did The Mayflower Set Sail From In 1620?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Paris", 
+    "incorrectAnswers": [
+      "London", 
+      "Nanjing", 
+      "Amsterdam"
+    ], 
+    "question": "Which City Did The Allies Liberate On August 25th 1944?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "France", 
+    "incorrectAnswers": [
+      "Italy", 
+      "Russia", 
+      "Spain"
+    ], 
+    "question": "Where did the bayonet originate?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Harold Wilson", 
+    "incorrectAnswers": [
+      "Clement Atlee", 
+      "Anthony Eden", 
+      "Margaret Thatcher"
+    ], 
+    "question": "Who Was The British Prime Minister Between 1964 & 1969?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Yom Kippur war", 
+    "incorrectAnswers": [
+      "The Wailing War", 
+      "The Khartoum War", 
+      "The Hezbollah War"
+    ], 
+    "question": "Which famous Arab / Israeli war took place in 1973?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Hiroshima", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "Osaka", 
+      "Nagasaki"
+    ], 
+    "question": "On What Japanese City Was The First Atomic Bomb Dropped?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Sandwich Islands", 
+    "incorrectAnswers": [
+      "James Islands", 
+      "Victoria Islands", 
+      "Brittania Islands"
+    ], 
+    "question": "When Cook Discovered The Hawaiian Islands What Did He Name Them?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Rome", 
+    "incorrectAnswers": [
+      "Athens", 
+      "Beijing", 
+      "Bagdhad"
+    ], 
+    "question": "What city was founded in 753 BC?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Concorde", 
+    "incorrectAnswers": [
+      "The Channel Tunnel", 
+      "Eurostar", 
+      "An animal cloning plant"
+    ], 
+    "question": "In 1962, for what did Britain and France sign an agreement to build together?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Hawaii", 
+    "incorrectAnswers": [
+      "Alaska", 
+      "Puerto Rico", 
+      "New Mexico"
+    ], 
+    "question": "What Became America's 50th State On August 21st 1959?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "160", 
+    "incorrectAnswers": [
+      "0", 
+      "50", 
+      "300"
+    ], 
+    "question": "Approximately how many children did pharaoh Ramses II father?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Germany", 
+    "incorrectAnswers": [
+      "Korea", 
+      "Vietnam", 
+      "Ireland"
+    ], 
+    "question": "Which country was split into two zones by the Yalta agreement?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "John Lennon ", 
+    "incorrectAnswers": [
+      "Malcolm X", 
+      "John F Kennedy", 
+      "Martin Luther King"
+    ], 
+    "question": "Who was assassinated on Dec. 8, 1980 in New York City? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Persia\u00a0", 
+    "incorrectAnswers": [
+      "Parthia", 
+      "Mesopotamia", 
+      "Assyria"
+    ], 
+    "question": "Prior to 1935 what was Iran known as?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Charles I", 
+    "incorrectAnswers": [
+      "Louis XIV", 
+      "Louis XVI", 
+      "Charles III"
+    ], 
+    "question": "Which King Wore Two Shirts At His Execution So As Not To Shiver And Appear Frightened?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Babylon", 
+    "incorrectAnswers": [
+      "Atlantis", 
+      "Jerusalem", 
+      "Scythia"
+    ], 
+    "question": "Where were the Hanging Gardens?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "President John F. Kennedy", 
+    "incorrectAnswers": [
+      "Lee Harvey Oswald", 
+      "John Lennon", 
+      "Mahatma Gandhi"
+    ], 
+    "question": "Who was assassinated on November 22, 1963 in Dallas, Texas?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Southampton", 
+    "incorrectAnswers": [
+      "Cardiff", 
+      "Portsmouth", 
+      "Plymouth"
+    ], 
+    "question": "Where Did The Mayflower Set Sail From In 1620?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Submarine", 
+    "incorrectAnswers": [
+      "The Torpedo", 
+      "TNT", 
+      "The Tank"
+    ], 
+    "question": "Designed By Robert Fulton, Which Weapon Was Tested In The Seine In 1801?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Rome", 
+    "incorrectAnswers": [
+      "Athens", 
+      "Beijing", 
+      "Bagdhad"
+    ], 
+    "question": "What city was founded in 753 BC?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Mayflower", 
+    "incorrectAnswers": [
+      "The Mary Rose", 
+      "The Santa Maria", 
+      "HMS Victory"
+    ], 
+    "question": "Of which ship was Miles Standish captain?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "The Lord Of The Rings", 
+    "incorrectAnswers": [
+      "The Matrix", 
+      "The Godfather", 
+      "Jurassic Park"
+    ], 
+    "question": "Peter Jackson Is Responsible For Directing Which Famous Trilogy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "Sandwich Islands", 
+    "incorrectAnswers": [
+      "James Islands", 
+      "Victoria Islands", 
+      "Brittania Islands"
+    ], 
+    "question": "When Cook Discovered The Hawaiian Islands What Did He Name Them?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "History", 
+    "correctAnswer": "John Lennon ", 
+    "incorrectAnswers": [
+      "Malcolm X", 
+      "John F Kennedy", 
+      "Martin Luther King"
+    ], 
+    "question": "Who was assassinated on Dec. 8, 1980 in New York City? ", 
+    "type": "Multiple Choice"
+  }
+]

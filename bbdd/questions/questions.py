@@ -1,10 +1,11 @@
 '''
-Modulo para leer el JSON de la preguntas
-De momento solo es un ejemplo
+Modulo para insertar las preguntas en la BBDD
+Lee los json de preguntas del directorio 'json'
+y los inserta en la bbdd
 '''
 import json
 import mysql.connector
-
+import os
 #Clase para almacenar las preguntas
 class Pregunta:
   def __init__(self, enunciado, categoria, correcta, incorrecta1, incorrecta2, incorrecta3):
@@ -16,42 +17,64 @@ class Pregunta:
     self.incorrecta3 = incorrecta3
 
 
-
+data = []
+archivos = []
 #Cargar archivo JSON
-with open('questions.json', "r", encoding="utf-8") as f:
-  data = json.load(f)
+directory = r'json'
+for filename in os.listdir(directory):
+    if filename.endswith(".json"):
+        file=os.path.join(directory, filename)
+        
+        with open(file, "r", encoding="utf-8") as f:
+          data = json.load(f)
+          archivos.append(data)
+
+
+
+
+
+
+print(len(archivos))
+
 
 
 res = []
 preguntas = []
 categorias = []
 
-#Guardar preguntas
-for pregunta in data:
-
-  #Añadir categorias
-  if pregunta['category'] not in categorias:
-    categorias.append(pregunta['category'])
-
-  #Eliminar preguntas repetidas y guardar en vector de Preguntas
-  if pregunta['question'] not in res:
-    
-    res.append(pregunta['question'])
-
-    incorrectas = pregunta['incorrectAnswers']
-
-    if len(incorrectas) > 2 and pregunta['type'] == "Multiple Choice":    #Preguntas con al menos 4 respuestas
-
-      enunciado = pregunta['question']
-      categoria = pregunta['category']
-      correcta = pregunta['correctAnswer']
-    
-      #Guardar pregunta
-      preguntas.append(Pregunta(enunciado, categoria, correcta, 
-                                incorrectas[0], incorrectas[1], incorrectas[2]))
+for data in archivos:
 
 
+  #Guardar preguntas
+  for pregunta in data:
 
+    #Añadir categorias
+    if pregunta['category'] not in categorias:
+      categorias.append(pregunta['category'])
+
+    #Eliminar preguntas repetidas y guardar en vector de Preguntas
+    if pregunta['question'] not in res:
+      
+      res.append(pregunta['question'])
+
+      incorrectas = pregunta['incorrectAnswers']
+
+      if len(incorrectas) > 2 and pregunta['type'] == "Multiple Choice":    #Preguntas con al menos 4 respuestas
+
+        enunciado = pregunta['question']
+        categoria = pregunta['category']
+        correcta = pregunta['correctAnswer']
+      
+        #Guardar pregunta
+        preguntas.append(Pregunta(enunciado, categoria, correcta, 
+                                  incorrectas[0], incorrectas[1], incorrectas[2]))
+
+
+
+
+print(len(preguntas))
+
+'''
 #Insertar
 mydb = mysql.connector.connect(
   host="eu-cdbr-west-03.cleardb.net",
@@ -71,3 +94,4 @@ for pregunta in preguntas:
 
 mydb.commit()
 mydb.close()
+'''

@@ -1,0 +1,5038 @@
+[
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "The country of Dominica is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Slovenia", 
+    "incorrectAnswers": [
+      "Croatia", 
+      "Monaco", 
+      "Liechtenstein", 
+      "Bosnia and Herzegovina", 
+      "Montenegro", 
+      "Albania", 
+      "Hungary", 
+      "Czech Republic", 
+      "Serbia", 
+      "Tunisia", 
+      "Germany", 
+      "North Macedonia", 
+      "Luxembourg", 
+      "Slovakia", 
+      "Andorra"
+    ], 
+    "question": "Italy shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Austria", 
+    "incorrectAnswers": [
+      "Croatia", 
+      "San Marino", 
+      "Bosnia and Herzegovina", 
+      "Romania", 
+      "Poland"
+    ], 
+    "question": "Which country borders Italy, Switzerland, Germany, Czech Republic, Hungary, Slovenia, and Liechtenstein?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Brussels-Capital Region", 
+    "incorrectAnswers": [
+      "Brussels", 
+      "Antwerp", 
+      "Ghent", 
+      "Li\u00e8ge", 
+      "Bruges", 
+      "Leuven", 
+      "Mechelen", 
+      "Schaerbeek", 
+      "Anderlecht", 
+      "Namur"
+    ], 
+    "question": "Which city used to be called Province of Brabant?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Togo is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Mauritania", 
+    "incorrectAnswers": [
+      "Spain", 
+      "Andorra", 
+      "Portugal", 
+      "Malta", 
+      "Burkina Faso", 
+      "Monaco", 
+      "Italy", 
+      "France", 
+      "Benin", 
+      "San Marino", 
+      "Togo", 
+      "Ghana", 
+      "Switzerland", 
+      "Nigeria"
+    ], 
+    "question": "Algeria shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Florida", 
+    "incorrectAnswers": [
+      "Kansas", 
+      "Texas", 
+      "California"
+    ], 
+    "question": "Which American state's name is Spanish for \"flowered\" or \"flowery land\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Federated States of Micronesia is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Guinea", 
+    "incorrectAnswers": [
+      "Guinea-Bissau", 
+      "The Gambia", 
+      "Senegal", 
+      "Ghana", 
+      "Burkina Faso", 
+      "Togo", 
+      "Mali", 
+      "Benin", 
+      "Mauritania", 
+      "Cape Verde", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Nigeria", 
+      "Equatorial Guinea", 
+      "Cameroon", 
+      "Niger", 
+      "Gabon", 
+      "Algeria"
+    ], 
+    "question": "Liberia shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "Africa", 
+      "South America", 
+      "North America"
+    ], 
+    "question": "In which continent would you find the Yellow river?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Shimonoseki", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Katsuyama' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "On which continent would you find the country of Saint Lucia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Palau", 
+    "incorrectAnswers": [
+      "Brunei", 
+      "Vietnam", 
+      "Cambodia", 
+      "Laos", 
+      "East Timor", 
+      "Singapore", 
+      "Thailand", 
+      "South Korea", 
+      "Japan", 
+      "North Korea", 
+      "Myanmar", 
+      "Papua New Guinea", 
+      "People's Republic of China", 
+      "Bangladesh", 
+      "Federated States of Micronesia", 
+      "Bhutan", 
+      "Mongolia"
+    ], 
+    "question": "Which of these countries borders Philippines?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Venice", 
+    "incorrectAnswers": [
+      "Rome", 
+      "Milan", 
+      "Naples", 
+      "Florence", 
+      "Turin", 
+      "Genoa", 
+      "Bologna", 
+      "Palermo"
+    ], 
+    "question": "In which city is the Bridge of Sighs?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kajaani", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "Which city used to be called Vuolijoki?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "On which continent would you find the country of Grenada?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Colombia", 
+    "incorrectAnswers": [
+      "Trinidad and Tobago", 
+      "Chile", 
+      "Grenada", 
+      "Barbados", 
+      "Ecuador", 
+      "Saint Vincent and the Grenadines", 
+      "Saint Lucia", 
+      "Dominica", 
+      "Antigua and Barbuda", 
+      "Saint Kitts and Nevis", 
+      "Panama"
+    ], 
+    "question": "Which of these countries borders Brazil?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Brussels", 
+    "incorrectAnswers": [
+      "Antwerp", 
+      "Ghent", 
+      "Li\u00e8ge", 
+      "Bruges", 
+      "Leuven", 
+      "Mechelen", 
+      "Schaerbeek", 
+      "Brussels-Capital Region"
+    ], 
+    "question": "What is the capital of Belgium?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Hachi\u014dji", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Yugi' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Turkmenistan is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Namibia", 
+    "incorrectAnswers": [
+      "Lesotho", 
+      "Eswatini", 
+      "Angola", 
+      "Mozambique", 
+      "Malawi", 
+      "Democratic Republic of the Congo", 
+      "Tanzania", 
+      "Burundi", 
+      "Rwanda", 
+      "Comoros", 
+      "Republic of the Congo", 
+      "Madagascar", 
+      "Gabon", 
+      "Uganda", 
+      "Kenya", 
+      "Equatorial Guinea"
+    ], 
+    "question": "Botswana shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Luanda", 
+    "incorrectAnswers": [
+      "Brazzaville", 
+      "Nairobi", 
+      "Dakar"
+    ], 
+    "question": "What is the capital of Angola?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Matsumoto", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Satoyamabe' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "On which continent would you find the country of Barbados?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Austria", 
+    "incorrectAnswers": [
+      "Monaco", 
+      "Luxembourg", 
+      "San Marino", 
+      "Belgium", 
+      "Kingdom of the Netherlands", 
+      "Slovenia", 
+      "Croatia", 
+      "Andorra", 
+      "Czech Republic", 
+      "Denmark", 
+      "Bosnia and Herzegovina", 
+      "Hungary", 
+      "Montenegro", 
+      "Poland", 
+      "Slovakia"
+    ], 
+    "question": "Which of these countries borders Switzerland?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Pacific Ocean", 
+    "incorrectAnswers": [
+      "Indian Ocean", 
+      "Atlantic Ocean", 
+      "Mediterranean Sea"
+    ], 
+    "question": "The Philippines is an archipelago of 7,107 islands in the ________________", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kaliningrad", 
+    "incorrectAnswers": [
+      "Moscow", 
+      "Saint Petersburg", 
+      "Kazan", 
+      "Yekaterinburg", 
+      "Ufa", 
+      "Rostov-on-Don", 
+      "Nizhny Novgorod", 
+      "Novosibirsk", 
+      "Saratov", 
+      "Voronezh"
+    ], 
+    "question": "'K\u00f6nigsberg' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Lesotho is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Montenegro", 
+    "incorrectAnswers": [
+      "Bosnia and Herzegovina", 
+      "Bulgaria", 
+      "Hungary", 
+      "Croatia", 
+      "Romania", 
+      "Slovenia", 
+      "Malta", 
+      "Italy", 
+      "Slovakia", 
+      "San Marino", 
+      "Austria", 
+      "Czech Republic", 
+      "Moldova", 
+      "Poland", 
+      "Liechtenstein", 
+      "Tunisia"
+    ], 
+    "question": "Which of these countries borders Albania?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Devon\u00a0", 
+    "incorrectAnswers": [
+      "Sussex", 
+      "Cornwall", 
+      "Dorset"
+    ], 
+    "question": "In which English county is Dartmoor?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "N\u00eemes", 
+    "incorrectAnswers": [
+      "Paris", 
+      "Strasbourg", 
+      "Lyon", 
+      "Nantes", 
+      "Marseille", 
+      "Toulouse", 
+      "Nice", 
+      "Montpellier", 
+      "Bordeaux", 
+      "Rennes"
+    ], 
+    "question": "'Nemausus' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Maldives?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Philippines", 
+    "incorrectAnswers": [
+      "Papua New Guinea", 
+      "East Timor", 
+      "Brunei", 
+      "Malaysia", 
+      "Japan", 
+      "Vietnam", 
+      "South Korea", 
+      "Cambodia", 
+      "Solomon Islands", 
+      "Singapore", 
+      "Laos", 
+      "Nauru", 
+      "North Korea", 
+      "Thailand", 
+      "Australia", 
+      "Marshall Islands", 
+      "Kiribati"
+    ], 
+    "question": "Palau shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Rhode Island\u00a0", 
+    "incorrectAnswers": [
+      "Hawaii", 
+      "Maine", 
+      "Vermont"
+    ], 
+    "question": "Which Is The Smallest State In The USA? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Ichikawa", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Gy\u014dtoku?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Nauru?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Tanzania", 
+    "incorrectAnswers": [
+      "Malawi", 
+      "Kenya", 
+      "Mauritius", 
+      "Zimbabwe", 
+      "Zambia", 
+      "Burundi", 
+      "Rwanda", 
+      "Uganda", 
+      "Somalia", 
+      "Eswatini", 
+      "Ethiopia", 
+      "Democratic Republic of the Congo", 
+      "Botswana", 
+      "Lesotho", 
+      "South Sudan", 
+      "Djibouti"
+    ], 
+    "question": "Which of these countries borders Comoros?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Antarctica", 
+    "incorrectAnswers": [
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "______________ is the only continent without reptiles or snakes", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Alavus", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "'T\u00f6ys\u00e4' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "The country of Saint Kitts and Nevis is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Togo", 
+    "incorrectAnswers": [
+      "Ghana", 
+      "Ivory Coast", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Cameroon", 
+      "Mali", 
+      "Equatorial Guinea", 
+      "Liberia", 
+      "Guinea", 
+      "Gabon", 
+      "Sierra Leone", 
+      "Republic of the Congo", 
+      "Senegal", 
+      "Guinea-Bissau", 
+      "Mauritania", 
+      "The Gambia", 
+      "Chad"
+    ], 
+    "question": "Benin shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "El salvador", 
+    "incorrectAnswers": [
+      "Honduras", 
+      "Guatemala", 
+      "Belize", 
+      "Nicaragua", 
+      "Costa Rica", 
+      "Panama"
+    ], 
+    "question": "Name the only Central American country without an Atlantic coastline.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Vaasa", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "'V\u00e4h\u00e4kyr\u00f6' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "The country of Nauru is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Rwanda", 
+    "incorrectAnswers": [
+      "Gabon", 
+      "Equatorial Guinea", 
+      "Malawi", 
+      "Kenya", 
+      "Zimbabwe", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Chad", 
+      "Botswana", 
+      "Nigeria", 
+      "Mozambique"
+    ], 
+    "question": "Which of these countries borders Democratic Republic of the Congo?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Greenland\u00a0", 
+    "incorrectAnswers": [
+      "New Guinea", 
+      "Iceland", 
+      "Madagascar"
+    ], 
+    "question": "Name the largest island in the world.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Okayama", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Makiishi?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Comoros?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Guatemala", 
+    "incorrectAnswers": [
+      "El Salvador", 
+      "Honduras", 
+      "Nicaragua", 
+      "Costa Rica", 
+      "Cuba", 
+      "Jamaica", 
+      "The Bahamas", 
+      "Panama", 
+      "Haiti", 
+      "Dominican Republic", 
+      "Canada", 
+      "Colombia", 
+      "Ecuador", 
+      "Venezuela", 
+      "Saint Kitts and Nevis", 
+      "Antigua and Barbuda", 
+      "Dominica"
+    ], 
+    "question": "Which of these countries borders Mexico?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Russia\u00a0", 
+    "incorrectAnswers": [
+      "Austria", 
+      "Switzerland", 
+      "Norway"
+    ], 
+    "question": "In Which Country Is Europe's Highest Mountain Mt Elbrus?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Okazaki", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Mishima?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "Belize is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Honduras", 
+    "incorrectAnswers": [
+      "El Salvador", 
+      "Belize", 
+      "Guatemala", 
+      "Panama", 
+      "Jamaica", 
+      "Cuba", 
+      "Haiti", 
+      "The Bahamas", 
+      "Ecuador", 
+      "Dominican Republic", 
+      "Venezuela", 
+      "Mexico", 
+      "Saint Kitts and Nevis", 
+      "Grenada", 
+      "Antigua and Barbuda", 
+      "Trinidad and Tobago", 
+      "Saint Vincent and the Grenadines"
+    ], 
+    "question": "Nicaragua shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Venice\u00a0", 
+    "incorrectAnswers": [
+      "Rome", 
+      "Beijing", 
+      "Ulaanbaatar"
+    ], 
+    "question": "In Which City Is Marco Polo Airport?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Istanbul", 
+    "incorrectAnswers": [
+      "Ankara", 
+      "\u0130zmir", 
+      "Bursa", 
+      "Edirne", 
+      "Trabzon", 
+      "Adana", 
+      "Sivas", 
+      "Antalya", 
+      "Konya", 
+      "Kayseri"
+    ], 
+    "question": "'Constantinople' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Tuvalu is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Palau", 
+    "incorrectAnswers": [
+      "Brunei", 
+      "Cambodia", 
+      "Laos", 
+      "Myanmar", 
+      "Sri Lanka", 
+      "Bangladesh", 
+      "South Korea", 
+      "Bhutan", 
+      "People's Republic of China", 
+      "Japan", 
+      "Federated States of Micronesia"
+    ], 
+    "question": "Which of these countries borders Indonesia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Israel", 
+    "incorrectAnswers": [
+      "Jordan", 
+      "Lebanon", 
+      "Cyprus", 
+      "Syria", 
+      "Egypt", 
+      "Turkey", 
+      "Iraq", 
+      "Saudi Arabia"
+    ], 
+    "question": "____________ is one_quarter the size of the state of Maine.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Ichinomiya", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Oku?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Lesotho?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Sudan", 
+    "incorrectAnswers": [
+      "South Sudan", 
+      "Egypt", 
+      "Republic of the Congo", 
+      "Equatorial Guinea", 
+      "Gabon", 
+      "Benin", 
+      "Democratic Republic of the Congo", 
+      "Eritrea", 
+      "Uganda", 
+      "Togo", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Rwanda", 
+      "Tunisia", 
+      "Malta"
+    ], 
+    "question": "Chad shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Danish", 
+    "incorrectAnswers": [
+      "Russian", 
+      "British", 
+      "Portuguese"
+    ], 
+    "question": "What Nationality Was The First European To Sail Through The Bering Strait?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Brunswick", 
+    "incorrectAnswers": [
+      "Berlin", 
+      "Munich", 
+      "Hamburg", 
+      "Leipzig", 
+      "Dresden", 
+      "Nuremberg", 
+      "Hanover", 
+      "Stuttgart", 
+      "Cologne", 
+      "Frankfurt am Main"
+    ], 
+    "question": "'Braunschweig' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "The country of Andorra is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Sudan", 
+    "incorrectAnswers": [
+      "Yemen", 
+      "Uganda", 
+      "Rwanda", 
+      "Saudi Arabia", 
+      "Tanzania", 
+      "Burundi", 
+      "Central African Republic", 
+      "Qatar", 
+      "Bahrain", 
+      "Democratic Republic of the Congo", 
+      "Seychelles", 
+      "Oman", 
+      "United Arab Emirates", 
+      "Egypt"
+    ], 
+    "question": "Ethiopia shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Lebanon", 
+    "incorrectAnswers": [
+      "Jordan", 
+      "Israel", 
+      "Cyprus", 
+      "Syria", 
+      "Turkey", 
+      "Iraq", 
+      "Egypt", 
+      "Armenia"
+    ], 
+    "question": "___________ is the only country in the Middle East that does not have a desert.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Shanghai", 
+    "incorrectAnswers": [
+      "Hong Kong", 
+      "Beijing", 
+      "Guangzhou", 
+      "Chongqing", 
+      "Tianjin", 
+      "Suzhou", 
+      "Nanjing", 
+      "Chengdu", 
+      "Harbin", 
+      "Wuhan"
+    ], 
+    "question": "Which city used to be called Shanqhae?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Togo is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Argentina", 
+    "incorrectAnswers": [
+      "Paraguay", 
+      "Chile", 
+      "Bolivia", 
+      "Peru", 
+      "Suriname", 
+      "Ecuador", 
+      "Guyana", 
+      "Colombia", 
+      "Venezuela", 
+      "Trinidad and Tobago", 
+      "Grenada", 
+      "Barbados", 
+      "Saint Vincent and the Grenadines", 
+      "Saint Lucia", 
+      "Panama", 
+      "Dominica", 
+      "Antigua and Barbuda", 
+      "Saint Kitts and Nevis"
+    ], 
+    "question": "Uruguay shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Niagara falls", 
+    "incorrectAnswers": [
+      "Lake Huron", 
+      "Yosemite", 
+      "Appalachian Mountains"
+    ], 
+    "question": "Which site in North America was named after the Mohawk Indian word meaning \"thunder of waters\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kitaky\u016bsh\u016b", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Tobata' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Togo is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Saudi Arabia", 
+    "incorrectAnswers": [
+      "Lebanon", 
+      "Armenia", 
+      "Israel", 
+      "Azerbaijan", 
+      "Georgia", 
+      "Cyprus", 
+      "Bahrain", 
+      "Qatar", 
+      "United Arab Emirates", 
+      "Egypt", 
+      "Turkmenistan", 
+      "Eritrea", 
+      "Yemen", 
+      "Oman"
+    ], 
+    "question": "Iraq shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Reykjavik", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Oslo", 
+      "Copenhagen"
+    ], 
+    "question": "What is the capital of Iceland?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Ichinomiya", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Oku' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "The country of S\u00e3o Tom\u00e9 and Pr\u00edncipe is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Malaysia", 
+    "incorrectAnswers": [
+      "Brunei", 
+      "Cambodia", 
+      "Laos", 
+      "Myanmar", 
+      "Sri Lanka", 
+      "Bangladesh", 
+      "South Korea", 
+      "Bhutan", 
+      "People's Republic of China", 
+      "Japan", 
+      "Federated States of Micronesia"
+    ], 
+    "question": "Which of these countries borders Indonesia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Jerusalem", 
+    "incorrectAnswers": [
+      "Paris", 
+      "Rome", 
+      "Istanbul"
+    ], 
+    "question": "The \"Old City\" of this location is divided into four quarters \u2014 a Christian quarter, a Muslim Quarter, a Jewish Quarter, and an Armenian Quarter.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Maebashi", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Haga' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "The country of Kiribati is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Argentina", 
+    "incorrectAnswers": [
+      "Trinidad and Tobago", 
+      "Chile", 
+      "Grenada", 
+      "Barbados", 
+      "Ecuador", 
+      "Saint Vincent and the Grenadines", 
+      "Saint Lucia", 
+      "Dominica", 
+      "Antigua and Barbuda", 
+      "Saint Kitts and Nevis", 
+      "Panama"
+    ], 
+    "question": "Which of these countries borders Brazil?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "China", 
+    "incorrectAnswers": [
+      "Greece", 
+      "Britain", 
+      "The USA"
+    ], 
+    "question": "In which country was natural gas first used as a form of energy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Lugano", 
+    "incorrectAnswers": [
+      "Z\u00fcrich", 
+      "Bern", 
+      "Geneva", 
+      "Basel", 
+      "Lausanne", 
+      "Winterthur", 
+      "Lucerne", 
+      "St. Gallen", 
+      "Fribourg", 
+      "Neuch\u00e2tel"
+    ], 
+    "question": "'Br\u00e8-Aldesago' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "South Korea", 
+    "incorrectAnswers": [
+      "North Korea", 
+      "Palau", 
+      "Vietnam", 
+      "Mongolia", 
+      "Federated States of Micronesia", 
+      "Laos", 
+      "Brunei", 
+      "Cambodia", 
+      "Thailand", 
+      "Indonesia", 
+      "Myanmar", 
+      "Malaysia", 
+      "Papua New Guinea", 
+      "Marshall Islands", 
+      "East Timor", 
+      "Bhutan", 
+      "Singapore"
+    ], 
+    "question": "Which of these countries borders Japan?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Mali\u00a0", 
+    "incorrectAnswers": [
+      "Mauritania", 
+      "Ethiopia", 
+      "Nigeria"
+    ], 
+    "question": "The Town Of Timbuktu Is In Which African Country?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Pieks\u00e4m\u00e4ki", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "'Pieks\u00e4nmaa' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "East Timor is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "People's Republic of China", 
+    "incorrectAnswers": [
+      "Bangladesh", 
+      "Nepal", 
+      "Myanmar", 
+      "Laos", 
+      "Thailand", 
+      "Pakistan", 
+      "Kyrgyzstan", 
+      "Cambodia", 
+      "Vietnam", 
+      "Tajikistan", 
+      "Sri Lanka", 
+      "Mongolia", 
+      "Afghanistan", 
+      "Uzbekistan", 
+      "Maldives", 
+      "Singapore", 
+      "Malaysia", 
+      "Kazakhstan"
+    ], 
+    "question": "Bhutan shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oahu", 
+    "incorrectAnswers": [
+      "Kauai", 
+      "Hawaii", 
+      "Maui"
+    ], 
+    "question": "On what island is Pearl Harbour?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Qingdao", 
+    "incorrectAnswers": [
+      "Hong Kong", 
+      "Beijing", 
+      "Shanghai", 
+      "Guangzhou", 
+      "Chongqing", 
+      "Tianjin", 
+      "Suzhou", 
+      "Nanjing", 
+      "Chengdu", 
+      "Harbin"
+    ], 
+    "question": "Which city used to be called Tsingtao?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "The country of Trinidad and Tobago is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "New Zealand", 
+    "incorrectAnswers": [
+      "Solomon Islands", 
+      "Vanuatu", 
+      "Palau", 
+      "Brunei", 
+      "Nauru", 
+      "Federated States of Micronesia", 
+      "Fiji", 
+      "Philippines", 
+      "Malaysia", 
+      "Singapore", 
+      "Tuvalu", 
+      "Kiribati", 
+      "Marshall Islands", 
+      "Cambodia", 
+      "Vietnam", 
+      "Thailand"
+    ], 
+    "question": "Which of these countries borders Australia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Devon\u00a0", 
+    "incorrectAnswers": [
+      "Sussex", 
+      "Cornwall", 
+      "Dorset"
+    ], 
+    "question": "In which English county is Dartmoor?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Sasebo", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Sakihario' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Comoros is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Republic of the Congo", 
+    "incorrectAnswers": [
+      "Botswana", 
+      "Zimbabwe", 
+      "Burundi", 
+      "Equatorial Guinea", 
+      "Rwanda", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Malawi", 
+      "South Africa", 
+      "Tanzania", 
+      "Mozambique", 
+      "Central African Republic", 
+      "Eswatini", 
+      "Cameroon", 
+      "Uganda", 
+      "Lesotho"
+    ], 
+    "question": "Which of these countries borders Angola?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Dominican Republic", 
+    "incorrectAnswers": [
+      "Haiti", 
+      "Jamaica", 
+      "Saint Kitts and Nevis", 
+      "The Bahamas", 
+      "Antigua and Barbuda", 
+      "Dominica", 
+      "Cuba", 
+      "Saint Lucia"
+    ], 
+    "question": "What country is Santo Domingo the capital of?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Hamina", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "'Vehkalahti' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of San Marino?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Slovakia", 
+    "incorrectAnswers": [
+      "Croatia", 
+      "San Marino", 
+      "Bosnia and Herzegovina", 
+      "Poland", 
+      "Montenegro", 
+      "Monaco", 
+      "Serbia", 
+      "Luxembourg", 
+      "Denmark", 
+      "Albania", 
+      "Belgium", 
+      "North Macedonia"
+    ], 
+    "question": "Which of these countries borders Austria?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Thailand", 
+    "incorrectAnswers": [
+      "Cambodia", 
+      "Laos", 
+      "Vietnam", 
+      "Myanmar", 
+      "Singapore", 
+      "Malaysia", 
+      "Bangladesh", 
+      "Brunei"
+    ], 
+    "question": "____________ means \"land of the free.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Aix-en-Provence", 
+    "incorrectAnswers": [
+      "Paris", 
+      "Strasbourg", 
+      "Lyon", 
+      "Nantes", 
+      "Marseille", 
+      "Toulouse", 
+      "Nice", 
+      "Montpellier", 
+      "Bordeaux", 
+      "Rennes"
+    ], 
+    "question": "Which city used to be called Aquae Sextiae?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "The country of S\u00e3o Tom\u00e9 and Pr\u00edncipe is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Russia", 
+    "incorrectAnswers": [
+      "Estonia", 
+      "Latvia", 
+      "Lithuania", 
+      "Belarus", 
+      "Poland", 
+      "Ukraine", 
+      "Slovakia", 
+      "Moldova", 
+      "Czech Republic", 
+      "Romania", 
+      "Denmark", 
+      "Hungary", 
+      "Austria", 
+      "Serbia", 
+      "Germany", 
+      "Bulgaria", 
+      "Slovenia", 
+      "Bosnia and Herzegovina"
+    ], 
+    "question": "Which of these countries borders Finland?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Belgium", 
+    "incorrectAnswers": [
+      "Luxembourg", 
+      "Kingdom of the Netherlands", 
+      "France", 
+      "Switzerland", 
+      "Germany", 
+      "Liechtenstein", 
+      "Monaco", 
+      "Denmark"
+    ], 
+    "question": "Brussels is the capital of which country", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Raahe", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "Which city used to be called Pattijoki?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Tuvalu is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Syria", 
+    "incorrectAnswers": [
+      "Lebanon", 
+      "Cyprus", 
+      "Turkey", 
+      "Egypt", 
+      "Kuwait", 
+      "Armenia", 
+      "Georgia", 
+      "Azerbaijan", 
+      "Bahrain", 
+      "Greece", 
+      "Eritrea", 
+      "Qatar", 
+      "Bulgaria", 
+      "Iran", 
+      "Sudan", 
+      "Moldova"
+    ], 
+    "question": "Which of these countries borders Jordan?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kuwait City", 
+    "incorrectAnswers": [
+      "Abu Dhabi", 
+      "Doha", 
+      "Amman"
+    ], 
+    "question": "What is the capital of Kuwait?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kakogawa", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Shikata?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of The Gambia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Nigeria", 
+    "incorrectAnswers": [
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Benin", 
+      "Niger", 
+      "Togo", 
+      "Ghana", 
+      "Burkina Faso", 
+      "Democratic Republic of the Congo", 
+      "South Sudan", 
+      "Ivory Coast", 
+      "Mali", 
+      "Rwanda", 
+      "Angola", 
+      "Libya", 
+      "Burundi"
+    ], 
+    "question": "Cameroon shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "Africa", 
+      "North America", 
+      "South America", 
+      "Europe"
+    ], 
+    "question": "Which Of The World's Continents Has The Highest Population? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Toyama", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Hariwara' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "Dominica is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Venezuela", 
+    "incorrectAnswers": [
+      "Jamaica", 
+      "Saint Kitts and Nevis", 
+      "The Bahamas", 
+      "Antigua and Barbuda", 
+      "Dominica", 
+      "Cuba", 
+      "Saint Lucia", 
+      "Saint Vincent and the Grenadines", 
+      "Grenada", 
+      "Trinidad and Tobago", 
+      "Barbados", 
+      "Panama", 
+      "Colombia", 
+      "Nicaragua", 
+      "Costa Rica", 
+      "Guyana", 
+      "Honduras", 
+      "Belize"
+    ], 
+    "question": "Dominican Republic shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Buenos Aires", 
+    "incorrectAnswers": [
+      "Sao Paolo", 
+      "Cordoba", 
+      "Santiago"
+    ], 
+    "question": "Name the capital of Argentina.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "York", 
+    "incorrectAnswers": [
+      "London", 
+      "Cardiff", 
+      "Edinburgh", 
+      "Glasgow", 
+      "Aberdeen", 
+      "Liverpool", 
+      "Birmingham", 
+      "Manchester", 
+      "Oxford", 
+      "Belfast"
+    ], 
+    "question": "'Eboracum' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "The country of S\u00e3o Tom\u00e9 and Pr\u00edncipe is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kenya", 
+    "incorrectAnswers": [
+      "Yemen", 
+      "Eritrea", 
+      "Seychelles", 
+      "Uganda", 
+      "South Sudan", 
+      "Tanzania", 
+      "Sudan", 
+      "Saudi Arabia", 
+      "Oman", 
+      "Comoros", 
+      "Rwanda", 
+      "Burundi", 
+      "Qatar", 
+      "United Arab Emirates", 
+      "Bahrain", 
+      "Malawi", 
+      "Kuwait"
+    ], 
+    "question": "Which of these countries borders Somalia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Denver", 
+    "incorrectAnswers": [
+      "Chicago", 
+      "Philadelphia", 
+      "San Francisco", 
+      "Boston", 
+      "New Orleans"
+    ], 
+    "question": "What is the capital of Colorado? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Fuji", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Takaoka' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "Dominica is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Colombia", 
+    "incorrectAnswers": [
+      "Nicaragua", 
+      "Honduras", 
+      "El Salvador", 
+      "Ecuador", 
+      "Jamaica", 
+      "Belize", 
+      "Guatemala", 
+      "Haiti", 
+      "Venezuela", 
+      "Cuba", 
+      "Dominican Republic", 
+      "The Bahamas", 
+      "Peru", 
+      "Trinidad and Tobago", 
+      "Grenada", 
+      "Saint Vincent and the Grenadines", 
+      "Saint Kitts and Nevis", 
+      "Saint Lucia"
+    ], 
+    "question": "Which of these countries borders Panama?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Aluminium", 
+    "incorrectAnswers": [
+      "Oxygen", 
+      "Silicon", 
+      "Iron"
+    ], 
+    "question": "Which element makes up 8.13% of the Earth's crust", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Matsudo", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Takagi' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Seychelles is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Saudi Arabia", 
+    "incorrectAnswers": [
+      "Qatar", 
+      "Bahrain", 
+      "Iran", 
+      "Kuwait", 
+      "Afghanistan", 
+      "Pakistan", 
+      "Djibouti", 
+      "Somalia", 
+      "Turkmenistan", 
+      "Iraq", 
+      "Eritrea", 
+      "Ethiopia", 
+      "Azerbaijan", 
+      "Uzbekistan", 
+      "Tajikistan", 
+      "Armenia", 
+      "Jordan"
+    ], 
+    "question": "Oman shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Copenhagen", 
+    "incorrectAnswers": [
+      "Aarhus", 
+      "Aalborg", 
+      "Roskilde", 
+      "Viborg", 
+      "Helsinki", 
+      "Oslo"
+    ], 
+    "question": "What is the capital of Denmark?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Yokohama", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo", 
+      "Sendai"
+    ], 
+    "question": "Which city used to be called Kawawa?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "The country of Cape Verde is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Uzbekistan", 
+    "incorrectAnswers": [
+      "Tajikistan", 
+      "Azerbaijan", 
+      "Pakistan", 
+      "Armenia", 
+      "Kyrgyzstan", 
+      "United Arab Emirates", 
+      "Kuwait", 
+      "Bahrain", 
+      "Qatar", 
+      "Georgia", 
+      "Iraq", 
+      "Oman", 
+      "Syria", 
+      "Saudi Arabia", 
+      "Turkey", 
+      "Jordan"
+    ], 
+    "question": "Turkmenistan shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Brussels", 
+    "incorrectAnswers": [
+      "Antwerp", 
+      "Li\u00e8ge", 
+      "Amsterdam"
+    ], 
+    "question": "Where city has the statue, 'Manneken Pis, depicting a naked boy urinating into a fountain?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Fukushima", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Sasaya' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "On which continent would you find the country of Dominica?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Slovenia", 
+    "incorrectAnswers": [
+      "Croatia", 
+      "Monaco", 
+      "Liechtenstein", 
+      "Bosnia and Herzegovina", 
+      "Montenegro", 
+      "Albania", 
+      "Hungary", 
+      "Czech Republic", 
+      "Serbia", 
+      "Tunisia", 
+      "Germany", 
+      "North Macedonia", 
+      "Luxembourg", 
+      "Slovakia", 
+      "Andorra"
+    ], 
+    "question": "Italy shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Pakistan", 
+    "incorrectAnswers": [
+      "Nepal", 
+      "Sri Lanka", 
+      "Bhutan"
+    ], 
+    "question": "Which country in Asia was formerly part of British India? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Vaasa", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "Which city used to be called V\u00e4h\u00e4kyr\u00f6?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Seychelles?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Colombia", 
+    "incorrectAnswers": [
+      "Nicaragua", 
+      "Honduras", 
+      "El Salvador", 
+      "Ecuador", 
+      "Jamaica", 
+      "Belize", 
+      "Guatemala", 
+      "Haiti", 
+      "Venezuela", 
+      "Cuba", 
+      "Dominican Republic", 
+      "The Bahamas", 
+      "Peru", 
+      "Trinidad and Tobago", 
+      "Grenada", 
+      "Saint Vincent and the Grenadines", 
+      "Saint Kitts and Nevis", 
+      "Saint Lucia"
+    ], 
+    "question": "Panama shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Venezuela", 
+    "incorrectAnswers": [
+      "Canada", 
+      "Scotland", 
+      "Indonesia"
+    ], 
+    "question": "____________ possesses more proven oil reserves than any country outside the Middle East.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kawagoe", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Kawagoe?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Cape Verde?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "United States of America", 
+    "incorrectAnswers": [
+      "Nauru", 
+      "Marshall Islands", 
+      "Kiribati", 
+      "Solomon Islands", 
+      "Papua New Guinea", 
+      "Palau", 
+      "Tuvalu", 
+      "Vanuatu", 
+      "Fiji", 
+      "Philippines", 
+      "Japan", 
+      "East Timor", 
+      "Australia", 
+      "Indonesia", 
+      "South Korea", 
+      "Brunei", 
+      "North Korea", 
+      "Malaysia", 
+      "New Zealand", 
+      "Vietnam"
+    ], 
+    "question": "Which of these countries borders Federated States of Micronesia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Bern", 
+    "incorrectAnswers": [
+      "Geneva", 
+      "Zurich", 
+      "Basel"
+    ], 
+    "question": "Which City Is The Capital Of Switzerland?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Mito", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Iitomi?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Andorra?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Iran", 
+    "incorrectAnswers": [
+      "Tajikistan", 
+      "Azerbaijan", 
+      "Pakistan", 
+      "Armenia", 
+      "Kyrgyzstan", 
+      "United Arab Emirates", 
+      "Kuwait", 
+      "Bahrain", 
+      "Qatar", 
+      "Georgia", 
+      "Iraq", 
+      "Oman", 
+      "Syria", 
+      "Saudi Arabia", 
+      "Turkey", 
+      "Jordan"
+    ], 
+    "question": "Turkmenistan shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Riyadh", 
+    "incorrectAnswers": [
+      "Mecca", 
+      "Medina", 
+      "Jeddah"
+    ], 
+    "question": "What is the capital of Saudi Arabia", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Saint Petersburg", 
+    "incorrectAnswers": [
+      "Moscow", 
+      "Kazan", 
+      "Yekaterinburg", 
+      "Ufa", 
+      "Rostov-on-Don", 
+      "Nizhny Novgorod", 
+      "Novosibirsk", 
+      "Saratov", 
+      "Voronezh", 
+      "Perm"
+    ], 
+    "question": "'Leningrad' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "On which continent would you find the country of Grenada?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Albania", 
+    "incorrectAnswers": [
+      "Montenegro", 
+      "Serbia", 
+      "Bosnia and Herzegovina", 
+      "Romania", 
+      "Malta", 
+      "Hungary", 
+      "Croatia", 
+      "Moldova", 
+      "Cyprus", 
+      "Slovakia", 
+      "Slovenia", 
+      "Italy", 
+      "San Marino", 
+      "Libya", 
+      "Egypt", 
+      "Austria"
+    ], 
+    "question": "Which of these countries borders Greece?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Austria and Italy ", 
+    "incorrectAnswers": [
+      "Estonia and Latvia", 
+      "Iran and Iraq", 
+      "Morocco and Tunisia"
+    ], 
+    "question": "What two countries do Tyroleans come from? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Raahe", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "Which city used to be called Pattijoki?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Kiribati?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "India", 
+    "incorrectAnswers": [
+      "Tajikistan", 
+      "Kyrgyzstan", 
+      "Uzbekistan", 
+      "Nepal", 
+      "Turkmenistan", 
+      "Oman", 
+      "United Arab Emirates", 
+      "Kazakhstan", 
+      "Bhutan", 
+      "Bangladesh", 
+      "Qatar", 
+      "Bahrain", 
+      "Kuwait", 
+      "Sri Lanka", 
+      "Azerbaijan", 
+      "Maldives", 
+      "Myanmar"
+    ], 
+    "question": "Which of these countries borders Pakistan?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Etna", 
+    "incorrectAnswers": [
+      "Vesuvius", 
+      "Amiata", 
+      "Pico"
+    ], 
+    "question": "What volcano showers ash on Sicily? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Aomori", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Takada' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Bahrain is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "France", 
+    "incorrectAnswers": [
+      "Switzerland", 
+      "Liechtenstein", 
+      "San Marino", 
+      "Italy", 
+      "Andorra", 
+      "Luxembourg", 
+      "Belgium", 
+      "Germany", 
+      "Austria", 
+      "Slovenia", 
+      "Croatia", 
+      "Kingdom of the Netherlands", 
+      "Tunisia", 
+      "Malta", 
+      "Bosnia and Herzegovina", 
+      "Czech Republic", 
+      "Spain", 
+      "Montenegro", 
+      "Hungary"
+    ], 
+    "question": "Which of these countries borders Monaco?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Warsaw", 
+    "incorrectAnswers": [
+      "Krakow", 
+      "Poznan", 
+      "Lodz"
+    ], 
+    "question": "What is the capital of Poland?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Cartagena", 
+    "incorrectAnswers": [
+      "Madrid", 
+      "Barcelona", 
+      "Valencia", 
+      "Seville", 
+      "Bilbao", 
+      "Zaragoza", 
+      "Reus", 
+      "Palma de Mallorca", 
+      "Pamplona", 
+      "Granada"
+    ], 
+    "question": "'Qartayannat al-Halfa' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Seychelles is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Canada", 
+    "incorrectAnswers": [
+      "Belize", 
+      "Guatemala", 
+      "Cuba", 
+      "The Bahamas", 
+      "Honduras", 
+      "El Salvador", 
+      "Nicaragua", 
+      "Jamaica", 
+      "Haiti", 
+      "Costa Rica", 
+      "Dominican Republic", 
+      "Panama", 
+      "Saint Kitts and Nevis", 
+      "Antigua and Barbuda", 
+      "Colombia", 
+      "Dominica", 
+      "Venezuela", 
+      "Saint Lucia"
+    ], 
+    "question": "United States of America shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Sudan", 
+    "incorrectAnswers": [
+      "Eritrea", 
+      "South Sudan", 
+      "Ethiopia", 
+      "Djibouti", 
+      "Egypt", 
+      "Chad", 
+      "Uganda", 
+      "Central African Republic"
+    ], 
+    "question": "_________ is the largest country in Africa. It has a population greater than 28,100,000.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Cartagena", 
+    "incorrectAnswers": [
+      "Madrid", 
+      "Barcelona", 
+      "Valencia", 
+      "Seville", 
+      "Bilbao", 
+      "Zaragoza", 
+      "Reus", 
+      "Palma de Mallorca", 
+      "Pamplona", 
+      "Granada"
+    ], 
+    "question": "Which city used to be called Qartayannat al-Halfa?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "Saint Kitts and Nevis is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Turkmenistan", 
+    "incorrectAnswers": [
+      "Pakistan", 
+      "Iran", 
+      "Azerbaijan", 
+      "United Arab Emirates", 
+      "Armenia", 
+      "Bahrain", 
+      "Qatar", 
+      "Kuwait", 
+      "Oman", 
+      "Nepal", 
+      "Georgia", 
+      "Iraq", 
+      "India", 
+      "Saudi Arabia", 
+      "Bhutan"
+    ], 
+    "question": "Which of these countries borders Uzbekistan?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Water", 
+    "incorrectAnswers": [
+      "Salt", 
+      "Foliage", 
+      "Human Settlement"
+    ], 
+    "question": "Over 75% of the Earth's surface is covered by some form of _____.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Aubervilliers", 
+    "incorrectAnswers": [
+      "Paris", 
+      "Strasbourg", 
+      "Lyon", 
+      "Nantes", 
+      "Marseille", 
+      "Toulouse", 
+      "Nice", 
+      "Montpellier", 
+      "Bordeaux", 
+      "Rennes"
+    ], 
+    "question": "Which city used to be called La Chapelle?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "On which continent would you find the country of Saint Vincent and the Grenadines?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Guatemala", 
+    "incorrectAnswers": [
+      "Honduras", 
+      "El Salvador", 
+      "Nicaragua", 
+      "Costa Rica", 
+      "Cuba", 
+      "Jamaica", 
+      "Panama", 
+      "The Bahamas", 
+      "Haiti", 
+      "Dominican Republic", 
+      "Colombia", 
+      "Ecuador", 
+      "Venezuela", 
+      "United States of America", 
+      "Saint Kitts and Nevis", 
+      "Antigua and Barbuda", 
+      "Dominica", 
+      "Grenada"
+    ], 
+    "question": "Belize shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kuwait City", 
+    "incorrectAnswers": [
+      "Abu Dhabi", 
+      "Doha", 
+      "Amman"
+    ], 
+    "question": "What is the capital of Kuwait?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kanazawa", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Katazu?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "Saint Vincent and the Grenadines is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kingdom of the Netherlands", 
+    "incorrectAnswers": [
+      "Switzerland", 
+      "Liechtenstein", 
+      "Monaco", 
+      "Denmark", 
+      "United Kingdom", 
+      "Andorra", 
+      "Austria", 
+      "San Marino", 
+      "Italy", 
+      "Slovenia", 
+      "Czech Republic", 
+      "Croatia", 
+      "Ireland", 
+      "Spain", 
+      "Poland", 
+      "Sweden"
+    ], 
+    "question": "Belgium shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Ottawa", 
+    "incorrectAnswers": [
+      "Toronto", 
+      "Montreal", 
+      "Vancouver", 
+      "Winnipeg", 
+      "Calgary"
+    ], 
+    "question": "The city name ________________ is derived from an Algonquin word meaning \"traders.\"", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "\u00c4\u00e4nekoski", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "'Suolahti' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North America", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa"
+    ], 
+    "question": "The country of Belize is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Russia", 
+    "incorrectAnswers": [
+      "Bhutan", 
+      "North Korea", 
+      "Myanmar", 
+      "South Korea", 
+      "Bangladesh", 
+      "Nepal", 
+      "Laos", 
+      "Kyrgyzstan", 
+      "Vietnam", 
+      "India", 
+      "Thailand", 
+      "Tajikistan", 
+      "Japan", 
+      "Cambodia", 
+      "Kazakhstan", 
+      "Pakistan", 
+      "Uzbekistan", 
+      "Philippines"
+    ], 
+    "question": "Which of these countries borders Mongolia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "El Salvador", 
+    "incorrectAnswers": [
+      "Honduras", 
+      "Guatemala", 
+      "Belize", 
+      "Nicaragua", 
+      "Costa Rica", 
+      "Panama", 
+      "Jamaica", 
+      "Cuba"
+    ], 
+    "question": "What is the smallest of the Central American countries", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Gifu", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Miwa' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Togo is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kingdom of the Netherlands", 
+    "incorrectAnswers": [
+      "Liechtenstein", 
+      "United Kingdom", 
+      "San Marino", 
+      "Ireland", 
+      "Austria", 
+      "Denmark", 
+      "Slovenia", 
+      "Croatia", 
+      "Portugal", 
+      "Czech Republic", 
+      "Tunisia"
+    ], 
+    "question": "Which of these countries borders France?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oakland", 
+    "incorrectAnswers": [
+      "Washington, D.C.", 
+      "Los Angeles", 
+      "Philadelphia", 
+      "Boston", 
+      "New Orleans", 
+      "San Fransico", 
+      "Santa Rosa", 
+      "Sacramento", 
+      "San Jose", 
+      "Reno"
+    ], 
+    "question": "Which city lies on the east side of San Francisco Bay?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Baden", 
+    "incorrectAnswers": [
+      "Z\u00fcrich", 
+      "Bern", 
+      "Geneva", 
+      "Basel", 
+      "Lausanne", 
+      "Winterthur", 
+      "Lucerne", 
+      "St. Gallen", 
+      "Lugano", 
+      "Fribourg"
+    ], 
+    "question": "'D\u00e4ttwil' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Monaco is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Sudan", 
+    "incorrectAnswers": [
+      "Malta", 
+      "Greece", 
+      "Albania", 
+      "North Macedonia", 
+      "Montenegro", 
+      "Italy", 
+      "Bosnia and Herzegovina", 
+      "Serbia", 
+      "San Marino", 
+      "Cyprus", 
+      "Bulgaria", 
+      "Croatia", 
+      "Israel", 
+      "Slovenia"
+    ], 
+    "question": "Which of these countries borders Libya?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Israel", 
+    "incorrectAnswers": [
+      "Jordan", 
+      "Lebanon", 
+      "Cyprus", 
+      "Syria", 
+      "Egypt", 
+      "Turkey", 
+      "Iraq", 
+      "Saudi Arabia"
+    ], 
+    "question": "____________ is one_quarter the size of the state of Maine.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "New York City", 
+    "incorrectAnswers": [
+      "Washington, D.C.", 
+      "Los Angeles", 
+      "Chicago", 
+      "Philadelphia", 
+      "San Francisco", 
+      "Boston", 
+      "New Orleans", 
+      "Baltimore", 
+      "Seattle", 
+      "Indianapolis"
+    ], 
+    "question": "Which city used to be called New Amsterdam?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "The country of Nauru is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Tanzania", 
+    "incorrectAnswers": [
+      "Kenya", 
+      "South Sudan", 
+      "Malawi", 
+      "Zambia", 
+      "Central African Republic", 
+      "Republic of the Congo", 
+      "Ethiopia", 
+      "Angola", 
+      "Zimbabwe", 
+      "Sudan", 
+      "Comoros", 
+      "Mozambique", 
+      "Gabon", 
+      "Djibouti", 
+      "Somalia", 
+      "Eritrea"
+    ], 
+    "question": "Which of these countries borders Rwanda?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Brussels", 
+    "incorrectAnswers": [
+      "Antwerp", 
+      "Ghent", 
+      "Li\u00e8ge", 
+      "Bruges", 
+      "Leuven", 
+      "Mechelen", 
+      "Schaerbeek", 
+      "Brussels-Capital Region"
+    ], 
+    "question": "What is the capital of Belgium?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Yokkaichi", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Tomida?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "The country of Tonga is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Laos", 
+    "incorrectAnswers": [
+      "Malaysia", 
+      "Singapore", 
+      "Brunei", 
+      "Myanmar", 
+      "Philippines", 
+      "Bangladesh", 
+      "Indonesia", 
+      "Bhutan", 
+      "People's Republic of China", 
+      "India", 
+      "Sri Lanka", 
+      "Nepal", 
+      "East Timor", 
+      "Palau", 
+      "Maldives", 
+      "South Korea", 
+      "Mongolia"
+    ], 
+    "question": "Which of these countries borders Cambodia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Reykjavik\u00a0", 
+    "incorrectAnswers": [
+      "Fleykjavik", 
+      "Jeykjavik", 
+      "Teykjavik"
+    ], 
+    "question": "Which City Is The Capital Of Iceland? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Tongeren", 
+    "incorrectAnswers": [
+      "Brussels", 
+      "Antwerp", 
+      "Ghent", 
+      "Li\u00e8ge", 
+      "Bruges", 
+      "Leuven", 
+      "Mechelen", 
+      "Schaerbeek", 
+      "Brussels-Capital Region", 
+      "Anderlecht"
+    ], 
+    "question": "Which city used to be called Elderen?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Monaco?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Nauru", 
+    "incorrectAnswers": [
+      "Tuvalu", 
+      "Solomon Islands", 
+      "Vanuatu", 
+      "Fiji", 
+      "Papua New Guinea", 
+      "Palau", 
+      "Japan", 
+      "East Timor", 
+      "Philippines", 
+      "New Zealand", 
+      "Australia", 
+      "South Korea", 
+      "Indonesia", 
+      "North Korea", 
+      "Brunei", 
+      "Malaysia", 
+      "Vietnam"
+    ], 
+    "question": "Which of these countries borders Marshall Islands?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Mount Kilimanjaro", 
+    "incorrectAnswers": [
+      "Mount Kenya", 
+      "Mount Mawazi", 
+      "Mount Ngaliema"
+    ], 
+    "question": "Name the highest mountain in Africa.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Takasaki", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Nagano?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Monaco is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Bulgaria", 
+    "incorrectAnswers": [
+      "Montenegro", 
+      "Bosnia and Herzegovina", 
+      "Romania", 
+      "Hungary", 
+      "Croatia", 
+      "Slovakia", 
+      "Slovenia", 
+      "Moldova", 
+      "Malta", 
+      "Italy", 
+      "San Marino", 
+      "Austria", 
+      "Czech Republic", 
+      "Poland", 
+      "Ukraine", 
+      "Cyprus"
+    ], 
+    "question": "North Macedonia shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Senegal", 
+    "incorrectAnswers": [
+      "The Gambia", 
+      "Guinea-Bissau", 
+      "Guinea", 
+      "Sierra Leone", 
+      "Mauritania", 
+      "Liberia", 
+      "Cape Verde", 
+      "Ivory Coast"
+    ], 
+    "question": "Dakar is the capital of ______?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Jyv\u00e4skyl\u00e4", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "H\u00e4meenlinna", 
+      "Kuopio", 
+      "Porvoo"
+    ], 
+    "question": "Which city used to be called Korpilahti?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Monaco is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Albania", 
+    "incorrectAnswers": [
+      "Montenegro", 
+      "Serbia", 
+      "Bosnia and Herzegovina", 
+      "Romania", 
+      "Malta", 
+      "Hungary", 
+      "Croatia", 
+      "Moldova", 
+      "Cyprus", 
+      "Slovakia", 
+      "Slovenia", 
+      "Italy", 
+      "San Marino", 
+      "Libya", 
+      "Egypt", 
+      "Austria"
+    ], 
+    "question": "Greece shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Vietnam", 
+    "incorrectAnswers": [
+      "Cambodia", 
+      "Laos", 
+      "Thailand", 
+      "Malaysia", 
+      "Brunei", 
+      "Myanmar", 
+      "Singapore", 
+      "Philippines"
+    ], 
+    "question": "In which country is the Mekong River Delta?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Higashi\u014dsaka", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Hiraoka' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Bhutan?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Zimbabwe", 
+    "incorrectAnswers": [
+      "Burundi", 
+      "Rwanda", 
+      "Eswatini", 
+      "South Africa", 
+      "Lesotho", 
+      "Uganda", 
+      "Comoros", 
+      "Kenya", 
+      "Republic of the Congo", 
+      "Madagascar", 
+      "South Sudan", 
+      "Gabon"
+    ], 
+    "question": "Zambia shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Honolulu", 
+    "incorrectAnswers": [
+      "Hilo", 
+      "Kailua", 
+      "Maui"
+    ], 
+    "question": "What is the capital of Hawaii?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Rauma", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "Which city used to be called Lappi?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "South America", 
+    "incorrectAnswers": [
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Suriname?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Guinea-Bissau", 
+    "incorrectAnswers": [
+      "The Gambia", 
+      "Burkina Faso", 
+      "Ghana", 
+      "Mauritania", 
+      "Togo", 
+      "Benin", 
+      "Cape Verde", 
+      "Nigeria", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Algeria", 
+      "Niger", 
+      "Morocco", 
+      "Equatorial Guinea", 
+      "Cameroon"
+    ], 
+    "question": "Which of these countries borders Guinea?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Luanda", 
+    "incorrectAnswers": [
+      "Brazzaville", 
+      "Nairobi", 
+      "Dakar"
+    ], 
+    "question": "What is the capital of Angola?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Hamamatsu", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Iida' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "The country of Turkmenistan is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Ivory Coast", 
+    "incorrectAnswers": [
+      "Guinea", 
+      "Liberia", 
+      "Sierra Leone", 
+      "Nigeria", 
+      "Senegal", 
+      "Mauritania", 
+      "Guinea-Bissau", 
+      "The Gambia", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Cameroon", 
+      "Algeria", 
+      "Equatorial Guinea", 
+      "Gabon", 
+      "Morocco"
+    ], 
+    "question": "Burkina Faso shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Equatorial Guinea", 
+    "incorrectAnswers": [
+      "Gabon", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Republic of the Congo", 
+      "Cameroon", 
+      "Nigeria", 
+      "Benin", 
+      "Togo", 
+      "Central African Republic"
+    ], 
+    "question": "Malabo is the capital of ______?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Qingdao", 
+    "incorrectAnswers": [
+      "Hong Kong", 
+      "Beijing", 
+      "Shanghai", 
+      "Guangzhou", 
+      "Chongqing", 
+      "Tianjin", 
+      "Suzhou", 
+      "Nanjing", 
+      "Chengdu", 
+      "Harbin"
+    ], 
+    "question": "Which city used to be called Tsingtao?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Laos is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Slovenia", 
+    "incorrectAnswers": [
+      "Croatia", 
+      "Monaco", 
+      "Liechtenstein", 
+      "Bosnia and Herzegovina", 
+      "Montenegro", 
+      "Albania", 
+      "Hungary", 
+      "Czech Republic", 
+      "Serbia", 
+      "Tunisia", 
+      "Germany", 
+      "North Macedonia", 
+      "Luxembourg", 
+      "Slovakia", 
+      "Andorra"
+    ], 
+    "question": "Italy shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Thailand", 
+    "incorrectAnswers": [
+      "Cambodia", 
+      "Laos", 
+      "Vietnam", 
+      "Myanmar", 
+      "Singapore", 
+      "Malaysia", 
+      "Bangladesh", 
+      "Brunei"
+    ], 
+    "question": "____________ means \"land of the free.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Yverdon-les-Bains", 
+    "incorrectAnswers": [
+      "Z\u00fcrich", 
+      "Bern", 
+      "Geneva", 
+      "Basel", 
+      "Lausanne", 
+      "Winterthur", 
+      "Lucerne", 
+      "St. Gallen", 
+      "Lugano", 
+      "Fribourg"
+    ], 
+    "question": "Which city used to be called Gressy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Bahrain is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Ivory Coast", 
+    "incorrectAnswers": [
+      "The Gambia", 
+      "Burkina Faso", 
+      "Ghana", 
+      "Mauritania", 
+      "Togo", 
+      "Benin", 
+      "Cape Verde", 
+      "Nigeria", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Algeria", 
+      "Niger", 
+      "Morocco", 
+      "Equatorial Guinea", 
+      "Cameroon"
+    ], 
+    "question": "Which of these countries borders Guinea?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Canada", 
+    "incorrectAnswers": [
+      "United States of America", 
+      "Mexico", 
+      "Russia", 
+      "China"
+    ], 
+    "question": "The world's biggest meteor crater is located in which country?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Durr\u00ebs", 
+    "incorrectAnswers": [
+      "Tirana", 
+      "Shkod\u00ebr", 
+      "Kor\u00e7\u00eb", 
+      "Vlor\u00eb"
+    ], 
+    "question": "'Epidamnos' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "The country of S\u00e3o Tom\u00e9 and Pr\u00edncipe is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "South Sudan", 
+    "incorrectAnswers": [
+      "Yemen", 
+      "Uganda", 
+      "Rwanda", 
+      "Saudi Arabia", 
+      "Tanzania", 
+      "Burundi", 
+      "Central African Republic", 
+      "Qatar", 
+      "Bahrain", 
+      "Democratic Republic of the Congo", 
+      "Seychelles", 
+      "Oman", 
+      "United Arab Emirates", 
+      "Egypt"
+    ], 
+    "question": "Which of these countries borders Ethiopia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Colorado", 
+    "incorrectAnswers": [
+      "Mississippi", 
+      "Hudson", 
+      "Rio Grande"
+    ], 
+    "question": "Which river made The Grand Canyon?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Paris", 
+    "incorrectAnswers": [
+      "Strasbourg", 
+      "Lyon", 
+      "Nantes", 
+      "Marseille", 
+      "Toulouse", 
+      "Nice", 
+      "Montpellier", 
+      "Bordeaux", 
+      "Rennes", 
+      "Rouen"
+    ], 
+    "question": "Which city used to be called Seine?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Maldives is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Algeria", 
+    "incorrectAnswers": [
+      "Malta", 
+      "Italy", 
+      "Monaco", 
+      "San Marino", 
+      "Andorra", 
+      "Albania", 
+      "Croatia", 
+      "Montenegro", 
+      "Bosnia and Herzegovina", 
+      "Switzerland", 
+      "Slovenia", 
+      "Liechtenstein", 
+      "Greece", 
+      "North Macedonia", 
+      "Austria", 
+      "Serbia", 
+      "Spain", 
+      "France"
+    ], 
+    "question": "Which of these countries borders Tunisia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Belize", 
+    "incorrectAnswers": [
+      "Guatemala", 
+      "Honduras", 
+      "El Salvador", 
+      "Nicaragua", 
+      "Costa Rica", 
+      "Panama"
+    ], 
+    "question": "Which Central American country extends furthest North?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Fukui", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Nishiago?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Nauru is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Turkmenistan", 
+    "incorrectAnswers": [
+      "Kyrgyzstan", 
+      "Kazakhstan", 
+      "United Arab Emirates", 
+      "Oman", 
+      "Qatar", 
+      "Bahrain", 
+      "Nepal", 
+      "Kuwait", 
+      "Azerbaijan", 
+      "India", 
+      "Armenia", 
+      "Iraq", 
+      "Georgia", 
+      "Saudi Arabia", 
+      "Bhutan"
+    ], 
+    "question": "Afghanistan shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Pyongyang", 
+    "incorrectAnswers": [
+      "Busan", 
+      "Seoul", 
+      "Chongjin"
+    ], 
+    "question": "What is the capital of North Korea?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Hamamatsu", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Iida' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Monaco?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Thailand", 
+    "incorrectAnswers": [
+      "Malaysia", 
+      "Singapore", 
+      "Brunei", 
+      "Myanmar", 
+      "Philippines", 
+      "Bangladesh", 
+      "Indonesia", 
+      "Bhutan", 
+      "People's Republic of China", 
+      "India", 
+      "Sri Lanka", 
+      "Nepal", 
+      "East Timor", 
+      "Palau", 
+      "Maldives", 
+      "South Korea", 
+      "Mongolia"
+    ], 
+    "question": "Which of these countries borders Cambodia?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Israel", 
+    "incorrectAnswers": [
+      "Jordan", 
+      "Lebanon", 
+      "Cyprus", 
+      "Syria", 
+      "Egypt", 
+      "Turkey", 
+      "Iraq", 
+      "Saudi Arabia"
+    ], 
+    "question": "____________ is one_quarter the size of the state of Maine.", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Lugo", 
+    "incorrectAnswers": [
+      "Madrid", 
+      "Barcelona", 
+      "Valencia", 
+      "Seville", 
+      "Bilbao", 
+      "Zaragoza", 
+      "Reus", 
+      "Palma de Mallorca", 
+      "Pamplona", 
+      "Granada"
+    ], 
+    "question": "'Lucus Augusti' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Guinea-Bissau is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Austria", 
+    "incorrectAnswers": [
+      "Croatia", 
+      "Monaco", 
+      "Liechtenstein", 
+      "Bosnia and Herzegovina", 
+      "Montenegro", 
+      "Albania", 
+      "Hungary", 
+      "Czech Republic", 
+      "Serbia", 
+      "Tunisia", 
+      "Germany", 
+      "North Macedonia", 
+      "Luxembourg", 
+      "Slovakia", 
+      "Andorra"
+    ], 
+    "question": "Which of these countries borders Italy?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Niagara falls", 
+    "incorrectAnswers": [
+      "Lake Huron", 
+      "Yosemite", 
+      "Appalachian Mountains"
+    ], 
+    "question": "Which site in North America was named after the Mohawk Indian word meaning \"thunder of waters\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Dunkirk", 
+    "incorrectAnswers": [
+      "Paris", 
+      "Strasbourg", 
+      "Lyon", 
+      "Nantes", 
+      "Marseille", 
+      "Toulouse", 
+      "Nice", 
+      "Montpellier", 
+      "Bordeaux", 
+      "Rennes"
+    ], 
+    "question": "Which city used to be called Rosenda\u00ebl?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "The country of Monaco is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Chad", 
+    "incorrectAnswers": [
+      "Togo", 
+      "Equatorial Guinea", 
+      "Ghana", 
+      "Gabon", 
+      "Burkina Faso", 
+      "Republic of the Congo", 
+      "Central African Republic", 
+      "Ivory Coast", 
+      "Mali", 
+      "Liberia", 
+      "Guinea", 
+      "Democratic Republic of the Congo", 
+      "Sierra Leone", 
+      "Libya", 
+      "Algeria"
+    ], 
+    "question": "Which of these countries borders Nigeria?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Florida", 
+    "incorrectAnswers": [
+      "Kansas", 
+      "Texas", 
+      "California"
+    ], 
+    "question": "Which American state's name is Spanish for \"flowered\" or \"flowery land\"?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Jyv\u00e4skyl\u00e4", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "H\u00e4meenlinna", 
+      "Kuopio", 
+      "Porvoo"
+    ], 
+    "question": "'Korpilahti' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Nauru is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "United States of America", 
+    "incorrectAnswers": [
+      "Nicaragua", 
+      "Honduras", 
+      "El Salvador", 
+      "Ecuador", 
+      "Jamaica", 
+      "Belize", 
+      "Guatemala", 
+      "Haiti", 
+      "Venezuela", 
+      "Cuba", 
+      "Dominican Republic", 
+      "The Bahamas", 
+      "Peru", 
+      "Trinidad and Tobago", 
+      "Grenada", 
+      "Saint Vincent and the Grenadines", 
+      "Saint Kitts and Nevis", 
+      "Saint Lucia"
+    ], 
+    "question": "Panama shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Poland", 
+    "incorrectAnswers": [
+      "Slovakia", 
+      "Czech Republic", 
+      "Hungary", 
+      "Croatia", 
+      "Russia"
+    ], 
+    "question": "Lake Ladoga Is The Largest Lake In Which Country?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Matsuyama", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Wake' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "South America", 
+    "incorrectAnswers": [
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Suriname?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Afghanistan", 
+    "incorrectAnswers": [
+      "Pakistan", 
+      "Kazakhstan", 
+      "Turkmenistan", 
+      "Nepal", 
+      "Iran", 
+      "India", 
+      "Bhutan", 
+      "United Arab Emirates", 
+      "Oman", 
+      "Bangladesh", 
+      "Azerbaijan", 
+      "Qatar", 
+      "Bahrain", 
+      "Kuwait", 
+      "Armenia", 
+      "Georgia", 
+      "Iraq"
+    ], 
+    "question": "Which of these countries borders Tajikistan?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Equatorial Guinea", 
+    "incorrectAnswers": [
+      "Gabon", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Republic of the Congo", 
+      "Cameroon", 
+      "Nigeria", 
+      "Benin", 
+      "Togo", 
+      "Central African Republic"
+    ], 
+    "question": "Malabo is the capital of ______?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Sapporo", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sendai"
+    ], 
+    "question": "'Toyohira' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "The country of Nauru is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Guinea-Bissau", 
+    "incorrectAnswers": [
+      "The Gambia", 
+      "Burkina Faso", 
+      "Ghana", 
+      "Mauritania", 
+      "Togo", 
+      "Benin", 
+      "Cape Verde", 
+      "Nigeria", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Algeria", 
+      "Niger", 
+      "Morocco", 
+      "Equatorial Guinea", 
+      "Cameroon"
+    ], 
+    "question": "Which of these countries borders Guinea?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Tripoli", 
+    "incorrectAnswers": [
+      "Benghazi", 
+      "Tehran", 
+      "Rabat"
+    ], 
+    "question": "What is the capital of Libya? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Fuch\u016b", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "'Nishifu' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Indonesia", 
+    "incorrectAnswers": [
+      "Cambodia", 
+      "Vietnam", 
+      "Laos", 
+      "East Timor", 
+      "Myanmar", 
+      "Palau", 
+      "Sri Lanka", 
+      "Bangladesh", 
+      "Bhutan", 
+      "India", 
+      "People's Republic of China", 
+      "Maldives", 
+      "Nepal", 
+      "South Korea", 
+      "Papua New Guinea"
+    ], 
+    "question": "Malaysia shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Italy", 
+    "incorrectAnswers": [
+      "Croatia", 
+      "Austria", 
+      "Switzerland", 
+      "Greece", 
+      "France"
+    ], 
+    "question": "In Which Country Is Mount Etna?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Toyonaka", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Sh\u014dnai?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "On which continent would you find the country of Bahrain?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "North Macedonia", 
+    "incorrectAnswers": [
+      "Moldova", 
+      "Albania", 
+      "Montenegro", 
+      "Bosnia and Herzegovina", 
+      "Hungary", 
+      "Slovakia", 
+      "Ukraine", 
+      "Croatia", 
+      "Cyprus", 
+      "Slovenia", 
+      "Belarus", 
+      "Poland", 
+      "Czech Republic", 
+      "Lithuania", 
+      "Austria"
+    ], 
+    "question": "Which of these countries borders Bulgaria?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Venice\u00a0", 
+    "incorrectAnswers": [
+      "Rome", 
+      "Beijing", 
+      "Ulaanbaatar"
+    ], 
+    "question": "In Which City Is Marco Polo Airport?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Kauhava", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "Jyv\u00e4skyl\u00e4", 
+      "H\u00e4meenlinna", 
+      "Kuopio"
+    ], 
+    "question": "Which city used to be called Ylih\u00e4rm\u00e4?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "The country of Mauritius is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Uganda", 
+    "incorrectAnswers": [
+      "Rwanda", 
+      "Burundi", 
+      "Eritrea", 
+      "Djibouti", 
+      "Chad", 
+      "Tanzania", 
+      "Republic of the Congo", 
+      "Somalia", 
+      "Cameroon", 
+      "Yemen", 
+      "Egypt", 
+      "Gabon", 
+      "Malawi", 
+      "Equatorial Guinea"
+    ], 
+    "question": "Which of these countries borders South Sudan?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oakland", 
+    "incorrectAnswers": [
+      "Washington, D.C.", 
+      "Los Angeles", 
+      "Philadelphia", 
+      "Boston", 
+      "New Orleans", 
+      "San Fransico", 
+      "Santa Rosa", 
+      "Sacramento", 
+      "San Jose", 
+      "Reno"
+    ], 
+    "question": "Which city lies on the east side of San Francisco Bay?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Gie\u00dfen", 
+    "incorrectAnswers": [
+      "Berlin", 
+      "Munich", 
+      "Hamburg", 
+      "Leipzig", 
+      "Dresden", 
+      "Nuremberg", 
+      "Hanover", 
+      "Stuttgart", 
+      "Cologne", 
+      "Frankfurt am Main"
+    ], 
+    "question": "'Lahn' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Oceania", 
+    "incorrectAnswers": [
+      "South America", 
+      "Europe", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Federated States of Micronesia is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Ukraine", 
+    "incorrectAnswers": [
+      "Bosnia and Herzegovina", 
+      "Montenegro", 
+      "Czech Republic", 
+      "Poland", 
+      "North Macedonia", 
+      "Albania", 
+      "San Marino", 
+      "Bulgaria", 
+      "Italy", 
+      "Greece", 
+      "Liechtenstein", 
+      "Moldova", 
+      "Lithuania", 
+      "Germany"
+    ], 
+    "question": "Which of these countries borders Hungary?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Beijing", 
+    "incorrectAnswers": [
+      "Hong Kong", 
+      "Shanghai", 
+      "Guangzhou", 
+      "Nanjing", 
+      "Chengdu"
+    ], 
+    "question": "What Is The Capital Of China?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Shanghai", 
+    "incorrectAnswers": [
+      "Hong Kong", 
+      "Beijing", 
+      "Guangzhou", 
+      "Chongqing", 
+      "Tianjin", 
+      "Suzhou", 
+      "Nanjing", 
+      "Chengdu", 
+      "Harbin", 
+      "Wuhan"
+    ], 
+    "question": "'Shanqhae' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Europe", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Asia", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "The country of Liechtenstein is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Austria", 
+    "incorrectAnswers": [
+      "Serbia", 
+      "Bosnia and Herzegovina", 
+      "Slovenia", 
+      "Romania", 
+      "Croatia", 
+      "Montenegro", 
+      "Lithuania", 
+      "North Macedonia", 
+      "Albania", 
+      "Bulgaria", 
+      "Moldova", 
+      "San Marino", 
+      "Belarus", 
+      "Latvia", 
+      "Italy", 
+      "Germany"
+    ], 
+    "question": "Slovakia shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "San Francisco", 
+    "incorrectAnswers": [
+      "New York City", 
+      "Washington, D.C.", 
+      "Los Angeles", 
+      "Chicago", 
+      "Philadelphia", 
+      "Boston", 
+      "New Orleans", 
+      "Baltimore"
+    ], 
+    "question": "What city is associated with Alcatraz?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Brunswick", 
+    "incorrectAnswers": [
+      "Berlin", 
+      "Munich", 
+      "Hamburg", 
+      "Leipzig", 
+      "Dresden", 
+      "Nuremberg", 
+      "Hanover", 
+      "Stuttgart", 
+      "Cologne", 
+      "Frankfurt am Main"
+    ], 
+    "question": "'Braunschweig' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "Cape Verde is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Ivory Coast", 
+    "incorrectAnswers": [
+      "Benin", 
+      "Nigeria", 
+      "Liberia", 
+      "Mali", 
+      "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+      "Guinea", 
+      "Sierra Leone", 
+      "Equatorial Guinea", 
+      "Cameroon", 
+      "Niger", 
+      "Gabon", 
+      "Guinea-Bissau", 
+      "Senegal", 
+      "The Gambia", 
+      "Mauritania", 
+      "Republic of the Congo", 
+      "Algeria"
+    ], 
+    "question": "Ghana shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Washington\u00a0", 
+    "incorrectAnswers": [
+      "Seattle", 
+      "New York", 
+      "Atlanta"
+    ], 
+    "question": "In what city is The Smithsonian Institute? ", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Moscow", 
+    "incorrectAnswers": [
+      "Saint Petersburg", 
+      "Kazan", 
+      "Yekaterinburg", 
+      "Ufa", 
+      "Rostov-on-Don", 
+      "Nizhny Novgorod", 
+      "Novosibirsk", 
+      "Saratov", 
+      "Voronezh", 
+      "Perm"
+    ], 
+    "question": "'Verticali' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Africa", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Asia", 
+      "North America"
+    ], 
+    "question": "The country of Lesotho is on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Paraguay", 
+    "incorrectAnswers": [
+      "Peru", 
+      "Ecuador", 
+      "Suriname", 
+      "Colombia", 
+      "Guyana", 
+      "Venezuela", 
+      "Trinidad and Tobago", 
+      "Panama", 
+      "Grenada", 
+      "Saint Vincent and the Grenadines", 
+      "Barbados", 
+      "Saint Lucia", 
+      "Costa Rica", 
+      "Dominica", 
+      "Antigua and Barbuda"
+    ], 
+    "question": "Argentina shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Tiber", 
+    "incorrectAnswers": [
+      "Rubicon", 
+      "Romanus", 
+      "Remus"
+    ], 
+    "question": "Which river runs through Rome?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Lucerne", 
+    "incorrectAnswers": [
+      "Z\u00fcrich", 
+      "Bern", 
+      "Geneva", 
+      "Basel", 
+      "Lausanne", 
+      "Winterthur", 
+      "St. Gallen", 
+      "Lugano", 
+      "Fribourg", 
+      "Neuch\u00e2tel"
+    ], 
+    "question": "Which city used to be called Littau?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Maldives is located on which continent?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Sudan", 
+    "incorrectAnswers": [
+      "Burundi", 
+      "Ethiopia", 
+      "Central African Republic", 
+      "Malawi", 
+      "Djibouti", 
+      "Somalia", 
+      "Eritrea", 
+      "Zambia", 
+      "Republic of the Congo", 
+      "Comoros", 
+      "Chad", 
+      "Angola", 
+      "Zimbabwe", 
+      "Mozambique"
+    ], 
+    "question": "Uganda shares a land border with which of these countries?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Colorado", 
+    "incorrectAnswers": [
+      "Arizona", 
+      "Utah", 
+      "Florida"
+    ], 
+    "question": "The highest point in Pennsylvania is lower than the lowest point in ______________", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Nagasaki", 
+    "incorrectAnswers": [
+      "Tokyo", 
+      "\u014csaka", 
+      "Kyoto", 
+      "Tokyo", 
+      "Yokohama", 
+      "Kobe", 
+      "Nagoya", 
+      "Hiroshima", 
+      "Fukuoka", 
+      "Sapporo"
+    ], 
+    "question": "Which city used to be called Tomachi?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Venice", 
+    "incorrectAnswers": [
+      "Rome", 
+      "Milan", 
+      "Naples", 
+      "Florence", 
+      "Genoa", 
+      "Bologna"
+    ], 
+    "question": "In which city would you find the Bridge of Sighs?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Jyv\u00e4skyl\u00e4", 
+    "incorrectAnswers": [
+      "Helsinki", 
+      "Pargas", 
+      "Tampere", 
+      "Turku", 
+      "Oulu", 
+      "Pori", 
+      "Espoo", 
+      "H\u00e4meenlinna", 
+      "Kuopio", 
+      "Porvoo"
+    ], 
+    "question": "'Korpilahti' is the old name of which city?", 
+    "type": "Multiple Choice"
+  }, 
+  {
+    "category": "Geography", 
+    "correctAnswer": "Asia", 
+    "incorrectAnswers": [
+      "South America", 
+      "Oceania", 
+      "Europe", 
+      "Africa", 
+      "North America"
+    ], 
+    "question": "Kuwait is located on which continent?", 
+    "type": "Multiple Choice"
+  }
+]
