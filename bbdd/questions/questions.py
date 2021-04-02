@@ -62,7 +62,7 @@ for data in archivos:
                                   incorrectas[0], incorrectas[1], incorrectas[2]))
 
 
-'''
+
 #Insertar
 mydb = mysql.connector.connect(
   host="eu-cdbr-west-03.cleardb.net",
@@ -78,8 +78,7 @@ i=0
 for pregunta in preguntas:
   mycursor.execute(sql, (i, pregunta.incorrecta1, pregunta.incorrecta2, pregunta.incorrecta3, pregunta.correcta,
                             pregunta.enunciado, pregunta.categoria))
-  ++i
+  i=i+1
 
 mydb.commit()
 mydb.close()
-'''
