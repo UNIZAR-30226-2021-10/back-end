@@ -30,14 +30,6 @@ for filename in os.listdir(directory):
           archivos.append(data)
 
 
-
-
-
-
-print(len(archivos))
-
-
-
 res = []
 preguntas = []
 categorias = []
@@ -69,10 +61,6 @@ for data in archivos:
         preguntas.append(Pregunta(enunciado, categoria, correcta, 
                                   incorrectas[0], incorrectas[1], incorrectas[2]))
 
-
-
-
-print(len(preguntas))
 
 '''
 #Insertar
