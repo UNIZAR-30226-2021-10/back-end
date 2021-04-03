@@ -10,13 +10,13 @@ Para conectarse desde mySQL Workbench debemos establecer una nueva conexión hac
 Una vez hayamos hecho click, se nos abrirá una ventana tal que así:
 ![b22](https://user-images.githubusercontent.com/33655360/113489395-51189b00-94c4-11eb-8d96-7d76a7c159f6.png)
 
-Debemos sustituir los campos hostname, username y la contraseña por los correspondientes de nuestra base de datos. Estos datos se encuentran en un fichero denominado "conexion.txt" en la carpeta compartida de drive. La contraseña se introduce haciendo click en el botón 'Store in Vault'. Debe quedar algo tal que así:
+Debemos sustituir los campos hostname, username y la contraseña por los correspondientes datos de nuestra base de datos. Estos datos se encuentran en un fichero denominado "conexion.txt" en la carpeta compartida de drive. La contraseña se introduce haciendo click en el botón 'Store in Vault'. Debe quedar algo tal que así:
 
 ![tdb](https://user-images.githubusercontent.com/33655360/113489454-b2d90500-94c4-11eb-850f-1ad2b0eb9ad7.png)
 
 Una vez tengamos todos los parámetros introducidos haremos click en "Test Connection" y luego en ok.
 
-Ahora ya habremos establecido una conexión con la base de datos, haremos doble click en el schema correspondiente a nuestra base de datos (heroku_c579bffd070869c), o bien escribiendo en la Query  "USE heroku_c579bffd070869c" en la termina de mysql workbench.
+Ahora ya habremos establecido una conexión con la base de datos, haremos doble click en el schema correspondiente a nuestra base de datos (heroku_c579bffd070869c), o bien escribiendo la Query  "USE heroku_c579bffd070869c" en la termina de mysql workbench.
 
 # Getting Started with Create React App
 
