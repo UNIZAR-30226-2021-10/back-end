@@ -5,7 +5,6 @@ const connection = require('./database.js');
 
 // Settings
 app.set('port', process.env.PORT || 3050);
-
 app.use(cors());
 
 // Middlewares
@@ -18,9 +17,11 @@ app.use(express.urlencoded({extended: true}));
 // Starting the server
 app.listen(app.get('port'), () => {
     console.log('Server on port', app.get('port'));
+    
 });
 
-app.post('/register',(req,res)=>{
+
+app.post('/Registrarse',(req,res)=>{
 
     const sql = "INSERT into usuario SET ?";
 
@@ -28,8 +29,8 @@ app.post('/register',(req,res)=>{
         email : req.body.email,
         password: req.body.password,
         nickname: req.body.nickname,
-        points: 0,
-        coins: 0,
+        puntos: "0",
+        monedas: "0",
     }
 
     connection.query("SELECT * FROM usuario WHERE nickname='"+usuario.nickname+"'",(error,result)=>{
@@ -42,7 +43,7 @@ app.post('/register',(req,res)=>{
         }else {
            // let hash = bcrypt.hashSync(usuarioObj.contraseña, saltRounds);
             //usuarioObj.contraseña=hash;
-            connection.query(sql, usuarioObj, error => {
+            connection.query(sql, usuario, error => {
                 if (error) throw error;
                 res.json({
                     message: 'Usuario registrado!'
