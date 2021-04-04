@@ -1,1 +1,1 @@
-web: node peticiones.js
+web: node bbdd/API/peticiones.js
