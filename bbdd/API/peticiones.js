@@ -20,6 +20,9 @@ app.listen(app.get('port'), () => {
     
 });
 
+app.get('/',(req,res)=>{
+    res.send("Hello World");
+})
 
 app.post('/Registrarse',(req,res)=>{
 
