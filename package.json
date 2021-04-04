@@ -1,0 +1,24 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Para conectarse a la base de datos se recomienda utilizar mySQL Workbench [link de descarga para Windows](https://dev.mysql.com/downloads/workbench/), aunque si se desea se puede realizar la conexión mediante [terminal](https://www.a2hosting.es/kb/developer-corner/mysql/connect-to-mysql-from-the-command-line).",
+  "main": "peticiones.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UNIZAR-30226-2021-10/back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UNIZAR-30226-2021-10/back-end/issues"
+  },
+  "homepage": "https://github.com/UNIZAR-30226-2021-10/back-end#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
