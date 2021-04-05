@@ -41,7 +41,7 @@ app.post('/Registrarse',(req,res)=>{
     connection.query("SELECT * FROM usuario WHERE nickname='"+usuario.nickname+"'",(error,result)=>{
 
         if (result.length > 0) {
-            return res.status(400).json({message : 'Ya existe un usuario con ese nickname, introduzca otro.'});
+            res.status(400).json({message : 'Ya existe un usuario con ese nickname, introduzca otro.'});
         }else {
            // let hash = bcrypt.hashSync(usuarioObj.contraseña, saltRounds);
             //usuarioObj.contraseña=hash;
@@ -49,13 +49,14 @@ app.post('/Registrarse',(req,res)=>{
                 if (error){
                     //Gestionamos el error de clave duplicada
                     if(error.errno == 1062){
-                        return res.status(400).json({
+                        res.status(400).json({
                             message: 'Ya existe un usuario con ese correo, compruebe que el email es correcto.'
                         }); 
                     }else{
                         throw error;
                     }
                 }else{
+                    //Por defecto el HTTP request aqui será 200 asi que no hace falta mandarle un status
                     res.json({
                         message: 'Usuario registrado!'
                     });
