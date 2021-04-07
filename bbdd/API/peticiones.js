@@ -45,6 +45,7 @@ app.post('/Registrarse',(req,res)=>{
             return res.status(400).json({message: 'Ya existe un usuario con ese nickname, introduzca otro.'})
             
         }else {
+            //TODO : para encriptar la contraseña del usuario de momento no lo hacemos.
             // let hash = bcrypt.hashSync(usuarioObj.contraseña, saltRounds);
             //usuarioObj.contraseña=hash;
             connection.query(sql, usuario, error => {
@@ -73,18 +74,22 @@ app.post('/Registrarse',(req,res)=>{
 
 })
 
-app.post('/login',(req,res)=>{
+app.post('/MenuInicio',(req,res)=>{
 
-    connection.query("SELECT * FROM usuario WHERE nickname='"+usuario.nickname+"'"+"and password='"+usuario.password+"'",(error,result)=>{
+    connection.query("SELECT * FROM usuario WHERE nickname='"+req.body.nickname+"'"+"and password='"+req.body.password+"'",(error,result)=>{
 
-        if (error) throw error;
+        
         if (result.length > 0) {
+            
             res.json({
-                message: 'Login sucesfully.'
-            })
+                email: result[0],
+                nickname: result[1],
+                monedas: result[2],
+                puntos: result[3],
+            });
         }else {
-           
-            res.json({
+            if (error) throw error;
+            res.status(400).json({
                 message: 'Login not sucesfully.'
             })
         }
