@@ -123,3 +123,51 @@ app.get('/ModoIndividual',(req,res)=>{
         }
     });
 })
+
+/*
+app.post('/ObtenerContrasenya',(req,res)=>{
+    connection.query("SELECT password FROM usuario WHERE email='"+req.body.email+"'",(error,result)=>{
+        if (result.length > 0) {
+            res.json({
+                password: result[0]
+            });
+        }else {
+            if (error) throw error;
+            res.status(400).json({
+                message: 'Contraseña no obtenida.'
+            })
+        }
+
+    });
+
+
+})*/
+
+
+app.post('/AjustesUsuario',(req,res)=>{
+
+    const sql = "UPDATE usuario SET ? WHERE email= '"+req.body.email+"'";
+
+    const usuario = {
+        email : req.body.email,
+        password: req.body.password,
+        nickname: req.body.nickname,
+    }
+    connection.query("SELECT * FROM usuario WHERE email='"+usuario.email+"'",(error,result)=>{
+        if (result.length > 0) {
+            //el usuario está registrado y se pueden actualizar sus datos
+            connection.query(sql,usuario,error => {
+                if (error) throw error;
+                res.status(400).json({
+                message: 'Datos no actualizados'
+                })
+            });
+        } else{
+            //el usuario no está registrado
+            res.json({
+                message: 'El usuario no está registrado.'
+            });
+
+        }
+    });
+})
