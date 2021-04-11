@@ -124,25 +124,6 @@ app.get('/ModoIndividual',(req,res)=>{
     });
 })
 
-/*
-app.post('/ObtenerContrasenya',(req,res)=>{
-    connection.query("SELECT password FROM usuario WHERE email='"+req.body.email+"'",(error,result)=>{
-        if (result.length > 0) {
-            res.json({
-                password: result[0]
-            });
-        }else {
-            if (error) throw error;
-            res.status(400).json({
-                message: 'Contraseña no obtenida.'
-            })
-        }
-
-    });
-
-
-})*/
-
 
 app.post('/AjustesUsuario',(req,res)=>{
 
@@ -170,4 +151,20 @@ app.post('/AjustesUsuario',(req,res)=>{
 
         }
     });
+})
+
+app.post('/EliminarCuenta',(req,res)=>{
+    const sql = "DELETE FROM usuario WHERE email= '"+req.body.email+"'";
+
+    const usuario = {
+        email : req.body.email,
+    }
+
+    connection.query(sql,usuario,error => {
+        if (error) throw error;
+        res.status(400).json({
+        message: 'Cuenta no eliminada'
+        })
+    });
+
 })
