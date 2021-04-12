@@ -195,3 +195,42 @@ app.post('/CambiarContrasenya',(req,res)=>{
         }
     });
 })
+
+app.get('/Historial',(req,res)=>{
+    const primeraQuery = "select * from partida where idpartida IN  (select id_partida from juega where usuario_email = '"+ req.query.mail+"') ORDER BY idpartida";
+    connection.query(primeraQuery,(error,result)=>{
+
+        if (result.length > 0) {
+            // ha devuelto lista
+            res.json(result);
+            //console.log(result);
+            //console.log(res);
+            
+        }else {
+            if (error) throw error;
+            res.status(400).json({
+                message: 'primera query falla'
+            }) 
+        }
+    });
+})
+
+app.get('/Historial_Puntuacion',(req,res)=>{
+    
+    const segundaQuery = "select puntuacion,id_partida from juega where usuario_email = '"+ req.query.email+"' ORDER BY id_partida";
+    connection.query(segundaQuery,(error,result)=>{
+    
+        if (result.length > 0) {
+            // ha devuelto lista
+            res.json(result);
+            //console.log(result);
+            //console.log(res);
+            
+        }else {
+            if (error) throw error;
+            res.status(400).json({
+                message: 'segunda query falla'
+            }) 
+        }
+    });
+})
