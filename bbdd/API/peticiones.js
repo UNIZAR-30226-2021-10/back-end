@@ -197,7 +197,7 @@ app.post('/CambiarContrasenya',(req,res)=>{
 })
 
 app.get('/Historial',(req,res)=>{
-    const primeraQuery = "select * from partida where idpartida IN  (select id_partida from juega where usuario_email = '"+ req.query.mail+"') ORDER BY idpartida";
+    const primeraQuery = "select * from partida where idpartida IN  (select id_partida from juega where usuario_email = '"+ req.query.mail+"') ORDER BY idpartida DESC";
     connection.query(primeraQuery,(error,result)=>{
 
         if (result.length > 0) {
@@ -217,7 +217,7 @@ app.get('/Historial',(req,res)=>{
 
 app.get('/Historial_Puntuacion',(req,res)=>{
     
-    const segundaQuery = "select puntuacion,id_partida from juega where usuario_email = '"+ req.query.email+"' ORDER BY id_partida";
+    const segundaQuery = "select puntuacion,id_partida from juega where usuario_email = '"+ req.query.email+"' ORDER BY id_partida DESC";
     connection.query(segundaQuery,(error,result)=>{
     
         if (result.length > 0) {
@@ -234,3 +234,36 @@ app.get('/Historial_Puntuacion',(req,res)=>{
         }
     });
 })
+
+/*app.post('/FinalIndividual',(req,res)=>{
+
+    const partida = {
+        fecha: req.body.fecha,
+        numJugadores: req.body.numJugadores,
+        rondas: req.body.rondas,
+        ganador: req.body.ganador,
+    }
+    
+    connection.query("INSERT into partida SET ?", partida, (error,result) => {
+        if (result.length > 0) {
+            connection.query("SELECT idpartida FROM partida where fecha = '"+partida.fecha+"'",(error,result)=>{
+                if (result.length > 0) {
+                    res.json({
+                        idpartida: result[0],
+                    });
+                }else {
+                    if (error) throw error;
+                    res.status(400).json({
+                        message: 'No se ha podido encontrar la partida'
+                    })
+                }
+    	    });
+        }
+        else {
+            if (error) throw error;
+            res.status(400).json({
+                message: 'segunda query falla'
+            }) 
+        }
+    });
+})*/
