@@ -285,6 +285,61 @@ app.post('/FinalIndividual',(req,res)=>{
     });
 })
 
+app.post('/FinalIndividual_Partida',(req,res)=>{
+
+    const partida = {
+        fecha: req.body.fecha,
+        numJugadores: req.body.numJugadores,
+        rondas: req.body.rondas,
+        ganador: req.body.ganador,
+    }
+
+    connection.query("INSERT into partida SET ?", partida, error => {
+        if (error){
+            //Gestionamos el error de clave duplicada
+            res.status(400).json({
+                message: 'No se ha podido insetar partida'
+            }) 
+            throw error;
+        }else{
+            res.json({
+                message: 'Partida registrada correctamente'
+            });
+        }
+    });
+})
+
+app.post('/FinalIndividual_Juega',(req,res)=>{
+    connection.query("SELECT idpartida FROM partida where fecha = '"+req.body.fecha+"'",(error,result)=>{
+        if (result.length > 0) {
+            const jugada = {
+                id_partida: result[0].idpartida,
+                usuario_email: req.body.email,
+                puntuacion: req.body.puntos
+            }
+                    
+            connection.query("INSERT into juega SET ?", jugada, error => {
+                if (error){
+                    //Gestionamos el error de clave duplicada
+                    res.status(440).json({
+                        message: 'No se ha podido insetar jugada'
+                    }) 
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Jugada registrada correctamente'
+                    });
+                }
+            });
+        }else {
+            if (error) throw error;
+            res.status(450).json({
+                message: 'No se ha podido encontrar la partida'
+            })
+        }
+    });
+})
+
 app.post('/FinalIndividual_Usuario',(req,res)=>{
     
     const usuario = {
