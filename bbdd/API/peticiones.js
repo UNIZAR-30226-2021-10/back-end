@@ -235,7 +235,7 @@ app.get('/Historial_Puntuacion',(req,res)=>{
     });
 })
 
-/*app.post('/FinalIndividual',(req,res)=>{
+app.post('/FinalIndividual',(req,res)=>{
 
     const partida = {
         fecha: req.body.fecha,
@@ -243,27 +243,88 @@ app.get('/Historial_Puntuacion',(req,res)=>{
         rondas: req.body.rondas,
         ganador: req.body.ganador,
     }
-    
-    connection.query("INSERT into partida SET ?", partida, (error,result) => {
-        if (result.length > 0) {
+
+    connection.query("INSERT into partida SET ?", partida, error => {
+        if (error){
+            //Gestionamos el error de clave duplicada
+            res.status(400).json({
+                message: 'No se ha podido insetar partida'
+            }) 
+            throw error;
+        }else{
+            //Por defecto el HTTP request aqui será 200 asi que no hace falta mandarle un status
             connection.query("SELECT idpartida FROM partida where fecha = '"+partida.fecha+"'",(error,result)=>{
                 if (result.length > 0) {
-                    res.json({
-                        idpartida: result[0],
+                    const jugada = {
+                        id_partida: result[0].idpartida,
+                        usuario_email: req.body.email,
+                        puntuacion: req.body.puntos
+                    }
+                    
+                    connection.query("INSERT into juega SET ?", jugada, error => {
+                        if (error){
+                            //Gestionamos el error de clave duplicada
+                            res.status(440).json({
+                                message: 'No se ha podido insetar jugada'
+                            }) 
+                            throw error;
+                        }else{
+                            res.json({
+                                message: 'Partida y jugada registradas correctamente'
+                            });
+                        }
                     });
                 }else {
                     if (error) throw error;
-                    res.status(400).json({
+                    res.status(450).json({
                         message: 'No se ha podido encontrar la partida'
                     })
                 }
     	    });
         }
-        else {
+    });
+})
+
+app.post('/FinalIndividual_Usuario',(req,res)=>{
+    
+    const usuario = {
+        email : req.body.email,
+        monedas : req.body.monedas,
+        puntos : req.body.puntos,
+    }
+
+    connection.query("SELECT * FROM usuario WHERE email='"+usuario.email+"'",(error,result)=>{
+        
+        if (result.length > 0) {
+            //el usuario está registrado y se pueden actualizar sus datos
+            // coger las monedas y puntos que ya están y sumar
+            const pasarAintM = parseInt(usuario.monedas, 10);
+            const pasarAintP = parseInt(usuario.puntos, 10);
+            const pasarAintM2 = parseInt(result[0].monedas, 10);
+            const pasarAintP2 = parseInt(result[0].puntos, 10);
+            const sumaIntM = pasarAintM + pasarAintM2;
+            const sumaIntP= pasarAintP + pasarAintP2;
+            usuario.monedas = sumaIntM;
+            usuario.puntos = sumaIntP;
+            connection.query("UPDATE usuario SET ? WHERE email= '"+req.body.email+"'",usuario,error => {
+                if (error){
+                    //Gestionamos el error de clave duplicada
+                    res.status(410).json({
+                        message: 'Datos no actualizados'
+                    }) 
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Monedas y puntos registrados correctamente'
+                    });
+                }
+            });
+        } else{
+             //el usuario no está registrado
             if (error) throw error;
             res.status(400).json({
-                message: 'segunda query falla'
+                message: 'El usuario no está registrado.'
             }) 
         }
     });
-})*/
+})
