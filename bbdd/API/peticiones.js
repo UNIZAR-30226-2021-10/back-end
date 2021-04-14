@@ -138,14 +138,20 @@ app.post('/AjustesUsuario',(req,res)=>{
         if (result.length > 0) {
             //el usuario está registrado y se pueden actualizar sus datos
             connection.query(sql,usuario,error => {
-                if (error) throw error;
-                res.status(400).json({
-                message: 'Datos no actualizados'
+                if (error) {
+                    res.status(400).json({
+                        message: 'Datos no actualizados'
+                    })
+                    throw error;
+                }else{
+                res.json({
+                    message: 'Datos actualizados correctamente.'
                 })
+                }
             });
         } else{
             //el usuario no está registrado
-            res.json({
+            res.status(400).json({
                 message: 'El usuario no está registrado.'
             });
 
