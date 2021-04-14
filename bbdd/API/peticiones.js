@@ -161,10 +161,16 @@ app.post('/EliminarCuenta',(req,res)=>{
     }
 
     connection.query(sql,usuario,error => {
-        if (error) throw error;
-        res.status(400).json({
-        message: 'Cuenta no eliminada'
-        })
+        if (error) {
+            res.status.json({
+                message: 'Cuenta no eliminada'
+            })
+            throw error;
+        }else{
+            res.json({
+            message: 'Cuenta no eliminada'
+            })
+        }
     });
 
 })
