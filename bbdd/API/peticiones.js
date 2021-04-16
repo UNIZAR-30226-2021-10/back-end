@@ -401,13 +401,83 @@ app.post('/PantallaTienda',(req,res)=>{
     connection.query("SELECT * FROM item",(error,result)=>{
     
         if (result.length > 0) {
-            console.log(result);
             res.json(result);
             
         }else {
             if (error) throw error;
             res.status(400).json({
                 message: 'No se han podido obtener los items'
+            }) 
+        }
+    });
+})
+
+app.post('/ObjetoTienda',(req,res)=>{
+    
+    connection.query("SELECT iditem FROM item where Nombre ='"+req.body.nombreObjeto+"'",(error,result)=>{
+    
+        if (result.length > 0) {
+            //console.log(result);
+
+            const tiene = {
+                usuario_email : req.body.email,
+                idItem : result[0].iditem,
+                equipado : 0,
+            }
+            
+            connection.query("INSERT into tiene SET ?", tiene, error => {
+                if (error){
+                    console.log("ERROR");
+                    //Gestionamos el error de clave duplicada
+                    res.status(440).json({
+                        message: 'No se ha podido insetar tiene'
+                    }) 
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Objeto registrado correctamente'
+                    });
+                }
+            });
+
+        }else {
+            if (error) throw error;
+            res.status(400).json({
+                message: 'No se ha encontrado el item'
+            }) 
+        }
+    });
+})
+
+app.post('/ObjetoTienda_RestarMonedas',(req,res)=>{
+    
+    const precio = parseInt(req.body.precioObjeto,10);
+
+    connection.query("SELECT monedas FROM usuario WHERE email='"+req.body.email+"'",(error,result)=>{
+        
+        if (result.length > 0) {
+            // Coger monedas que ya tiene y restarle lo que vale el objeto
+            // que acaba de comprar
+            const monedasActuales = parseInt(result[0].monedas, 10);
+            const resto = monedasActuales - precio;
+            connection.query("UPDATE usuario SET monedas = '"+resto+"' WHERE email= '"+req.body.email+"'",error => {
+                if (error){
+                    //Gestionamos el error de clave duplicada
+                    res.status(410).json({
+                        message: 'Datos no actualizados'
+                    }) 
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Datos actualizados'
+                    }) 
+                }
+            });
+        } else{
+             //el usuario no está registrado
+            if (error) throw error;
+            res.status(400).json({
+                message: 'El usuario no está registrado.'
             }) 
         }
     });
