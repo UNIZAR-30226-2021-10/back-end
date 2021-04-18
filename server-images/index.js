@@ -33,7 +33,7 @@ app.get('/',(req,res)=>{
 const uploader = require('./app/config/multer');
 
 app.post('/upload', uploader.single('file'), async(req, res) => {
-    console.log("Uploading: "+ file.filename);
+    //console.log("Uploading: "+ file.filename);
 
     const {file,body} = req;
     if (file && body && file.mimetype.split('/')[0] === body.selectTipoArchivo.split('/')[0]){
@@ -41,7 +41,6 @@ app.post('/upload', uploader.single('file'), async(req, res) => {
         imageToSave = {
             Precio: body.productPrice,
             Nombre: body.productName,
-            esAO:body.esAO,
             Tipo: body.productCategory,
             Color: body.productColor,
             Imagen: 'http://localhost:3060/'+body.selectCategoria+'/'+file.filename,
