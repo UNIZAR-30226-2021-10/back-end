@@ -327,61 +327,6 @@ app.post('/FinalIndividual',(req,res)=>{
     });
 })
 
-app.post('/FinalIndividual_Partida',(req,res)=>{
-
-    const partida = {
-        fecha: req.body.fecha,
-        numJugadores: req.body.numJugadores,
-        rondas: req.body.rondas,
-        ganador: req.body.ganador,
-    }
-
-    connection.query("INSERT into partida SET ?", partida, error => {
-        if (error){
-            //Gestionamos el error de clave duplicada
-            res.status(400).json({
-                message: 'No se ha podido insetar partida'
-            }) 
-            throw error;
-        }else{
-            res.json({
-                message: 'Partida registrada correctamente'
-            });
-        }
-    });
-})
-
-app.post('/FinalIndividual_Juega',(req,res)=>{
-    connection.query("SELECT idpartida FROM partida where fecha = '"+req.body.fecha+"'",(error,result)=>{
-        if (result.length > 0) {
-            const jugada = {
-                id_partida: result[0].idpartida,
-                usuario_email: req.body.email,
-                puntuacion: req.body.puntos
-            }
-                    
-            connection.query("INSERT into juega SET ?", jugada, error => {
-                if (error){
-                    //Gestionamos el error de clave duplicada
-                    res.status(440).json({
-                        message: 'No se ha podido insetar jugada'
-                    }) 
-                    throw error;
-                }else{
-                    res.json({
-                        message: 'Jugada registrada correctamente'
-                    });
-                }
-            });
-        }else {
-            if (error) throw error;
-            res.status(450).json({
-                message: 'No se ha podido encontrar la partida'
-            })
-        }
-    });
-})
-
 app.post('/FinalIndividual_Usuario',(req,res)=>{
     
     const usuario = {
@@ -422,6 +367,131 @@ app.post('/FinalIndividual_Usuario',(req,res)=>{
             res.status(400).json({
                 message: 'El usuario no está registrado.'
             }) 
+        }
+    });
+})
+
+app.get('/Multijugador_PartidaCode',(req,res)=>{
+    const query = "select * from partida where codigo = '"+ req.query.codigo+"'";
+
+    connection.query(query,(error,result)=>{
+        if (result.length > 0) {
+            console.log("Encontrada partida con codigo code.");
+            res.json(result);   // Devuelvo partida
+        }else {
+            console.log("NO encontrada partida con codigo code.");
+            if (error) throw error;
+            res.status(400).json({
+                message: 'No existe ninguna partida con ese código.'
+            }) 
+        }
+    });
+})
+
+app.get('/Multijugador_PartidaJugadoresUsuario',(req,res)=>{
+    const query = "select * from juega as j, usuario as u \
+                    where j.id_partida = "+ req.query.idpartida
+                    + " and j.usuario_email = u.email";
+    connection.query(query,(error,result)=>{
+        if (result.length > 0) {
+            console.log("Encontrados jugadores de la partida.");
+            res.json(result);   // Devuelvo jugadores
+        }else {
+            console.log("No hay jugadores en la partida.");
+            if (error) throw error;
+            res.status(400).json({
+                message: 'No hay jugadores en la partida.'
+            }) 
+        }
+    });
+})
+
+/*app.get('/Multijugador_PartidaJugadores',(req,res)=>{
+    const query = "select * from juega where id_partida = "+ req.query.idpartida;
+
+    connection.query(query,(error,result)=>{
+        if (result.length > 0) {
+            console.log("Encontrados jugadores de la partida.");
+            res.json(result);   // Devuelvo jugadores
+        }else {
+            console.log("No hay jugadores en la partida.");
+            if (error) throw error;
+            res.status(400).json({
+                message: 'No hay jugadores en la partida.'
+            }) 
+        }
+    });
+})
+
+app.get('/Multijugador_PartidaUsuario',(req,res)=>{
+    const query = "select * from usuario where email = '"+ req.query.email+"'";
+
+    connection.query(query,(error,result)=>{
+        if (result.length > 0) {
+            console.log("Encontrado usuario.");
+            res.json(result);   // Devuelvo jugadores
+        }else {
+            console.log("No existe el usuario.");
+            if (error) throw error;
+            res.status(400).json({
+                message: 'No existe el usuario.'
+            }) 
+        }
+    });
+})*/
+
+app.post('/FinalMultijugador_Partida',(req,res)=>{
+
+    const partida = {
+        fecha: req.body.fecha,
+        numJugadores: req.body.numJugadores,
+        rondas: req.body.rondas,
+        ganador: req.body.ganador,
+        codigo: req.body.codigo
+    }
+
+    connection.query("INSERT into partida SET ?", partida, error => {
+        if (error){
+            //Gestionamos el error de clave duplicada
+            res.status(400).json({
+                message: 'No se ha podido insetar partida'
+            }) 
+            throw error;
+        }else{
+            res.json({
+                message: 'Partida registrada correctamente'
+            });
+        }
+    });
+})
+
+app.post('/FinalMultijugador_Juega',(req,res)=>{
+    connection.query("SELECT idpartida FROM partida where codigo = '"+req.body.codigo+"'",(error,result)=>{
+        if (result.length > 0) {
+            const jugada = {
+                id_partida: result[0].idpartida,
+                usuario_email: req.body.email,
+                puntuacion: req.body.puntos
+            }
+                    
+            connection.query("INSERT into juega SET ?", jugada, error => {
+                if (error){
+                    //Gestionamos el error de clave duplicada
+                    res.status(440).json({
+                        message: 'No se ha podido insetar jugada'
+                    }) 
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Jugada registrada correctamente'
+                    });
+                }
+            });
+        }else {
+            if (error) throw error;
+            res.status(450).json({
+                message: 'No se ha podido encontrar la partida'
+            })
         }
     });
 })
