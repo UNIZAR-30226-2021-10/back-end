@@ -106,3 +106,20 @@ app.get('/historial', async(req, res) => {
     }
 })
 
+app.post('/PantallaTienda',(req,res)=>{
+    
+    connection.query("SELECT * FROM item",(error,result)=>{
+    
+        if (result.length > 0) {
+            //console.log(result);
+            res.json(result);
+            
+        }else {
+            if (error) throw error;
+            res.status(400).json({
+                message: 'No se han podido obtener los items'
+            }) 
+        }
+    });
+})
+

@@ -74,6 +74,36 @@ app.post('/Registrarse',(req,res)=>{
 
 })
 
+/*app.post('/Registrarse_Foto',(req,res)=>{
+
+    const sql = "insert into tiene SET usuario_email = '"+req.body.email+"', idItem = ? , equipado = 0";
+
+    connection.query("SELECT iditem FROM item WHERE Nombre ='"+req.body.nombreObjeto+"'",(error,result)=>{
+
+        if (result.length > 0) {
+            const id = result[0].iditem;
+            connection.query(sql, id, error => {
+                if (error) {
+                    res.status(410).json({
+                        message: 'Item no insertado'
+                    })
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Item insertado en tabla tiene del usuario'
+                    })
+                }
+            });
+            
+        }else {
+            return res.status(400).json({message: 'No se ha encontrado el item'})
+        }
+
+    });
+
+
+})*/
+
 app.post('/MenuInicio',(req,res)=>{
 
     connection.query("SELECT * FROM usuario WHERE nickname='"+req.body.nickname+"'"+"and password='"+req.body.password+"'",(error,result)=>{
@@ -105,7 +135,6 @@ app.get('/ModoIndividual',(req,res)=>{
         connection.query("SELECT idpregunta, incorrecta1, incorrecta2, incorrecta3, correcta, enunciado FROM pregunta where categoria='"+req.query.category+"' ORDER BY RAND() LIMIT 1",(error,result)=>{
 
         if (result.length > 0) {
-            
            res.json({
                 idpregunta: result[0],
                 incorrecta1: result[1],
@@ -117,6 +146,7 @@ app.get('/ModoIndividual',(req,res)=>{
             
         }else {
             if (error) throw error;
+            console.log("error");
             res.status(400).json({
                 message: 'Pregunta no obtenida'
             }) 
@@ -401,6 +431,7 @@ app.post('/PantallaTienda',(req,res)=>{
     connection.query("SELECT * FROM item",(error,result)=>{
     
         if (result.length > 0) {
+            //console.log(result);
             res.json(result);
             
         }else {

@@ -5,7 +5,7 @@ const db_config = {
     host: 'eu-cdbr-west-03.cleardb.net',
     user: 'baaa8387acfc19',
     password: '2ae0a14b',
-    database:'heroku_c579bffd070869c'
+    database:'heroku_c579bffd070869c',
 };
 
 var connection;
