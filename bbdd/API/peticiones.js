@@ -496,7 +496,7 @@ app.post('/FinalMultijugador_Juega',(req,res)=>{
     });
 })
 
-app.post('/PantallaTienda',(req,res)=>{
+/*app.post('/PantallaTienda',(req,res)=>{
     
     connection.query("SELECT * FROM item",(error,result)=>{
     
@@ -511,16 +511,15 @@ app.post('/PantallaTienda',(req,res)=>{
             }) 
         }
     });
-})
+})*/
 
-/*app.post('/PantallaTienda',(req,res)=>{
+app.post('/PantallaTienda',(req,res)=>{
     // select * from item where iditem not in (select idItem from tiene where usuario_email = "andrea@mail.com");
 
     connection.query("select * from item where iditem not in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
     
         if (result.length > 0) {
-    
-            console.log(result);
+            //console.log(result);
             res.json(result);
             
         }else {
@@ -530,7 +529,7 @@ app.post('/PantallaTienda',(req,res)=>{
             }) 
         }
     });
-})*/
+})
 
 app.post('/ObjetoTienda',(req,res)=>{
     
