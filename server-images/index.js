@@ -105,23 +105,3 @@ app.get('/historial', async(req, res) => {
         });
     }
 })
-
-app.post('/PantallaTienda',(req,res)=>{
-    // select * from item where iditem not in (select idItem from tiene where usuario_email = "andrea@mail.com");
-
-    connection.query("select * from item where iditem not in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
-    
-        if (result.length > 0) {
-    
-            console.log(result);
-            res.json(result);
-            
-        }else {
-            if (error) throw error;
-            res.status(400).json({
-                message: 'No se han podido obtener los items'
-            }) 
-        }
-    });
-})
-
