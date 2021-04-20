@@ -82,7 +82,7 @@ app.post('/Registrarse_Foto',(req,res)=>{
     connection.query("SELECT iditem FROM item WHERE Nombre ='"+req.body.nombreObjeto+"'",(error,result)=>{
 
         if (result.length > 0) {
-            console.log(result);
+            //console.log(result);
             const id = result[0].iditem;
             connection.query(sql, id, error => {
                 if (error) {
