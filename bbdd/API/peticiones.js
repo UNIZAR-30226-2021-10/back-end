@@ -440,7 +440,7 @@ app.get('/Multijugador_PartidaUsuario',(req,res)=>{
     });
 })*/
 
-app.post('/FinalMultijugador_Partida',(req,res)=>{
+app.post('/CrearMultijugador_Partida',(req,res)=>{
 
     const partida = {
         fecha: req.body.fecha,
@@ -465,7 +465,7 @@ app.post('/FinalMultijugador_Partida',(req,res)=>{
     });
 })
 
-app.post('/FinalMultijugador_Juega',(req,res)=>{
+app.post('/UnirseMultijugador_Juega',(req,res)=>{
     connection.query("SELECT idpartida FROM partida where codigo = '"+req.body.codigo+"'",(error,result)=>{
         if (result.length > 0) {
             const jugada = {
@@ -496,6 +496,51 @@ app.post('/FinalMultijugador_Juega',(req,res)=>{
     });
 })
 
+app.post('/FinalMultijugador_Partida',(req,res)=>{
+    connection.query("UPDATE partida SET ganador = '"+req.body.ganador+"' WHERE codigo= '"+req.body.codigo+"'",error => {
+        if (error){
+            //Gestionamos el error de clave duplicada
+            res.status(410).json({
+                message: 'Datos partida no actualizados.'
+            }) 
+            throw error;
+        }else{
+            res.json({
+                message: 'Datos partida actualizados.'
+            }) 
+        }
+    });
+})
+
+app.post('/FinalMultijugador_Juega',(req,res)=>{
+
+    connection.query("SELECT idpartida FROM partida WHERE codigo='"+req.body.codigo+"'",(error,result)=>{
+        
+        if (result.length > 0) {
+            const idpartida = parseInt(result[0].idpartida, 10);
+            connection.query("UPDATE juega SET puntuacion = '"+req.body.puntos+"' WHERE id_partida= '"+idpartida+"'",error => {
+                if (error){
+                    //Gestionamos el error de clave duplicada
+                    res.status(410).json({
+                        message: 'Datos juega no actualizados.'
+                    }) 
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Datos juega actualizados.'
+                    }) 
+                }
+            });
+        } else{
+             //el usuario no está registrado
+            if (error) throw error;
+            res.status(400).json({
+                message: 'El usuario no está registrado.'
+            }) 
+        }
+    });
+})
+
 /*app.post('/PantallaTienda',(req,res)=>{
     
     connection.query("SELECT * FROM item",(error,result)=>{
@@ -517,9 +562,8 @@ app.post('/PantallaTienda',(req,res)=>{
     // select * from item where iditem not in (select idItem from tiene where usuario_email = "andrea@mail.com");
 
     connection.query("select * from item where iditem not in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
-    
+        
         if (result.length > 0) {
-            //console.log(result);
             res.json(result);
             
         }else {
@@ -597,6 +641,22 @@ app.post('/ObjetoTienda_RestarMonedas',(req,res)=>{
             if (error) throw error;
             res.status(400).json({
                 message: 'El usuario no está registrado.'
+            }) 
+        }
+    });
+})
+
+app.post('/PerfilUsuario',(req,res)=>{
+
+    connection.query("select * from item where iditem in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
+        
+        if (result.length > 0) {
+            res.json(result);
+            
+        }else {
+            if (error) throw error;
+            res.status(400).json({
+                message: 'No se han podido obtener los items'
             }) 
         }
     });
