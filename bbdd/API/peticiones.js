@@ -36,6 +36,7 @@ app.post('/Registrarse',(req,res)=>{
         nickname: req.body.nickname,
         puntos: "0",
         monedas: "0",
+        imagen: req.body.imagen,
     }
 
     connection.query("SELECT * FROM usuario WHERE nickname='"+usuario.nickname+"'",(error,result)=>{
@@ -74,13 +75,14 @@ app.post('/Registrarse',(req,res)=>{
 
 })
 
-/*app.post('/Registrarse_Foto',(req,res)=>{
+app.post('/Registrarse_Foto',(req,res)=>{
 
     const sql = "insert into tiene SET usuario_email = '"+req.body.email+"', idItem = ? , equipado = 0";
 
     connection.query("SELECT iditem FROM item WHERE Nombre ='"+req.body.nombreObjeto+"'",(error,result)=>{
 
         if (result.length > 0) {
+            console.log(result);
             const id = result[0].iditem;
             connection.query(sql, id, error => {
                 if (error) {
@@ -102,7 +104,7 @@ app.post('/Registrarse',(req,res)=>{
     });
 
 
-})*/
+})
 
 app.post('/MenuInicio',(req,res)=>{
 
@@ -198,13 +200,13 @@ app.post('/EliminarCuenta',(req,res)=>{
 
     connection.query(sql,usuario,error => {
         if (error) {
-            res.status.json({
+            res.status(400).json({
                 message: 'Cuenta no eliminada'
             })
             throw error;
         }else{
             res.json({
-            message: 'Cuenta no eliminada'
+            message: 'Cuenta eliminada'
             })
         }
     });
