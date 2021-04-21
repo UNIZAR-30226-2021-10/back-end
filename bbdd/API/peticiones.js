@@ -118,6 +118,7 @@ app.post('/MenuInicio',(req,res)=>{
                 nickname: result[1],
                 monedas: result[2],
                 puntos: result[3],
+                imagen: result[5]
             });
         }else {
             if (error) throw error;
