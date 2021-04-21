@@ -77,7 +77,7 @@ app.post('/Registrarse',(req,res)=>{
 
 app.post('/Registrarse_Foto',(req,res)=>{
 
-    const sql = "insert into tiene SET usuario_email = '"+req.body.email+"', idItem = ? , equipado = 0";
+    const sql = "insert into tiene SET usuario_email = '"+req.body.email+"', idItem = ? , equipado = 1";
 
     connection.query("SELECT iditem FROM item WHERE Nombre ='"+req.body.nombreObjeto+"'",(error,result)=>{
 
