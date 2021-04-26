@@ -586,6 +586,7 @@ app.post('/PerfilUsuario',(req,res)=>{
     connection.query("select Imagen,Tipo,Nombre,equipado from item,tiene where item.iditem=tiene.iditem AND tiene.usuario_email= '"+req.body.email+"'",(error,result)=>{
         
         if (result.length > 0) {
+            console.log(result);
             res.json(result);
             
         }else {
@@ -679,6 +680,36 @@ app.post('/PerfilUsuario',(req,res)=>{
             if (error) throw error;
             res.status(400).json({
                 message: 'No se han podido obtener los items'
+            }) 
+        }
+    });
+})
+
+function ordenarAsc(p_array_json, p_key) {
+    p_array_json.sort(function (a, b) {
+       return a[p_key] > b[p_key];
+    });
+}
+
+function ordenarDesc(p_array_json, p_key) {
+    ordenarAsc(p_array_json, p_key); 
+    p_array_json.reverse(); 
+}
+
+app.post('/Ranking',(req,res)=>{
+
+    connection.query("select nickname, puntos, imagen from usuario ",(error,result)=>{
+        
+        if (result.length > 0) {
+            const prueba = result;
+            ordenarDesc(prueba, 'puntos');
+            res.json(prueba);
+            
+        }else {
+            console.log(result);
+            if (error) throw error;
+            res.status(400).json({
+                message: 'No se han podido obtener los usuarios'
             }) 
         }
     });
