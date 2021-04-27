@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors')
 const app = express();
 const connection = require('./database.js');
+const Mysql = require('mysql');
 
 // Settings
 app.set('port', process.env.PORT || 3050);
@@ -583,7 +584,7 @@ app.post('/PantallaTienda',(req,res)=>{
 
 app.post('/PerfilUsuario',(req,res)=>{
 
-    connection.query("select Imagen,Tipo,Nombre,equipado from item,tiene where item.iditem=tiene.iditem AND tiene.usuario_email= '"+req.body.email+"'",(error,result)=>{
+    connection.query("select item.iditem,Imagen,Tipo,Nombre,equipado from item,tiene where item.iditem=tiene.iditem AND tiene.usuario_email= '"+req.body.email+"'",(error,result)=>{
         
         if (result.length > 0) {
             console.log(result);
@@ -702,14 +703,28 @@ app.post('/Ranking',(req,res)=>{
 
 //Middleware para updatear los items equipados de un usuario
 app.post('/UpdateItemsUsuario',(req,res)=>{
-    connection.query("select iditem from item WHERE Nombre='"+req.body.emailUsuario+"'",(error,result)=>{
+    
+            
+     //Guardamos los arrays de elementos
+     var equipados = req.body.equipados;
+     var nombres = req.body.nombre;
+     //Creamos las queries necesarias para actualizar la base de datos
+     var queries = '';
+    equipados.forEach((elemento,indice)=>{
+         const nombre = nombres[indice]
+         queries+= Mysql.format("UPDATE tiene SET equipado= ? WHERE idItem= ? AND usuario_email='"+req.body.email+"'; ",[elemento,nombre])
+    });
+    connection.query(queries,(error,result)=>{
         if(error){
-            console.log("Estoy en error 1")
             res.status(400).json({
-                message: 'Error en la consulta'
+                message: 'Error en la query.'
             })
+            console.log(error);
         }else{
-            console.log("Estoy aqui " + req.body );
+            res.status(200);
         }
-    })
-})
+    });
+
+    
+    
+});
