@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors')
 const app = express();
 const connection = require('./database.js');
+const Mysql = require('mysql');
 
 // Settings
 app.set('port', process.env.PORT || 3050);
@@ -583,7 +584,7 @@ app.post('/PantallaTienda',(req,res)=>{
 
 app.post('/PerfilUsuario',(req,res)=>{
 
-    connection.query("select Imagen,Tipo,Nombre,equipado from item,tiene where item.iditem=tiene.iditem AND tiene.usuario_email= '"+req.body.email+"'",(error,result)=>{
+    connection.query("select item.iditem,Imagen,Tipo,Nombre,equipado from item,tiene where item.iditem=tiene.iditem AND tiene.usuario_email= '"+req.body.email+"'",(error,result)=>{
         
         if (result.length > 0) {
             console.log(result);
@@ -669,21 +670,6 @@ app.post('/ObjetoTienda_RestarMonedas',(req,res)=>{
     });
 })
 
-app.post('/PerfilUsuario',(req,res)=>{
-
-    connection.query("select * from item where iditem in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
-        
-        if (result.length > 0) {
-            res.json(result);
-            
-        }else {
-            if (error) throw error;
-            res.status(400).json({
-                message: 'No se han podido obtener los items'
-            }) 
-        }
-    });
-})
 
 function ordenarAsc(p_array_json, p_key) {
     p_array_json.sort(function (a, b) {
@@ -714,3 +700,31 @@ app.post('/Ranking',(req,res)=>{
         }
     });
 })
+
+//Middleware para updatear los items equipados de un usuario
+app.post('/UpdateItemsUsuario',(req,res)=>{
+    
+            
+     //Guardamos los arrays de elementos
+     var equipados = req.body.equipados;
+     var nombres = req.body.nombre;
+     //Creamos las queries necesarias para actualizar la base de datos
+     var queries = '';
+    equipados.forEach((elemento,indice)=>{
+         const nombre = nombres[indice]
+         queries+= Mysql.format("UPDATE tiene SET equipado= ? WHERE idItem= ? AND usuario_email='"+req.body.email+"'; ",[elemento,nombre])
+    });
+    connection.query(queries,(error,result)=>{
+        if(error){
+            res.status(400).json({
+                message: 'Error en la query.'
+            })
+            console.log(error);
+        }else{
+            res.status(200);
+        }
+    });
+
+    
+    
+});
