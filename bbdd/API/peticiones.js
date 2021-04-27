@@ -669,21 +669,6 @@ app.post('/ObjetoTienda_RestarMonedas',(req,res)=>{
     });
 })
 
-app.post('/PerfilUsuario',(req,res)=>{
-
-    connection.query("select * from item where iditem in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
-        
-        if (result.length > 0) {
-            res.json(result);
-            
-        }else {
-            if (error) throw error;
-            res.status(400).json({
-                message: 'No se han podido obtener los items'
-            }) 
-        }
-    });
-})
 
 function ordenarAsc(p_array_json, p_key) {
     p_array_json.sort(function (a, b) {
@@ -713,4 +698,18 @@ app.post('/Ranking',(req,res)=>{
             }) 
         }
     });
+})
+
+//Middleware para updatear los items equipados de un usuario
+app.post('/UpdateItemsUsuario',(req,res)=>{
+    connection.query("select iditem from item WHERE Nombre='"+req.body.emailUsuario+"'",(error,result)=>{
+        if(error){
+            console.log("Estoy en error 1")
+            res.status(400).json({
+                message: 'Error en la consulta'
+            })
+        }else{
+            console.log("Estoy aqui " + req.body );
+        }
+    })
 })
