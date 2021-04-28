@@ -31,6 +31,7 @@ app.get('/',(req,res)=>{
 });*/
 
 const uploader = require('./app/config/multer');
+const { writeFile } = require('fs');
 
 app.post('/upload', uploader.single('file'), async(req, res) => {
     //console.log("Uploading: "+ file.filename);
@@ -71,6 +72,29 @@ app.post('/upload', uploader.single('file'), async(req, res) => {
     } else{
         return res.status(410).json({message: "Tipo de archivo seleccionado erróneo."})
     }
+})
+
+app.post('/UpdateAvatarUsuario',(req,res)=>{
+
+    let nombre = req.body.nombre;
+    let imagen = req.body.imagen;
+    var url = "http://localhost:3060/";
+    var datos = Buffer.from(imagen, 'base64');
+    writeFile( "server-images/app/archivos/general/" + nombre + ".png",datos, (err)=>{
+        if (err) throw err;
+        else {
+            const sql = "UPDATE usuario SET imagen='"+url + "general/" + nombre + ".png" +"' WHERE email='"+nombre+"'"
+            connection.query(sql,(err)=>{
+                if(err){
+                    console.log(err);
+                    res.status(400);
+                }else{
+                    res.status(200);
+                }
+            })
+        }
+    })
+
 })
 
 /*app.get('/download', async(req, res) => {
