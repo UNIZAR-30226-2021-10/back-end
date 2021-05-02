@@ -724,7 +724,27 @@ app.post('/UpdateItemsUsuario',(req,res)=>{
             res.status(200);
         }
     });
+});
 
-    
-    
+
+app.post('/PartidaMulti_info',(req,res)=>{
+   console.log(req.body.codigo); 
+   connection.query("SELECT * FROM partida WHERE codigo ='"+ req.body.codigo +"'",(error,result)=>{
+    if (result.length > 0) {
+        console.log(result);    
+        res.json({
+            idpartida: result[0],
+            fecha: result[1],
+            numJugadores: result[2],
+            rondas: result[3],
+            ganador: result[4],
+            codigo: result[5]
+        });
+    }else {
+        if (error) throw error;
+        res.status(400).json({
+            message: 'Login not sucesfully.'
+        })
+    }
+   });
 });
