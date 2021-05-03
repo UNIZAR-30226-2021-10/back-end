@@ -72,6 +72,40 @@ io.on('connection', (socket) => {
         }
     });
 
+    //Unirse a partida Multi
+    socket.on('unirseMulti', ({usuario, code, jugadores, rondas}, callback) => {
+        const {error, user} = addUser({id: socket.id, username: usuario, code: code});
+        if(error){
+            return callback(error);
+        }
+        socket.join(user.code);
+        // 'admin' envía message al usuario que se ha unido 'user.username'
+        const mensajeUserJoin = {sender: 'admin', avatar: '/images/usuario.png', text: "Bienvenido a la partida "+ user.username, date: "admin" };
+        socket.emit('message', mensajeUserJoin);
+        // 'admin' envía message a todos los usuarios de la sala de 'user.username'
+        const mensajeUsersInChat = {sender: 'admin', avatar: '/images/usuario.png', text: "Se ha unido "+ user.username, date: "admin" };
+        socket.broadcast.to(user.code).emit('message', mensajeUsersInChat);
+        // Añadir a jugadores
+        const jugador = {username: user.username, avatar:'/images/usuario.png', puntos:'0'}
+        socket.broadcast.to(user.code).emit('newPlayer', jugador);
+
+        console.log(user.username + " ha enviado un mensaje en el chat.");
+        //callback();
+
+    });
+
+    //abandonarPartidaMulti
+    socket.on('abandonarMulti', () => {
+        const user = removeUser(socket.id);
+        if (user){
+            // 'user.username' envía message "message" a todos los usuarios de su sala
+            const mensajeUsersInChat = {sender: 'admin', avatar: '/images/usuario.png', text: user.username + ' ha salido.', date: "admin" };
+            io.to(user.code).emit('message', mensajeUsersInChat);
+            console.log("Se ha desconectado el usuario: " + user.username);
+        }
+
+    });
+
 });
 
 const PORT = process.env.PORT || 5000;  //Puerto
