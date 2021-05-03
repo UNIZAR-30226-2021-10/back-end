@@ -281,6 +281,82 @@ app.get('/Historial_Puntuacion',(req,res)=>{
     });
 })
 
+//Datos: los resultados de la query Historial_Completo
+//email: correo del usuario que solicita su historial
+function prepararDatos(datos, emailSolicitante){
+    let result = [];
+    let antIdPartida = null;
+    let partida = '';
+    datos.forEach((dato) => {
+        if (antIdPartida != dato.idpartida){ //Si la partida anterior y la actual tienen distinto id
+            if (antIdPartida != null){ //Añadir la partida anterior
+                result.push(partida);
+            }
+            
+            //Crear nueva partida
+            partida = {   
+                code: dato.codigo, 
+                jugadoresEnPartida: [ //Ordenados por clasificación 1* a 4*
+                    {username: dato.nickname, avatar: dato.imagen, puntos: dato.puntuacion},
+                ],
+                maxJugadores: dato.numJugadores,
+                maxRondas: dato.rondas,
+                fecha: '',
+                hora: '',
+            }
+        } else { //Si la partida anterior y la actual tienen el mismo id
+            //Añadirse como jugador de la partida
+            const jugadorDePartida = {username: dato.nickname, avatar: dato.imagen, puntos: dato.puntuacion};
+            partida.jugadoresEnPartida.push(jugadorDePartida);
+        }
+
+        //Si eres el que solicita el historial, pones la fecha y hora de la partida
+        if (emailSolicitante == dato.email){
+            let fecha = dato.fecha;
+            const anyo = fecha.split('--')[0];  //Año
+            const mes = fecha.split('--')[1];   //Mes
+            fecha = fecha.split('--')[2];
+            const dia = fecha.split('(')[0];    //Día
+            fecha = fecha.split('(')[1];
+            const hora = fecha.split(')')[0];   //Hora
+
+            //Colocar la fecha y hora obtenidas en la partida
+            partida.fecha = dia + "-" + mes + "-" + anyo;
+            partida.hora = hora;
+        }
+
+        //Actualizar antIdPartida
+        antIdPartida = dato.idpartida;
+    })
+    //Se añade la última partida que falta
+    if (antIdPartida != null){ //Añadir la partida anterior
+        result.push(partida);
+    }
+    return result;
+}
+
+app.get('/Historial_Completo',(req,res)=>{
+    const query = "SELECT idpartida, fecha, numJugadores, rondas, codigo, puntuacion, email, nickname, imagen \
+                   FROM partida, juega, usuario WHERE idpartida IN \
+                        ( SELECT id_partida \
+                          FROM juega where usuario_email = '"+ req.query.email+"') \
+                    AND partida.idpartida = juega.id_partida \
+                    AND juega.usuario_email = usuario.email \
+                    ORDER BY idpartida DESC, puntuacion DESC";
+    console.log(req.query.email);
+    connection.query(query,(error,result)=>{
+        if (result.length > 0) {
+            const partidas = prepararDatos(result, req.query.email);
+            res.json(partidas);
+        } else {
+            if (error) throw error;
+            res.status(400).json({
+                message: 'Error al obtener el historial de partidas.'
+            }) 
+        }
+    });
+})
+
 app.post('/FinalIndividual',(req,res)=>{
 
     const partida = {
@@ -568,8 +644,6 @@ app.post('/PantallaTienda',(req,res)=>{
     connection.query("select * from item where iditem not in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
     
         if (result.length > 0) {
-    
-            console.log(result);
             res.json(result);
             
         }else {
@@ -587,7 +661,6 @@ app.post('/PerfilUsuario',(req,res)=>{
     connection.query("select item.iditem,Imagen,Tipo,Nombre,equipado from item,tiene where item.iditem=tiene.iditem AND tiene.usuario_email= '"+req.body.email+"'",(error,result)=>{
         
         if (result.length > 0) {
-            console.log(result);
             res.json(result);
             
         }else {
@@ -684,12 +757,14 @@ function ordenarDesc(p_array_json, p_key) {
 
 app.post('/Ranking',(req,res)=>{
 
-    connection.query("select nickname, puntos, imagen from usuario ",(error,result)=>{
+    //connection.query("select nickname, puntos, imagen from usuario ",(error,result)=>{
+    connection.query("select nickname, (puntos * 1) AS 'puntos', imagen from usuario ORDER BY puntos DESC",(error,result)=>{
         
         if (result.length > 0) {
-            const prueba = result;
-            ordenarDesc(prueba, 'puntos');
-            res.json(prueba);
+            //const prueba = result;
+            //ordenarDesc(prueba, 'puntos');
+            //res.json(prueba);
+            res.json(result);
             
         }else {
             console.log(result);
