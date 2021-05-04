@@ -109,8 +109,6 @@ app.post('/UpdateAvatarUsuario',(req,res)=>{
 })*/
 
 app.get('/historial', async(req, res) => {
-    console.log("Devolviendo datos de db");
-
     const {body} = req;
     if(body){
         //Coger archivos de db
@@ -123,6 +121,24 @@ app.get('/historial', async(req, res) => {
                 if (error) throw error;
                 res.status(400).json({
                     message: 'Empty.'
+                })
+            }
+    
+        });
+    }
+})
+
+app.get('/numberUsers', async(req, res) => {
+    const {body} = req;
+    if(body){
+        //Coger archivos de db
+        connection.query("SELECT COUNT(*) AS numberOfUsers FROM usuario",(error,result)=>{
+            if (result.length > 0) {
+                res.json(result);
+            }else {
+                if (error) throw error;
+                res.status(400).json({
+                    message: 'Error al contar el número de usuarios.'
                 })
             }
     
