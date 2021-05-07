@@ -106,6 +106,26 @@ io.on('connection', (socket) => {
 
     });
 
+    //Pasar turno
+    socket.on('pasarTurno', (nuevoTurno, nuevaRonda) =>{
+        const user = getUser(socket.id); // Buscar usuario del chat
+        // 'user.username' envía message "message" a todos los usuarios de su sala
+
+        socket.broadcast.to(user.code).emit('recibirTurno', nuevoTurno, nuevaRonda);
+        
+        console.log(user.username + " ha pasado el turno");
+    });
+
+    //Finalizar partida
+    socket.on('sendFinPartida', (jugadoresDesc) =>{
+        const user = getUser(socket.id); // Buscar usuario del chat
+        // 'user.username' envía message "message" a todos los usuarios de su sala
+
+        socket.broadcast.to(user.code).emit('finalizarPartida', jugadoresDesc);
+        
+        console.log(user.username + " ha finalizado la partida");
+    });
+
 });
 
 const PORT = process.env.PORT || 5000;  //Puerto
