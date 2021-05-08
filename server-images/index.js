@@ -114,17 +114,6 @@ app.post('/UpdateAvatarUsuario',(req,res)=>{
       }
 });
 
-/*app.get('/download', async(req, res) => {
-    console.log(req);
-
-    const {body} = req;
-    if(body){
-        //Coger imagenes de db
-        //res.json(images);
-        res.json("Se ha obtenido la imagen");
-    }
-})*/
-
 app.get('/historial', async(req, res) => {
     const {body} = req;
     if(body){
@@ -145,7 +134,7 @@ app.get('/historial', async(req, res) => {
     }
 })
 
-app.get('/numberUsers', async(req, res) => {
+app.get('/numberUsers', async(req, res)=>{
     const {body} = req;
     if(body){
         //Coger archivos de db
@@ -161,4 +150,7 @@ app.get('/numberUsers', async(req, res) => {
     
         });
     }
+})
+
+
 })
