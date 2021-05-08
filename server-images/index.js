@@ -74,28 +74,45 @@ app.post('/upload', uploader.single('file'), async(req, res) => {
     }
 })
 
+const AWS = require('aws-sdk');
+AWS.config.update({
+    secretAccessKey: 'Mxbjx1nxYzogWTRb1qQXhT5sWFRQ7TLtpwf5kgDc',
+    accessKeyId: 'AKIATHCJDSJ6K23MR3W4',
+    region: 'eu-west-3'    
+});
+const s3Bucket = new AWS.S3( { params: {Bucket: 'trivial-images'} } );
+
 app.post('/UpdateAvatarUsuario',(req,res)=>{
 
     let nombre = req.body.nombre;
-    let imagen = req.body.imagen;
-    var url = "http://localhost:3060/";
-    var datos = Buffer.from(imagen, 'base64');
-    writeFile( "server-images/app/archivos/general/" + nombre + ".png",datos, (err)=>{
-        if (err) throw err;
-        else {
-            const sql = "UPDATE usuario SET imagen='"+url + "general/" + nombre + ".png" +"' WHERE email='"+nombre+"'"
-            connection.query(sql,(err)=>{
-                if(err){
-                    console.log(err);
-                    res.status(400);
-                }else{
-                    res.status(200);
-                }
-            })
-        }
-    })
-
-})
+    const url="https://trivial-images.s3.eu-west-3.amazonaws.com/"
+    datos = Buffer.from(req.body.imagen.replace(/^data:image\/\w+;base64,/, ""),'base64')
+    var data = {
+        Key: req.body.nombre, 
+        Body: datos,
+        ContentEncoding: 'base64',
+        ContentType: 'image/png'
+    };
+    s3Bucket.putObject(data, function(err, data){
+      if (err) { 
+        console.log(err);
+        console.log('Error uploading data: ', data); 
+      } else {
+        var email = nombre.replace("@","%40");
+        const sql = "UPDATE usuario SET imagen='"+url + email +"' WHERE email='"+nombre+"'"
+        connection.query(sql,(err)=>{
+             if(err){
+                console.log(err);
+                  res.status(400);
+            }else{
+                 res.json({
+                     imagenAv: url + email
+                   });
+             }
+        });
+        console.log('successfully uploaded the image!');
+      }
+});
 
 /*app.get('/download', async(req, res) => {
     console.log(req);
