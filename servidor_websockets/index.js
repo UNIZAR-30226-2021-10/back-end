@@ -106,6 +106,34 @@ io.on('connection', (socket) => {
 
     });
 
+    //Pasar turno
+    //nuevoTurno: turno actualizado despues de que el jugador pase el turno
+    //nuevaRonda: ronda actualizada despues de que el jugador pase turno
+    //jugadores: vector con la info de todos los jugadores (en realidad solo 
+    //             necesitariamos los puntos del jugador que ha pasado turno, 
+    //             lo he hecho asi porque me resultaba mas comodo pero tu seguramente
+    //             lo tendras de otra forma)  
+    socket.on('pasarTurno', (nuevoTurno, nuevaRonda, jugadores) =>{
+        const user = getUser(socket.id); // Buscar usuario del chat
+        // 'user.username' envía message "message" a todos los usuarios de su sala
+        console.log(jugadores);
+
+        socket.broadcast.to(user.code).emit('recibirTurno', nuevoTurno, nuevaRonda, jugadores);
+        
+        console.log(user.username + " ha pasado el turno");
+    });
+
+    //Finalizar partida
+    //jugadoresDesc: vector con los jugadores ordenados de mayor a menor puntuación
+    socket.on('sendFinPartida', (jugadoresDesc) =>{
+        const user = getUser(socket.id); // Buscar usuario del chat
+        // 'user.username' envía message "message" a todos los usuarios de su sala
+
+        socket.broadcast.to(user.code).emit('finalizarPartida', jugadoresDesc);
+        
+        console.log(user.username + " ha finalizado la partida");
+    });
+
 });
 
 const PORT = process.env.PORT || 5000;  //Puerto
