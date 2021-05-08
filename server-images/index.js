@@ -73,11 +73,11 @@ app.post('/upload', uploader.single('file'), async(req, res) => {
         return res.status(410).json({message: "Tipo de archivo seleccionado erróneo."})
     }
 })
-
+//Lucas si necesitas la clave y el id dime
 const AWS = require('aws-sdk');
 AWS.config.update({
-    secretAccessKey: 'Mxbjx1nxYzogWTRb1qQXhT5sWFRQ7TLtpwf5kgDc',
-    accessKeyId: 'AKIATHCJDSJ6K23MR3W4',
+    secretAccessKey: '****',
+    accessKeyId: '****',
     region: 'eu-west-3'    
 });
 const s3Bucket = new AWS.S3( { params: {Bucket: 'trivial-images'} } );
