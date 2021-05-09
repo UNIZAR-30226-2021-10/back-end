@@ -19,6 +19,7 @@ const admin = baseUrl+"/appImages/ventanas/admin.png";
 // Conexión al chat
 io.on('connection', (socket) => {
     console.log("Se ha establecido una conexion nueva");
+    console.log(`Connection : SocketId = ${socket.id}`)
 
     // Unión de un usuario con nombre "username" al chat con codigo "code"
     socket.on('join', ({username, code, firstJoin, avatar}, callback) =>{
@@ -32,6 +33,7 @@ io.on('connection', (socket) => {
             // 'admin' envía message al usuario que se ha unido 'user.username'
             const mensajeUserJoin = {sender: 'admin', avatar: admin, text: "Bienvenido al chat "+ user.username, date: "admin" };
             socket.emit('message', mensajeUserJoin);
+            console.log("Manda mensaje a "+ username + ", con mensaje" + mensajeUserJoin);
             // 'admin' envía message a todos los usuarios de la sala de 'user.username'
             const mensajeUsersInChat = {sender: 'admin', avatar: admin, text: "Se ha unido "+ user.username, date: "admin" };
             socket.broadcast.to(user.code).emit('message', mensajeUsersInChat);
