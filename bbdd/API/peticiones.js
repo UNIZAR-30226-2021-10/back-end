@@ -451,9 +451,9 @@ app.post('/FinalIndividual_Usuario',(req,res)=>{
     });
 })
 
-app.get('/Multijugador_PartidaCode',(req,res)=>{
+app.get('/Multijugador_PartidaCode',(req,res)=>{ 
     const query = "select * from partida where codigo = '"+ req.query.codigo+"'";
-
+    
     connection.query(query,(error,result)=>{
         if (result.length > 0) {
             console.log("Encontrada partida con codigo code.");
@@ -472,6 +472,7 @@ app.get('/Multijugador_PartidaJugadoresUsuario',(req,res)=>{
     const query = "select * from juega as j, usuario as u \
                     where j.id_partida = "+ req.query.idpartida
                     + " and j.usuario_email = u.email";
+    console.log(req.query.idpartida);                
     connection.query(query,(error,result)=>{
         if (result.length > 0) {
             console.log("Encontrados jugadores de la partida.");
@@ -609,6 +610,7 @@ app.post('/FinalMultijugador_Juega',(req,res)=>{
                     res.json({
                         message: 'Datos juega actualizados.'
                     }) 
+                
                 }
             });
         } else{
