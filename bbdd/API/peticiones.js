@@ -3,6 +3,8 @@ const cors = require('cors')
 const app = express();
 const connection = require('./database.js');
 const Mysql = require('mysql');
+const bitmapManipulation = require("bitmap-manipulation");
+const Jimp = require("jimp");
 
 // Settings
 app.set('port', process.env.PORT || 3050);
@@ -846,4 +848,43 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
          })
      }
     });
+ });
+
+app.post('/construirAvatar' ,(req,res) => {
+    let color;
+    let cara;
+    Jimp.read(req.body.color, function (err, color){
+        if(err){
+            console.log(err);
+        } else{
+            color.write("color.bmp")
+        }
+    })
+
+    Jimp.read(req.body.cara, function (err, cara){
+        if(err){
+            console.log(err);
+        } else{
+            cara.write("cara.bmp")
+        }
+    })
+    
+    let bitmap = new bitmapManipulation.Bitmap(140, 140);
+    let overlayBitmap1 = bitmap.fromFile(color);
+    let overlayBitmap2 = bitmap.fromFile(cara);
+    bitmap.drawBitmap(overlayBitmap1, 0, 0, overlayBitmap.getPalette());
+    bitmap.drawBitmap(overlayBitmap2, 0, 0, overlayBitmap.getPalette());
+    let bitmapData = bitmap.data();
+
+    new Jimp(bitmapData, function(err, image){
+        if(err){
+            console.log(err);
+        } else {
+            image.write("avatar.png");
+            console.log("hola");
+        }
+    })
+    console.log(image);
+    res.status(image);
+
  });
