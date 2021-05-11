@@ -3,8 +3,8 @@ const cors = require('cors')
 const app = express();
 const connection = require('./database.js');
 const Mysql = require('mysql');
-const bitmapManipulation = require("bitmap-manipulation");
-const Jimp = require("jimp");
+const fs = require('fs')
+const { createCanvas, loadImage } = require('canvas')
 
 // Settings
 app.set('port', process.env.PORT || 3050);
@@ -850,41 +850,60 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
     });
  });
 
-app.post('/construirAvatar' ,(req,res) => {
-    let color;
-    let cara;
-    Jimp.read(req.body.color, function (err, color){
-        if(err){
-            console.log(err);
-        } else{
-            color.write("color.bmp")
+ app.post('/construirAvatar' ,(req,res) => {
+    const imagenes = req.body.imagenes;
+    const canvas = createCanvas(140, 140);
+    const context = canvas.getContext('2d');
+    var buffer;
+    for (var i = 0; i<4; i++){
+        if (imagenes[i] == null){
+            i=4;
+        }else{
+            loadImage(imagenes[i]).then(image =>{
+                context.drawImage(image,0,0);
+                buffer = canvas.toBuffer('image/png');
+                fs.writeFileSync('./avatar.png', buffer);
+                console.log(buffer);
+            })
         }
-    })
-
-    Jimp.read(req.body.cara, function (err, cara){
-        if(err){
-            console.log(err);
-        } else{
-            cara.write("cara.bmp")
-        }
-    })
-    
-    let bitmap = new bitmapManipulation.Bitmap(140, 140);
-    let overlayBitmap1 = bitmap.fromFile(color);
-    let overlayBitmap2 = bitmap.fromFile(cara);
-    bitmap.drawBitmap(overlayBitmap1, 0, 0, overlayBitmap.getPalette());
-    bitmap.drawBitmap(overlayBitmap2, 0, 0, overlayBitmap.getPalette());
-    let bitmapData = bitmap.data();
-
-    new Jimp(bitmapData, function(err, image){
-        if(err){
-            console.log(err);
-        } else {
-            image.write("avatar.png");
-            console.log("hola");
-        }
-    })
-    console.log(image);
-    res.status(image);
-
+    }
+    res.status(200);
  });
+ /*
+
+app.post('/construirAvatar' ,(req,res) => {
+    var color;
+    var cara;
+    Jimp.read(req.body.color, function (err, image){
+        if(err){
+            console.log(err);
+        } else{
+            image.write("color.bmp")
+            color = image.bitmap.data;
+            Jimp.read(req.body.cara, function (err, image2){
+                if(err){
+                    console.log(err);
+                } else{
+                    image2.write("cara.bmp")
+                    cara = image2.bitmap.data;
+                    let canvas = new bitmapManipulation.canvas.RGB(140, 140, 1);
+                    let bitmap = new bitmapManipulation.Bitmap(canvas);
+                    bitmap.drawBitmap(image, 0, 0);
+                    bitmap.drawBitmap(image2,0 ,0);
+                    let bitmapData = canvas.data();
+                    console.log(bitmapData);
+                    new Jimp(bitmapData, function(err, image3){
+                        if(err){
+                            console.log(err);
+                        } else {
+                            image3.write("avatar.png");
+                            console.log(image3);
+                            res.status(image3);
+                        }
+                    })
+
+                }
+            })
+        }
+    })
+ });*/
