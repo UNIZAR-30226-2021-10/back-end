@@ -90,6 +90,16 @@ io.on('connection', (socket) => {
         
         console.log(user.username + " ha pasado el turno");
     });
+    /*
+    socket.on('pasarTurno', (nuevoTurno, nuevaRonda, puntos) =>{
+        const user = getUser(socket.id); // Buscar usuario del chat
+        // 'user.username' envía message "message" a todos los usuarios de su sala
+        console.log(puntos);
+
+        socket.broadcast.to(user.code).emit('recibirTurno', nuevoTurno, nuevaRonda, puntos);
+        
+        console.log(user.username + " ha pasado el turno");
+    });*/
 
     //Finalizar partida
     //jugadoresDesc: vector con los jugadores ordenados de mayor a menor puntuación
