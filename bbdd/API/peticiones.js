@@ -854,6 +854,22 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
     const imagenes = req.body.imagenes;
     const canvas = createCanvas(140, 140);
     const context = canvas.getContext('2d');
+    console.log(imagenes);
+    var buffer;
+    imagenes.forEach((imagen) => {
+            loadImage(imagen).then(image =>{
+                context.drawImage(image,0,0);
+                buffer = canvas.toBuffer('image/png');
+                fs.writeFileSync('./avatar.png', buffer, 'base64');
+            })
+    })
+    res.status(200);
+ });
+/*
+ app.post('/construirAvatar' ,(req,res) => {
+    const imagenes = req.body.imagenes;
+    const canvas = createCanvas(140, 140);
+    const context = canvas.getContext('2d');
     var buffer;
     for (var i = 0; i<4; i++){
         if (imagenes[i] == null){
@@ -862,48 +878,10 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
             loadImage(imagenes[i]).then(image =>{
                 context.drawImage(image,0,0);
                 buffer = canvas.toBuffer('image/png');
-                fs.writeFileSync('./avatar.png', buffer);
-                console.log(buffer);
+                fs.writeFileSync('./avatar.png', buffer, 'base64');
             })
         }
     }
+
     res.status(200);
- });
- /*
-
-app.post('/construirAvatar' ,(req,res) => {
-    var color;
-    var cara;
-    Jimp.read(req.body.color, function (err, image){
-        if(err){
-            console.log(err);
-        } else{
-            image.write("color.bmp")
-            color = image.bitmap.data;
-            Jimp.read(req.body.cara, function (err, image2){
-                if(err){
-                    console.log(err);
-                } else{
-                    image2.write("cara.bmp")
-                    cara = image2.bitmap.data;
-                    let canvas = new bitmapManipulation.canvas.RGB(140, 140, 1);
-                    let bitmap = new bitmapManipulation.Bitmap(canvas);
-                    bitmap.drawBitmap(image, 0, 0);
-                    bitmap.drawBitmap(image2,0 ,0);
-                    let bitmapData = canvas.data();
-                    console.log(bitmapData);
-                    new Jimp(bitmapData, function(err, image3){
-                        if(err){
-                            console.log(err);
-                        } else {
-                            image3.write("avatar.png");
-                            console.log(image3);
-                            res.status(image3);
-                        }
-                    })
-
-                }
-            })
-        }
-    })
  });*/
