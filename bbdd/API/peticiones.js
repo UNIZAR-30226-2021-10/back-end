@@ -380,7 +380,8 @@ app.post('/FinalIndividual',(req,res)=>{
                     const jugada = {
                         id_partida: result[0].idpartida,
                         usuario_email: req.body.email,
-                        puntuacion: req.body.puntos
+                        puntuacion: req.body.puntos,
+                        orden_entrada: 0 // ha entrado el primero porque es el único
                     }
                     
                     connection.query("INSERT into juega SET ?", jugada, error => {
@@ -476,6 +477,7 @@ app.get('/Multijugador_PartidaJugadoresUsuario',(req,res)=>{
     connection.query(query,(error,result)=>{
         if (result.length > 0) {
             console.log("Encontrados jugadores de la partida.");
+            //console.log(result);
             res.json(result);   // Devuelvo jugadores
         }else {
             console.log("No hay jugadores en la partida.");
@@ -547,27 +549,44 @@ app.post('/CrearMultijugador_Partida',(req,res)=>{
 })
 
 app.post('/UnirseMultijugador_Juega',(req,res)=>{
+    console.log("Dentro de unirse jugador juega")
     connection.query("SELECT idpartida FROM partida where codigo = '"+req.body.codigo+"'",(error,result)=>{
         if (result.length > 0) {
             const jugada = {
                 id_partida: result[0].idpartida,
                 usuario_email: req.body.email,
-                puntuacion: req.body.puntos
+                puntuacion: req.body.puntos,
+                orden_entrada: 0
             }
-                    
-            connection.query("INSERT into juega SET ?", jugada, error => {
-                if (error){
-                    //Gestionamos el error de clave duplicada
-                    res.status(440).json({
-                        message: 'No se ha podido insetar jugada'
-                    }) 
-                    throw error;
-                }else{
-                    res.json({
-                        message: 'Jugada registrada correctamente'
-                    });
+
+            // Busca a ver si ya hay otros usuarios
+            connection.query("SELECT orden_entrada FROM juega where id_partida = '"+jugada.id_partida+"' ORDER BY orden_entrada DESC ", (error,result)=> {
+                // si ya hay otros jugadores en la partida
+                console.log("Resultado de select")
+                if (result.length > 0) {
+                    //console.log(result[0])
+                    const valor = parseInt(result[0].orden_entrada, 10);
+                    //console.log(valor)
+                    jugada.orden_entrada = valor + 1;
+                    console.log(jugada.orden_entrada)
                 }
+                // INSERTAR EL JUEGA
+                connection.query("INSERT into juega SET ?", jugada, error => {
+                    if (error){
+                        //Gestionamos el error de clave duplicada
+                        res.status(440).json({
+                            message: 'No se ha podido insetar jugada'
+                        }) 
+                        throw error;
+                    }else{
+                        res.json({
+                            message: 'Jugada registrada correctamente'
+                        });
+                    }
+                });
             });
+                    
+            
         }else {
             if (error) throw error;
             res.status(450).json({

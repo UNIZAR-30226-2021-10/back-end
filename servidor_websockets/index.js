@@ -35,7 +35,7 @@ io.on('connection', (socket) => {
             socket.emit('message', mensajeUserJoin);
             console.log("Manda mensaje a "+ username + ", con mensaje" + mensajeUserJoin);
             // 'admin' envía message a todos los usuarios de la sala de 'user.username'
-            const mensajeUsersInChat = {sender: 'admin', avatar: admin, text: "Se ha unido "+ user.username, date: "admin", nombreUsr: username, avatarUsr: avatar };
+            const mensajeUsersInChat = {sender: 'admin', avatar: admin, text: "Se ha unido "+ user.username, date: "admin"};
             socket.broadcast.to(user.code).emit('message', mensajeUsersInChat);
             // Añadir a jugadores
             const jugador = {username: user.username, avatar: avatar, puntos:'0'}
@@ -81,7 +81,7 @@ io.on('connection', (socket) => {
     //             necesitariamos los puntos del jugador que ha pasado turno, 
     //             lo he hecho asi porque me resultaba mas comodo pero tu seguramente
     //             lo tendras de otra forma)  
-    socket.on('pasarTurno', (nuevoTurno, nuevaRonda, jugadores) =>{
+    /*socket.on('pasarTurno', (nuevoTurno, nuevaRonda, jugadores) =>{
         const user = getUser(socket.id); // Buscar usuario del chat
         // 'user.username' envía message "message" a todos los usuarios de su sala
         console.log(jugadores);
@@ -89,8 +89,8 @@ io.on('connection', (socket) => {
         socket.broadcast.to(user.code).emit('recibirTurno', nuevoTurno, nuevaRonda, jugadores);
         
         console.log(user.username + " ha pasado el turno");
-    });
-    /*
+    });*/
+    
     socket.on('pasarTurno', (nuevoTurno, nuevaRonda, puntos) =>{
         const user = getUser(socket.id); // Buscar usuario del chat
         // 'user.username' envía message "message" a todos los usuarios de su sala
@@ -99,8 +99,8 @@ io.on('connection', (socket) => {
         socket.broadcast.to(user.code).emit('recibirTurno', nuevoTurno, nuevaRonda, puntos);
         
         console.log(user.username + " ha pasado el turno");
-    });*/
-
+    });
+    
     //Finalizar partida
     //jugadoresDesc: vector con los jugadores ordenados de mayor a menor puntuación
     socket.on('sendFinPartida', (jugadoresDesc) =>{
