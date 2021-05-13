@@ -850,7 +850,7 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
     });
  });
 
- app.post('/construirAvatar' ,(req,res) => {
+app.post('/construirAvatar' ,(req,res) => {
     const imagenes = req.body.imagenes;
     const canvas = createCanvas(140, 140);
     const context = canvas.getContext('2d');
@@ -859,12 +859,17 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
     imagenes.forEach((imagen) => {
             loadImage(imagen).then(image =>{
                 context.drawImage(image,0,0);
-                buffer = canvas.toBuffer('image/png');
-                fs.writeFileSync('./avatar.png', buffer, 'base64');
+                if (imagenes.indexOf(imagen) == (imagenes.length - 1)){
+                    buffer = canvas.toBuffer('image/png', 'base64');
+                    fs.writeFileSync('./avatar.png', buffer);
+                    let buff =  Buffer.from(buffer);
+                    let base64data = buff.toString('base64');
+                    res.send(base64data);
+                }
             })
     })
-    res.status(200);
- });
+    
+});
 /*
  app.post('/construirAvatar' ,(req,res) => {
     const imagenes = req.body.imagenes;
