@@ -599,6 +599,8 @@ app.post('/FinalMultijugador_Juega',(req,res)=>{
         
         if (result.length > 0) {
             const idpartida = parseInt(result[0].idpartida, 10);
+            console.log("Estos son los puntos que recibo");
+            console.log(req.body.puntos);
             connection.query("UPDATE juega SET puntuacion = '"+req.body.puntos+"' WHERE id_partida= '"+idpartida+"'",error => {
                 if (error){
                     //Gestionamos el error de clave duplicada
@@ -847,3 +849,34 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
      }
     });
  });
+
+ app.post('/AbandonarPartidaMulti',(req,res)=>{
+
+    connection.query("SELECT idpartida FROM partida WHERE codigo='"+req.body.codigo+"'",(error,result)=>{
+        console.log(req.body.codigo);
+        if (result.length > 0) {
+            const idpartida = parseInt(result[0].idpartida, 10);
+            console.log(idpartida);
+            connection.query("DELETE FROM juega WHERE id_partida = '"+idpartida+"' and usuario_email = '"+req.body.email+"'",error => {
+                if (error){
+                    //Gestionamos el error de clave duplicada
+                    res.status(410).json({
+                        message: 'Jugador no eliminado de la partida.'
+                    }) 
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Jugador eliminado de la partida.'
+                    }) 
+                
+                }
+            });
+        } else{
+             //el usuario no está registrado
+            if (error) throw error;
+            res.status(400).json({
+                message: 'El usuario no está registrado.'
+            }) 
+        }
+    });
+})
