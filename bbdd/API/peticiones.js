@@ -882,3 +882,12 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
         }
     });
 })
+
+app.post('/EliminarPartidaMulti',(req,res)=>{
+    connection.query("DELETE FROM partida WHERE codigo='"+req.body.codigo+"'",(error,result)=>{
+        if (error) throw error;
+        res.status(400).json({
+            message: 'La partida no está registrada.'
+        }) 
+    });
+})
