@@ -77,11 +77,8 @@ app.post('/Registrarse',(req,res)=>{
 })
 
 app.post('/Registrarse_Foto',(req,res)=>{
-
     const sql = "insert into tiene SET usuario_email = '"+req.body.email+"', idItem = ? , equipado = 1";
-
     connection.query("SELECT iditem FROM item WHERE Nombre ='"+req.body.nombreObjeto+"'",(error,result)=>{
-
         if (result.length > 0) {
             //console.log(result);
             const id = result[0].iditem;
@@ -96,24 +93,16 @@ app.post('/Registrarse_Foto',(req,res)=>{
                         message: 'Item insertado en tabla tiene del usuario'
                     })
                 }
-            });
-            
+            }); 
         }else {
             return res.status(400).json({message: 'No se ha encontrado el item'})
         }
-
     });
-
-
 })
 
 app.post('/MenuInicio',(req,res)=>{
-
     connection.query("SELECT * FROM usuario WHERE nickname='"+req.body.nickname+"'"+"and password='"+req.body.password+"'",(error,result)=>{
-
-        
         if (result.length > 0) {
-            
             res.json({
                 email: result[0],
                 nickname: result[1],
@@ -129,25 +118,19 @@ app.post('/MenuInicio',(req,res)=>{
         }
 
     });
-
-
 })
 
 app.get('/ModoIndividual',(req,res)=>{
-
-    //connection.query("SELECT idpregunta, incorrecta1, incorrecta2, incorrecta3, correcta, enunciado FROM pregunta where categoria='"+req.body.category+"' ORDER BY RAND() LIMIT 1",(error,result)=>{
-        connection.query("SELECT idpregunta, incorrecta1, incorrecta2, incorrecta3, correcta, enunciado FROM pregunta where categoria='"+req.query.category+"' ORDER BY RAND() LIMIT 1",(error,result)=>{
-
+    connection.query("SELECT idpregunta, incorrecta1, incorrecta2, incorrecta3, correcta, enunciado FROM pregunta where categoria='"+req.query.category+"' ORDER BY RAND() LIMIT 1",(error,result)=>{
         if (result.length > 0) {
-           res.json({
+            res.json({
                 idpregunta: result[0],
                 incorrecta1: result[1],
                 incorrecta2: result[2],
                 incorrecta3: result[3],
                 correcta: result[4],
                 enunciado: result[5],
-           })
-            
+            })   
         }else {
             if (error) throw error;
             console.log("error");
@@ -158,11 +141,8 @@ app.get('/ModoIndividual',(req,res)=>{
     });
 })
 
-
 app.post('/AjustesUsuario',(req,res)=>{
-
     const sql = "UPDATE usuario SET ? WHERE email= '"+req.body.email+"'";
-
     const usuario = {
         email : req.body.email,
         password: req.body.password,
@@ -188,18 +168,15 @@ app.post('/AjustesUsuario',(req,res)=>{
             res.status(400).json({
                 message: 'El usuario no está registrado.'
             });
-
         }
     });
 })
 
 app.post('/EliminarCuenta',(req,res)=>{
     const sql = "DELETE FROM usuario WHERE email= '"+req.body.email+"'";
-
     const usuario = {
         email : req.body.email,
     }
-
     connection.query(sql,usuario,error => {
         if (error) {
             res.status(400).json({
@@ -216,9 +193,7 @@ app.post('/EliminarCuenta',(req,res)=>{
 })
 
 app.post('/CambiarContrasenya',(req,res)=>{
-
     const sql = "UPDATE usuario SET ? WHERE email= '"+req.body.email+"'";
-
     const usuario = {
         email : req.body.email,
         password: req.body.password,
@@ -237,7 +212,6 @@ app.post('/CambiarContrasenya',(req,res)=>{
             res.json({
                 message: 'El usuario no está registrado.'
             });
-
         }
     });
 })
@@ -245,13 +219,11 @@ app.post('/CambiarContrasenya',(req,res)=>{
 app.get('/Historial',(req,res)=>{
     const primeraQuery = "select * from partida where idpartida IN  (select id_partida from juega where usuario_email = '"+ req.query.mail+"') ORDER BY idpartida DESC";
     connection.query(primeraQuery,(error,result)=>{
-
         if (result.length > 0) {
             // ha devuelto lista
             res.json(result);
             //console.log(result);
-            //console.log(res);
-            
+            //console.log(res); 
         }else {
             if (error) throw error;
             res.status(400).json({
@@ -262,16 +234,13 @@ app.get('/Historial',(req,res)=>{
 })
 
 app.get('/Historial_Puntuacion',(req,res)=>{
-    
     const segundaQuery = "select puntuacion,id_partida from juega where usuario_email = '"+ req.query.email+"' ORDER BY id_partida DESC";
     connection.query(segundaQuery,(error,result)=>{
-    
         if (result.length > 0) {
             // ha devuelto lista
             res.json(result);
             //console.log(result);
             //console.log(res);
-            
         }else {
             if (error) throw error;
             res.status(400).json({
@@ -292,7 +261,6 @@ function prepararDatos(datos, emailSolicitante){
             if (antIdPartida != null){ //Añadir la partida anterior
                 result.push(partida);
             }
-            
             //Crear nueva partida
             partida = {   
                 code: dato.codigo, 
@@ -309,7 +277,6 @@ function prepararDatos(datos, emailSolicitante){
             const jugadorDePartida = {username: dato.nickname, avatar: dato.imagen, puntos: dato.puntuacion};
             partida.jugadoresEnPartida.push(jugadorDePartida);
         }
-
         //Si eres el que solicita el historial, pones la fecha y hora de la partida
         if (emailSolicitante == dato.email){
             let fecha = dato.fecha;
@@ -324,7 +291,6 @@ function prepararDatos(datos, emailSolicitante){
             partida.fecha = dia + "-" + mes + "-" + anyo;
             partida.hora = hora;
         }
-
         //Actualizar antIdPartida
         antIdPartida = dato.idpartida;
     })
@@ -358,14 +324,12 @@ app.get('/Historial_Completo',(req,res)=>{
 })
 
 app.post('/FinalIndividual',(req,res)=>{
-
     const partida = {
         fecha: req.body.fecha,
         numJugadores: req.body.numJugadores,
         rondas: req.body.rondas,
         ganador: req.body.ganador,
     }
-
     connection.query("INSERT into partida SET ?", partida, error => {
         if (error){
             //Gestionamos el error de clave duplicada
@@ -413,6 +377,7 @@ app.post('/FinalIndividual_Usuario',(req,res)=>{
         email : req.body.email,
         monedas : req.body.monedas,
         puntos : req.body.puntos,
+        orden_entrada: 0 // ha entrado el primero porque es el único
     }
     console.log("El usuario es:");
     console.log(req.body.email);
@@ -460,7 +425,6 @@ app.post('/FinalIndividual_Usuario',(req,res)=>{
 
 app.get('/Multijugador_PartidaCode',(req,res)=>{ 
     const query = "select * from partida where codigo = '"+ req.query.codigo+"'";
-    
     connection.query(query,(error,result)=>{
         if (result.length > 0) {
             console.log("Encontrada partida con codigo code.");
@@ -559,21 +523,34 @@ app.post('/UnirseMultijugador_Juega',(req,res)=>{
             const jugada = {
                 id_partida: result[0].idpartida,
                 usuario_email: req.body.email,
-                puntuacion: req.body.puntos
+                puntuacion: req.body.puntos,
+                orden_entrada: 0 // originalmente es 0
             }
-                    
-            connection.query("INSERT into juega SET ?", jugada, error => {
-                if (error){
-                    //Gestionamos el error de clave duplicada
-                    res.status(440).json({
-                        message: 'No se ha podido insetar jugada'
-                    }) 
-                    throw error;
-                }else{
-                    res.json({
-                        message: 'Jugada registrada correctamente'
-                    });
+            // Busca a ver si ya hay otros usuarios
+            connection.query("SELECT orden_entrada FROM juega where id_partida = '"+jugada.id_partida+"' ORDER BY orden_entrada DESC ", (error,result)=> {
+                // si ya hay otros jugadores en la partida
+                console.log("Resultado de select")
+                if (result.length > 0) {
+                    //console.log(result[0])
+                    const valor = parseInt(result[0].orden_entrada, 10);
+                    //console.log(valor)
+                    jugada.orden_entrada = valor + 1;
+                    console.log(jugada.orden_entrada)
                 }
+                // INSERTAR EL JUEGA
+                connection.query("INSERT into juega SET ?", jugada, error => {
+                    if (error){
+                        //Gestionamos el error de clave duplicada
+                        res.status(440).json({
+                            message: 'No se ha podido insetar jugada'
+                        }) 
+                        throw error;
+                    }else{
+                        res.json({
+                            message: 'Jugada registrada correctamente'
+                        });
+                    }
+                });
             });
         }else {
             if (error) throw error;
@@ -601,7 +578,6 @@ app.post('/FinalMultijugador_Partida',(req,res)=>{
 })
 
 app.post('/FinalMultijugador_Juega',(req,res)=>{
-
     connection.query("SELECT idpartida FROM partida WHERE codigo='"+req.body.codigo+"'",(error,result)=>{
         console.log(req.body.codigo);
         if (result.length > 0) {
@@ -619,7 +595,6 @@ app.post('/FinalMultijugador_Juega',(req,res)=>{
                     res.json({
                         message: 'Datos juega actualizados.'
                     }) 
-                
                 }
             });
         } else{
@@ -632,31 +607,10 @@ app.post('/FinalMultijugador_Juega',(req,res)=>{
     });
 })
 
-/*app.post('/PantallaTienda',(req,res)=>{
-    
-    connection.query("SELECT * FROM item",(error,result)=>{
-    
-        if (result.length > 0) {
-            //console.log(result);
-            res.json(result);
-            
-        }else {
-            if (error) throw error;
-            res.status(400).json({
-                message: 'No se han podido obtener los items'
-            }) 
-        }
-    });
-})*/
-
 app.post('/PantallaTienda',(req,res)=>{
-    // select * from item where iditem not in (select idItem from tiene where usuario_email = "andrea@mail.com");
-
     connection.query("select * from item where iditem not in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
-    
         if (result.length > 0) {
-            res.json(result);
-            
+            res.json(result);    
         }else {
             if (error) throw error;
             res.status(400).json({
@@ -666,14 +620,10 @@ app.post('/PantallaTienda',(req,res)=>{
     });
 })
 
-
 app.post('/PerfilUsuario',(req,res)=>{
-
-    connection.query("select item.iditem,Imagen,Tipo,Nombre,equipado from item,tiene where item.iditem=tiene.iditem AND tiene.usuario_email= '"+req.body.email+"'",(error,result)=>{
-        
+    connection.query("select item.iditem,Imagen,Tipo,Nombre,equipado from item,tiene where item.iditem=tiene.iditem AND tiene.usuario_email= '"+req.body.email+"'",(error,result)=>{      
         if (result.length > 0) {
-            res.json(result);
-            
+            res.json(result);         
         }else {
             if (error) throw error;
             res.status(400).json({
@@ -684,18 +634,14 @@ app.post('/PerfilUsuario',(req,res)=>{
 })
 
 app.post('/ObjetoTienda',(req,res)=>{
-    
     connection.query("SELECT iditem FROM item where Nombre ='"+req.body.nombreObjeto+"'",(error,result)=>{
-    
         if (result.length > 0) {
             //console.log(result);
-
             const tiene = {
                 usuario_email : req.body.email,
                 idItem : result[0].iditem,
                 equipado : 0,
             }
-            
             connection.query("INSERT into tiene SET ?", tiene, error => {
                 if (error){
                     console.log("ERROR");
@@ -710,7 +656,6 @@ app.post('/ObjetoTienda',(req,res)=>{
                     });
                 }
             });
-
         }else {
             if (error) throw error;
             res.status(400).json({
@@ -721,11 +666,8 @@ app.post('/ObjetoTienda',(req,res)=>{
 })
 
 app.post('/ObjetoTienda_RestarMonedas',(req,res)=>{
-    
     const precio = parseInt(req.body.precioObjeto,10);
-
     connection.query("SELECT monedas FROM usuario WHERE email='"+req.body.email+"'",(error,result)=>{
-        
         if (result.length > 0) {
             // Coger monedas que ya tiene y restarle lo que vale el objeto
             // que acaba de comprar
@@ -754,29 +696,14 @@ app.post('/ObjetoTienda_RestarMonedas',(req,res)=>{
     });
 })
 
-
-function ordenarAsc(p_array_json, p_key) {
-    p_array_json.sort(function (a, b) {
-       return a[p_key] > b[p_key];
-    });
-}
-
-function ordenarDesc(p_array_json, p_key) {
-    ordenarAsc(p_array_json, p_key); 
-    p_array_json.reverse(); 
-}
-
 app.post('/Ranking',(req,res)=>{
-
     //connection.query("select nickname, puntos, imagen from usuario ",(error,result)=>{
     connection.query("select nickname, (puntos * 1) AS 'puntos', imagen from usuario ORDER BY puntos DESC",(error,result)=>{
-        
         if (result.length > 0) {
             //const prueba = result;
             //ordenarDesc(prueba, 'puntos');
             //res.json(prueba);
-            res.json(result);
-            
+            res.json(result);    
         }else {
             console.log(result);
             if (error) throw error;
@@ -789,8 +716,6 @@ app.post('/Ranking',(req,res)=>{
 
 //Middleware para updatear los items equipados de un usuario
 app.post('/UpdateItemsUsuario',(req,res)=>{
-    
-            
      //Guardamos los arrays de elementos
      var equipados = req.body.equipados;
      var nombres = req.body.nombre;
@@ -877,7 +802,6 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
                     res.json({
                         message: 'Jugador eliminado de la partida.'
                     }) 
-                
                 }
             });
         } else{
@@ -891,13 +815,11 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
 })
 
 app.post('/GuardarMonedasGanador',(req,res)=>{
-    
     const usuario = {
         nickname : req.body.nickname,
         monedas : req.body.monedas,
         puntos : req.body.puntos,
     }
-
     connection.query("SELECT * FROM usuario WHERE nickname='"+usuario.nickname+"'",(error,result)=>{
         console.log("He buscado al usuario de nombre: ");
         console.log("");
