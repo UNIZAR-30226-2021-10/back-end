@@ -408,15 +408,21 @@ app.post('/FinalIndividual',(req,res)=>{
 })
 
 app.post('/FinalIndividual_Usuario',(req,res)=>{
-    
+    console.log("He entrado para registrar las monedas");
     const usuario = {
         email : req.body.email,
         monedas : req.body.monedas,
         puntos : req.body.puntos,
     }
+    console.log("El usuario es:");
+    console.log(req.body.email);
+    console.log("Las monedas son:");
+    console.log(req.body.monedas);
+    console.log("Los puntos son:");
+    console.log(req.body.puntos);
 
     connection.query("SELECT * FROM usuario WHERE email='"+usuario.email+"'",(error,result)=>{
-        
+        console.log("He encontrado al usuario que me ha invocado");
         if (result.length > 0) {
             //el usuario está registrado y se pueden actualizar sus datos
             // coger las monedas y puntos que ya están y sumar
@@ -436,6 +442,7 @@ app.post('/FinalIndividual_Usuario',(req,res)=>{
                     }) 
                     throw error;
                 }else{
+                    console.log("He actualizado las monedas y los puntos correctamente");
                     res.json({
                         message: 'Monedas y puntos registrados correctamente'
                     });
@@ -871,6 +878,51 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
                         message: 'Jugador eliminado de la partida.'
                     }) 
                 
+                }
+            });
+        } else{
+             //el usuario no está registrado
+            if (error) throw error;
+            res.status(400).json({
+                message: 'El usuario no está registrado.'
+            }) 
+        }
+    });
+})
+
+app.post('/GuardarMonedasGanador',(req,res)=>{
+    
+    const usuario = {
+        nickname : req.body.nickname,
+        monedas : req.body.monedas,
+        puntos : req.body.puntos,
+    }
+
+    connection.query("SELECT * FROM usuario WHERE nickname='"+usuario.nickname+"'",(error,result)=>{
+        console.log("He buscado al usuario de nombre: ");
+        console.log("");
+        if (result.length > 0) {
+            //el usuario está registrado y se pueden actualizar sus datos
+            // coger las monedas y puntos que ya están y sumar
+            const pasarAintM = parseInt(usuario.monedas, 10);
+            const pasarAintP = parseInt(usuario.puntos, 10);
+            const pasarAintM2 = parseInt(result[0].monedas, 10);
+            const pasarAintP2 = parseInt(result[0].puntos, 10);
+            const sumaIntM = pasarAintM + pasarAintM2;
+            const sumaIntP= pasarAintP + pasarAintP2;
+            usuario.monedas = sumaIntM;
+            usuario.puntos = sumaIntP;
+            connection.query("UPDATE usuario SET ? WHERE nickname= '"+req.body.nickname+"'",usuario,error => {
+                if (error){
+                    //Gestionamos el error de clave duplicada
+                    res.status(410).json({
+                        message: 'Datos no actualizados'
+                    }) 
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Monedas y puntos registrados correctamente'
+                    });
                 }
             });
         } else{
