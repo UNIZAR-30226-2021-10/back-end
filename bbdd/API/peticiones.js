@@ -472,7 +472,7 @@ app.get('/Multijugador_PartidaCode',(req,res)=>{
 app.get('/Multijugador_PartidaJugadoresUsuario',(req,res)=>{
     const query = "select * from juega as j, usuario as u \
                     where j.id_partida = "+ req.query.idpartida
-                    + " and j.usuario_email = u.email";
+                    + " and j.usuario_email = u.email order by orden_entrada";
     console.log(req.query.idpartida);                
     connection.query(query,(error,result)=>{
         if (result.length > 0) {
@@ -619,6 +619,36 @@ app.post('/FinalMultijugador_Juega',(req,res)=>{
         if (result.length > 0) {
             const idpartida = parseInt(result[0].idpartida, 10);
             connection.query("UPDATE juega SET puntuacion = '"+req.body.puntos+"' WHERE id_partida= '"+idpartida+"'",error => {
+                if (error){
+                    //Gestionamos el error de clave duplicada
+                    res.status(410).json({
+                        message: 'Datos juega no actualizados.'
+                    }) 
+                    throw error;
+                }else{
+                    res.json({
+                        message: 'Datos juega actualizados.'
+                    }) 
+                
+                }
+            });
+        } else{
+             //el usuario no está registrado
+            if (error) throw error;
+            res.status(400).json({
+                message: 'El usuario no está registrado.'
+            }) 
+        }
+    });
+})
+
+app.post('/FinalMultijugador_Juega2',(req,res)=>{
+
+    connection.query("SELECT idpartida FROM partida WHERE codigo='"+req.body.codigo+"'",(error,result)=>{
+        
+        if (result.length > 0) {
+            const idpartida = parseInt(result[0].idpartida, 10);
+            connection.query("UPDATE juega SET puntuacion = '"+req.body.puntos+"' WHERE id_partida= '"+idpartida+"' AND usuario_email='"+req.body.email+"'",error => {
                 if (error){
                     //Gestionamos el error de clave duplicada
                     res.status(410).json({

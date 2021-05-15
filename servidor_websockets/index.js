@@ -70,6 +70,7 @@ io.on('connection', (socket) => {
             // 'user.username' envía message "message" a todos los usuarios de su sala
             const mensajeUsersInChat = {sender: 'admin', avatar: admin, text: user.username + ' ha salido.', date: "admin" };
             io.to(user.code).emit('message', mensajeUsersInChat);
+            io.to(user.code).emit('desconexion', user.username);
             console.log("Se ha desconectado el usuario: " + user.username);
         }
     });
