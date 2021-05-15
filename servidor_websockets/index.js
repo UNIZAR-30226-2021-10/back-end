@@ -70,6 +70,7 @@ io.on('connection', (socket) => {
             // 'user.username' envía message "message" a todos los usuarios de su sala
             const mensajeUsersInChat = {sender: 'admin', avatar: admin, text: user.username + ' ha salido.', date: "admin" };
             io.to(user.code).emit('message', mensajeUsersInChat);
+            io.to(user.code).emit('desconexion', user.username);
             console.log("Se ha desconectado el usuario: " + user.username);
         }
     });
@@ -89,8 +90,9 @@ io.on('connection', (socket) => {
         socket.broadcast.to(user.code).emit('recibirTurno', nuevoTurno, nuevaRonda, jugadores);
         
         console.log(user.username + " ha pasado el turno");
-    });*/
-    
+    });
+    */
+
     socket.on('pasarTurno', (nuevoTurno, nuevaRonda, puntos) =>{
         const user = getUser(socket.id); // Buscar usuario del chat
         // 'user.username' envía message "message" a todos los usuarios de su sala
