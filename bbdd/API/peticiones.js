@@ -377,7 +377,7 @@ app.post('/FinalIndividual_Usuario',(req,res)=>{
         email : req.body.email,
         monedas : req.body.monedas,
         puntos : req.body.puntos,
-        orden_entrada: 0 // ha entrado el primero porque es el único
+        //orden_entrada: 0 // ha entrado el primero porque es el único
     }
     console.log("El usuario es:");
     console.log(req.body.email);
