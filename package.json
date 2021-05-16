@@ -18,9 +18,12 @@
   "homepage": "https://github.com/UNIZAR-30226-2021-10/back-end#readme",
   "dependencies": {
     "aws-sdk": "^2.903.0",
+    "child_process": "^1.0.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "heroku-self-ping": "^2.0.1",
     "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
     "nodemon": "^2.0.7"
   }
 }
