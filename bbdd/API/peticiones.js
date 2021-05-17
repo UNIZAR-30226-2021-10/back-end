@@ -3,6 +3,8 @@ const cors = require('cors')
 const app = express();
 const connection = require('./database.js');
 const Mysql = require('mysql');
+const fs = require('fs')
+const { createCanvas, loadImage } = require('canvas')
 
 // Settings
 app.set('port', process.env.PORT || 3050);
@@ -829,6 +831,48 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
     });
  });
 
+
+app.post('/construirAvatar' ,(req,res) => {
+    const imagenes = req.body.imagenes;
+    const canvas = createCanvas(140, 140);
+    const context = canvas.getContext('2d');
+    console.log(imagenes);
+    var buffer;
+    imagenes.forEach((imagen) => {
+            loadImage(imagen).then(image =>{
+                context.drawImage(image,0,0);
+                if (imagenes.indexOf(imagen) == (imagenes.length - 1)){
+                    buffer = canvas.toBuffer('image/png', 'base64');
+                    fs.writeFileSync('./avatar.png', buffer);
+                    let buff =  Buffer.from(buffer);
+                    let base64data = buff.toString('base64');
+                    res.send(base64data);
+                }
+            })
+    })
+    
+});
+/*
+ app.post('/construirAvatar' ,(req,res) => {
+    const imagenes = req.body.imagenes;
+    const canvas = createCanvas(140, 140);
+    const context = canvas.getContext('2d');
+    var buffer;
+    for (var i = 0; i<4; i++){
+        if (imagenes[i] == null){
+            i=4;
+        }else{
+            loadImage(imagenes[i]).then(image =>{
+                context.drawImage(image,0,0);
+                buffer = canvas.toBuffer('image/png');
+                fs.writeFileSync('./avatar.png', buffer, 'base64');
+            })
+        }
+    }
+
+    res.status(200);
+ });*/
+
  app.post('/AbandonarPartidaMulti',(req,res)=>{
     console.log("Entro en la funcion abandonar multi");
     connection.query("SELECT idpartida FROM partida WHERE codigo='"+req.body.codigo+"'",(error,result)=>{
@@ -912,3 +956,4 @@ app.post('/EliminarPartidaMulti',(req,res)=>{
         }) 
     });
 })
+
