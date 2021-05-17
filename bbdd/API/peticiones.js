@@ -203,13 +203,13 @@ app.post('/CambiarContrasenya',(req,res)=>{
             //el usuario está registrado y se pueden actualizar sus datos
             connection.query(sql,usuario,error => {
                 if (error) throw error;
-                res.status(400).json({
-                message: 'Contraseña no actualizada'
+                res.json({
+                message: 'Contraseña si actualizada'
                 })
             });
         } else{
             //el usuario no está registrado
-            res.json({
+            res.status(400).json({
                 message: 'El usuario no está registrado.'
             });
         }
