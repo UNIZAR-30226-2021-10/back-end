@@ -219,7 +219,7 @@ app.post('/CambiarContrasenya',(req,res)=>{
 })
 
 app.get('/Historial',(req,res)=>{
-    const primeraQuery = "select * from partida where idpartida IN  (select id_partida from juega where usuario_email = '"+ req.query.mail+"') ORDER BY idpartida DESC";
+    const primeraQuery = "select * from partida where idpartida IN (select id_partida from juega where usuario_email = '"+ req.query.mail+"') ORDER BY idpartida DESC";
     connection.query(primeraQuery,(error,result)=>{
         if (result.length > 0) {
             // ha devuelto lista
