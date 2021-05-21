@@ -460,22 +460,6 @@ app.get('/Multijugador_PartidaJugadoresUsuario',(req,res)=>{
     });
 })
 
-/*app.get('/Multijugador_PartidaJugadores',(req,res)=>{
-    const query = "select * from juega where id_partida = "+ req.query.idpartida;
-
-    connection.query(query,(error,result)=>{
-        if (result.length > 0) {
-            console.log("Encontrados jugadores de la partida.");
-            res.json(result);   // Devuelvo jugadores
-        }else {
-            console.log("No hay jugadores en la partida.");
-            if (error) throw error;
-            res.status(400).json({
-                message: 'No hay jugadores en la partida.'
-            }) 
-        }
-    });
-})
 
 app.get('/Multijugador_PartidaUsuario',(req,res)=>{
     const query = "select * from usuario where email = '"+ req.query.email+"'";
@@ -492,7 +476,7 @@ app.get('/Multijugador_PartidaUsuario',(req,res)=>{
             }) 
         }
     });
-})*/
+})
 
 app.post('/CrearMultijugador_Partida',(req,res)=>{
 
@@ -639,22 +623,7 @@ app.post('/FinalMultijugador_Juega2',(req,res)=>{
     });
 })
 
-/*app.post('/PantallaTienda',(req,res)=>{
-    
-    connection.query("SELECT * FROM item",(error,result)=>{
-    
-        if (result.length > 0) {
-            //console.log(result);
-            res.json(result);
-            
-        }else {
-            if (error) throw error;
-            res.status(400).json({
-                message: 'No se han podido obtener los items'
-            }) 
-        }
-    });
-})*/
+
 
 app.post('/PantallaTienda',(req,res)=>{
     connection.query("select * from item where iditem not in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
@@ -852,26 +821,7 @@ app.post('/construirAvatar' ,(req,res) => {
     })
     
 });
-/*
- app.post('/construirAvatar' ,(req,res) => {
-    const imagenes = req.body.imagenes;
-    const canvas = createCanvas(140, 140);
-    const context = canvas.getContext('2d');
-    var buffer;
-    for (var i = 0; i<4; i++){
-        if (imagenes[i] == null){
-            i=4;
-        }else{
-            loadImage(imagenes[i]).then(image =>{
-                context.drawImage(image,0,0);
-                buffer = canvas.toBuffer('image/png');
-                fs.writeFileSync('./avatar.png', buffer, 'base64');
-            })
-        }
-    }
 
-    res.status(200);
- });*/
 
  app.post('/AbandonarPartidaMulti',(req,res)=>{
     console.log("Entro en la funcion abandonar multi");
