@@ -657,7 +657,7 @@ app.post('/FinalMultijugador_Juega2',(req,res)=>{
 })*/
 
 app.post('/PantallaTienda',(req,res)=>{
-    connection.query("select * from item where iditem not in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' )",(error,result)=>{
+    connection.query("select * from item where iditem not in (SELECT idItem FROM tiene where usuario_email = '"+req.body.email+"' ) ORDER BY Tipo",(error,result)=>{
         if (result.length > 0) {
             res.json(result);    
         }else {
