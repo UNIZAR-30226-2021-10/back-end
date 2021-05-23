@@ -1,36 +1,41 @@
 //npm i node-fetch
+//compilar mediante node ping.js
 const fetch = require('node-fetch');
 
 //variables
-const interval = 30*60*1000; // Tiempo en ms - {30mins x 60s x 1000}ms
-const url = "https://trivial-db.herokuapp.com/";
+const urlAPI = "https://trivial-db.herokuapp.com/";
+const urlImages = "https://trivial-images.herokuapp.com/";
+const urlWebSockets = "https://websocketstrivial.herokuapp.com";
 
-//Hace un ping cada interval ms
+
+//Hace un ping para despertarlas
 function wake() {
 
-  try {
+    fetch(urlAPI)
+      .then(
+        res => console.log(`Up! Respuesta de la API: ${res.ok}, status: ${res.status}`)
+      )
+      .catch(
+        err => console.error(`Error la api no ha podido ser lanzada: ${err}`)
+    );
 
-    const handler = setInterval(() => {
+    fetch(urlImages)
+    .then(
+      res => console.log(`Up! Respuesta del servidor de imagenes: ${res.ok}, status: ${res.status}`)
+    )
+    .catch(
+      err => console.error(`Error servidor de imágenes no ha podido ser lanzado: ${err}`)
+    );
 
-      fetch(url)
-        .then(res => console.log(`Respuesta: ${res.ok}, status: ${res.status}`))
-        .catch(err => console.error(`Error: ${err}`));
-
-    }, interval);
-
-  } catch(err) {
-      console.error('Ha ocurrido un error: reintentado...');
-      clearInterval(handler);
-      return setTimeout(() => wake(), 10000);
-  };
+    fetch(urlWebSockets)
+    .then(
+      res => console.log(`Up! Respuesta del servidor websockets: ${res.ok}, status: ${res.status}`)
+    )
+    .catch(
+      err => console.error(`Error web sockets no ha podido ser lanzado: ${err}`)
+    );
 
 }
-//Hace un único ping una vez por si la API está dormida
-function wakeforfirstTime(){
-    fetch(url)
-    .then(res => console.log(`Respuesta: ${res.ok}, status: ${res.status}`))
-    .catch(err => console.error(`Error: ${err}`));
-}
 
-wakeforfirstTime();
+
 wake();
