@@ -29,6 +29,14 @@ const removeUser = (id) => {
     }
 }
 
+// Elimina un usuario con username "username" y code "code" del array de usuarios "users"
+const remove = (username, code) => {
+    const i = users.findIndex((user) => user.username === username && user.code === code);
+    if ( i !== -1){  // Si esta el usuario
+        return users.splice(i,1)[0];  //Se elimina del array
+    }
+}
+
 // Busca un usuario con id "id" en el array de usuarios "users"
 const getUser = (id) =>{
     return users.find((user) => user.id === id);
@@ -39,4 +47,4 @@ const getUsersInChatCode = (code) => {
     return users.filter((user) => user.code === code);
 }
 
-module.exports = {addUser, removeUser, getUser, getUsersInChatCode};
+module.exports = {addUser, removeUser, remove, getUser, getUsersInChatCode};

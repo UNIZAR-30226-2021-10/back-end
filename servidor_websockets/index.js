@@ -4,7 +4,7 @@ const socketio = require ('socket.io'); //Socket client (frontend)
 const cors = require('cors');
 const router = require('./router');
 //Funciones diseñadas en fichero users.js
-const {addUser, removeUser, getUser, getUsersInChatCode} = require('./users.js');
+const {addUser, removeUser, remove, getUser, getUsersInChatCode} = require('./users.js');
 
 const chat = express();
 const server = http.createServer(chat);
@@ -65,7 +65,8 @@ io.on('connection', (socket) => {
     
     // Desconexión al chat
     socket.on('disconnection', () =>{
-        const user = removeUser(socket.id); // Borrar al usuario del chat
+        //const user = removeUser(socket.id); // Borrar al usuario del chat
+        const user = getUser(socket.id); // Buscar usuario del chat
         if (user){
             // 'user.username' envía message "message" a todos los usuarios de su sala
             const mensajeUsersInChat = {sender: 'admin', avatar: admin, text: user.username + ' ha salido.', date: "admin" };
@@ -73,6 +74,18 @@ io.on('connection', (socket) => {
             io.to(user.code).emit('desconexion', user.username);
             console.log("Se ha desconectado el usuario: " + user.username);
         }
+    });
+
+    //Recargar página en web
+    socket.on('refresh', ({username, code}, callback) =>{
+        const userToRemove = remove(username, code); // Borra al usuario anterior del chat
+        if (userToRemove){
+            console.log("Se ha eliminado al usuario: " + userToRemove.username);
+        }
+        const {error, user} = addUser({id: socket.id, username: username, code: code});
+        if (error) return callback(error); 
+        // Se une el usuario a su sala (sala con codigo user.code)
+        socket.join(user.code); 
     });
 
     //Pasar turno
