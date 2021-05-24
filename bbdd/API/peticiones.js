@@ -218,40 +218,6 @@ app.post('/CambiarContrasenya',(req,res)=>{
     });
 })
 
-app.get('/Historial',(req,res)=>{
-    const primeraQuery = "select * from partida where idpartida IN (select id_partida from juega where usuario_email = '"+ req.query.mail+"') ORDER BY idpartida DESC";
-    connection.query(primeraQuery,(error,result)=>{
-        if (result.length > 0) {
-            // ha devuelto lista
-            res.json(result);
-            //console.log(result);
-            //console.log(res); 
-        }else {
-            if (error) throw error;
-            res.status(400).json({
-                message: 'primera query falla'
-            }) 
-        }
-    });
-})
-
-app.get('/Historial_Puntuacion',(req,res)=>{
-    const segundaQuery = "select puntuacion,id_partida from juega where usuario_email = '"+ req.query.email+"' ORDER BY id_partida DESC";
-    connection.query(segundaQuery,(error,result)=>{
-        if (result.length > 0) {
-            // ha devuelto lista
-            res.json(result);
-            //console.log(result);
-            //console.log(res);
-        }else {
-            if (error) throw error;
-            res.status(400).json({
-                message: 'segunda query falla'
-            }) 
-        }
-    });
-})
-
 //Datos: los resultados de la query Historial_Completo
 //email: correo del usuario que solicita su historial
 function prepararDatos(datos, emailSolicitante){
@@ -558,36 +524,6 @@ app.post('/FinalMultijugador_Partida',(req,res)=>{
         }else{
             res.json({
                 message: 'Datos partida actualizados.'
-            }) 
-        }
-    });
-})
-
-app.post('/FinalMultijugador_Juega',(req,res)=>{
-    connection.query("SELECT idpartida FROM partida WHERE codigo='"+req.body.codigo+"'",(error,result)=>{
-        console.log(req.body.codigo);
-        if (result.length > 0) {
-            const idpartida = parseInt(result[0].idpartida, 10);
-            console.log("Estos son los puntos que recibo");
-            console.log(req.body.puntos);
-            connection.query("UPDATE juega SET puntuacion = '"+req.body.puntos+"' WHERE id_partida= '"+idpartida+"'",error => {
-                if (error){
-                    //Gestionamos el error de clave duplicada
-                    res.status(410).json({
-                        message: 'Datos juega no actualizados.'
-                    }) 
-                    throw error;
-                }else{
-                    res.json({
-                        message: 'Datos juega actualizados.'
-                    }) 
-                }
-            });
-        } else{
-             //el usuario no está registrado
-            if (error) throw error;
-            res.status(400).json({
-                message: 'El usuario no está registrado.'
             }) 
         }
     });
@@ -907,3 +843,6 @@ app.post('/EliminarPartidaMulti',(req,res)=>{
     });
 })
 
+
+
+module.exports = app;
