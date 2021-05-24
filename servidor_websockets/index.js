@@ -50,7 +50,8 @@ io.on('connection', (socket) => {
         }
         
         console.log("Se ha unido un usuario al chat. Nombre: "+ username + ", Code: " + code);
-        callback();
+        return callback("ok");
+        //callback();
     });
 
     // Envío de un mensaje "message" a todos los usuarios de la sala
@@ -67,6 +68,7 @@ io.on('connection', (socket) => {
     socket.on('disconnection', () =>{
         //const user = removeUser(socket.id); // Borrar al usuario del chat
         const user = getUser(socket.id); // Buscar usuario del chat
+        console.log("Dentro de disconnect este es el usuario " +  user);
         if (user){
             // 'user.username' envía message "message" a todos los usuarios de su sala
             const mensajeUsersInChat = {sender: 'admin', avatar: admin, text: user.username + ' ha salido.', date: "admin" };
@@ -75,6 +77,18 @@ io.on('connection', (socket) => {
             console.log("Se ha desconectado el usuario: " + user.username);
         }
     });
+
+    /*// Desconexión al chat
+    socket.on('disconnection', () =>{
+        const user = removeUser(socket.id); // Borrar al usuario del chat
+        if (user){
+            // 'user.username' envía message "message" a todos los usuarios de su sala
+            const mensajeUsersInChat = {sender: 'admin', avatar: admin, text: user.username + ' ha salido.', date: "admin" };
+            io.to(user.code).emit('message', mensajeUsersInChat);
+            io.to(user.code).emit('desconexion', user.username);
+            console.log("Se ha desconectado el usuario: " + user.username);
+        }
+    });*/
 
     //Recargar página en web
     socket.on('refresh', ({username, code}, callback) =>{
