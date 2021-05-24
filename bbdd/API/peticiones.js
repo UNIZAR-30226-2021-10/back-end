@@ -800,27 +800,80 @@ app.post('/BuscarPartidaMulti',(req,res)=>{
     });
  });
 
+ function countMinusNull(arr){
+     var count = 0;
+    arr.forEach( a =>{
+        if( a !== null){
+            count++;
+        }
+    })
+    return count;
+ }
 
-app.post('/construirAvatar' ,(req,res) => {
+
+app.post('/construirAvatar' , async (req,res) => {
+    
     const imagenes = req.body.imagenes;
     const canvas = createCanvas(140, 140);
     const context = canvas.getContext('2d');
     console.log(imagenes);
+
     var buffer;
-    imagenes.forEach((imagen) => {
-            loadImage(imagen).then(image =>{
-                context.drawImage(image,0,0);
-                if (imagenes.indexOf(imagen) == (imagenes.length - 1)){
-                    buffer = canvas.toBuffer('image/png', 'base64');
-                    fs.writeFileSync('./avatar.png', buffer);
-                    let buff =  Buffer.from(buffer);
-                    let base64data = buff.toString('base64');
-                    res.send(base64data);
-                }
-            })
-    })
+    var completas = [];
+    var nonulas = countMinusNull(imagenes)
+   
+ 
+    loadImage(imagenes[0],0,0).then(async (img) => {
+         context.drawImage(img,0,0);
+         console.log("Estoy dibujando " + imagenes[0])
+         for(let i=1;i < imagenes.length; i++){
+       
+            if(imagenes[i] !== null) {
     
-});
+                const image = await loadImage(imagenes[i])
+                if(image.complete){
+                      completas.push(image)
+                      context.drawImage(image,0,0);
+                      console.log("Estoy dibujando" + imagenes[i])
+                      if (completas.length  === nonulas -1 ){
+                          
+                          buffer = canvas.toBuffer('image/png', 'base64');
+                          fs.writeFileSync('./avatar.png', buffer);
+                          let buff =  Buffer.from(buffer);
+                          let base64data = buff.toString('base64');
+                          res.send(base64data);
+                      }
+                }
+            }
+        }
+    });
+
+    
+});  
+    
+    /*imagenes.forEach(async (imagen) => {
+        if(imagenes.indexOf(imagen) === 0) return;
+        if(imagen !== null) {
+              console.log(imagen);
+              const image = await loadImage(imagen)
+              if(image.complete){
+                    console.log("completa")
+                    completas.push(image)
+                    context.drawImage(image,0,0);
+                    
+                    if (completas.length  === nonulas -1 ){
+                        console.log("Dentro del if")
+                        buffer = canvas.toBuffer('image/png', 'base64');
+                        fs.writeFileSync('./avatar.png', buffer);
+                        let buff =  Buffer.from(buffer);
+                        let base64data = buff.toString('base64');
+                        res.send(base64data);
+                    }
+              }
+               
+        }*/
+    
+    
 
 
  app.post('/AbandonarPartidaMulti',(req,res)=>{
